@@ -1,0 +1,19 @@
+{
+  "name": "wheres-my-bus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "lodash": "^4.16.4",
+    "moment-timezone": "^0.5.7",
+    "nodemon": "^1.11.0",
+    "request": "^2.76.0"
+  }
+}
