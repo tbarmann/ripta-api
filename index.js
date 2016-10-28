@@ -5,25 +5,40 @@ const request = require('request');
 const moment = require('moment-timezone');
 const _ = require('lodash');
 
+const riptaApiBaseUrl = 'http://realtime.ripta.com:80/api/';
+const validApiTypes = ['tripupdates', 'vehiclepositions', 'servicealerts'];
+
 const app = express();
-app.get('/api/tripupdates', (req, res) => {
-	console.log(req.query);
-	res.send('tripupdates ' + req.query.format);
-});
 
-app.get('/api/tripupdates/:route_id', (req, res) => {
-	console.log(req.query);
-	res.send('tripupdates ' + req.query.format);
-});
+const fetchBaseApi = (type) => {
+  // parse local path to get the first part of the path
+  const riptaApiUrl = `${riptaApiBaseUrl}${type}`;
+  return makeRiptaApiRequest(riptaApiUrl);
+}
 
-app.get('/api/vehiclepositions', (req, res) => {
-	console.log(req.query);
-	res.send('vehiclepositions ' + req.query.format);
-});
+const makeRiptaApiRequest = (url) => {
+  return `Request made to ${url}`;
+}
 
-app.get('/api/servicealerts', (req, res) => {
-	console.log(req.query);
-	res.send('servicealerts ' + req.query.format);
+const filterByRouteId = (data, route_id) => {
+  return `${data} filtered by route_id: ${route_id}`;
+  // filter on records that contain given route_id
+  // return filtered results
+}
+
+app.get('/api/:type/:route_id?', (req, res) => {
+  console.log(req.params.type, Date.now());
+  if (_.includes(validApiTypes, req.params.type.toLowerCase())) {
+    let data = fetchBaseApi(req.params.type.toLowerCase());
+    if (req.params.route_id !== undefined) {
+      data = filterByRouteId(data, req.params.route_id);
+    }
+    res.send(data);
+  }
+  else {
+    res.send('Error: Not a valid api call');
+  }
+
 });
 
 app.listen(3000, function () {
