@@ -5,15 +5,15 @@ const request = require('request');
 const moment = require('moment-timezone');
 const _ = require('lodash');
 
-const riptaApiBaseUrl = 'http://realtime.ripta.com:80/api/';
+const riptaApiBaseUrl = 'http://realtime.ripta.com:81/api/';
 const validApiTypes = ['tripupdates', 'vehiclepositions', 'servicealerts'];
 
 const app = express();
 
 const fetchBaseApi = (type) => {
-  // parse local path to get the first part of the path
   const riptaApiUrl = `${riptaApiBaseUrl}${type}`;
-  return makeRiptaApiRequest(riptaApiUrl);
+  setTimeout( (riptaApiUrl) => makeRiptaApiRequest(riptaApiUrl), 2000);
+
 }
 
 const makeRiptaApiRequest = (url) => {
@@ -38,7 +38,6 @@ app.get('/api/:type/:route_id?', (req, res) => {
   else {
     res.send('Error: Not a valid api call');
   }
-
 });
 
 app.listen(3000, function () {
