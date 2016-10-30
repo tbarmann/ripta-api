@@ -38,7 +38,8 @@ app.get('/api/:type/:route_id?', (req, res) => {
       if (req.params.route_id !== undefined) {
         data = filterByRouteId(data, req.params.route_id);
       }
-      res.send(data);      
+      res.writeHead(200, {'Content-Type': 'application/json'});
+      res.end(data);      
     });
   }
   else {
