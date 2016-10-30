@@ -5,6 +5,7 @@ const request = require('request');
 const moment = require('moment-timezone');
 const _ = require('lodash');
 
+const port = 3000;
 const riptaApiBaseUrl = 'http://realtime.ripta.com:81/api/';
 const validApiTypes = ['tripupdates', 'vehiclepositions', 'servicealerts'];
 
@@ -43,8 +44,8 @@ app.get('/api/:type/:route_id?', (req, res) => {
   }
 });
 
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!');
+app.listen(port, function () {
+  console.log(`App listening on port ${port}`);
 });
 
 
