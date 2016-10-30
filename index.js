@@ -15,7 +15,7 @@ const fetchBaseApi = (type, callback) => {
   const options = { url: riptaApiUrl };
   request(options, (error, response, data) => {
     if (!error) {
-      callback (callback(data));
+      callback(data);
     }
   });
 }
