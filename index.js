@@ -10,10 +10,14 @@ const validApiTypes = ['tripupdates', 'vehiclepositions', 'servicealerts'];
 
 const app = express();
 
-const fetchBaseApi = (type) => {
-  const riptaApiUrl = `${riptaApiBaseUrl}${type}`;
-  setTimeout( (riptaApiUrl) => makeRiptaApiRequest(riptaApiUrl), 2000);
-
+const fetchBaseApi = (type, callback) => {
+  const riptaApiUrl = `${riptaApiBaseUrl}${type}?format=json`;
+  const options = { url: riptaApiUrl };
+  request(options, (error, response, data) => {
+    if (!error) {
+      callback (callback(data));
+    }
+  });
 }
 
 const makeRiptaApiRequest = (url) => {
@@ -28,12 +32,14 @@ const filterByRouteId = (data, route_id) => {
 
 app.get('/api/:type/:route_id?', (req, res) => {
   console.log(req.params.type, Date.now());
-  if (_.includes(validApiTypes, req.params.type.toLowerCase())) {
-    let data = fetchBaseApi(req.params.type.toLowerCase());
-    if (req.params.route_id !== undefined) {
-      data = filterByRouteId(data, req.params.route_id);
-    }
-    res.send(data);
+  const type = req.params.type.toLowerCase();
+  if (_.includes(validApiTypes, type)) {
+    fetchBaseApi(type, (data) => {
+      if (req.params.route_id !== undefined) {
+        data = filterByRouteId(data, req.params.route_id);
+      }
+      res.send(data);      
+    });
   }
   else {
     res.send('Error: Not a valid api call');
@@ -45,16 +51,4 @@ app.listen(3000, function () {
 });
 
 
-// const options = {
-//     url: `http://w1.weather.gov/data/obhistory/${stationId}.html`,
-//     headers: {
-//       'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
-//     }
-//   };
-
-//     return request(options, (error, response, html) => {
-//     if (!error) {
-//       callback (scrapeHtml(html));
-//     }
-//   });
 
