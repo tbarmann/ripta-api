@@ -20,10 +20,6 @@ const fetchBaseApi = (type, callback) => {
   });
 }
 
-const makeRiptaApiRequest = (url) => {
-  return `Request made to ${url}`;
-}
-
 const filterByRouteId = (data, route_id) => {
   return `${data} filtered by route_id: ${route_id}`;
   // filter on records that contain given route_id
