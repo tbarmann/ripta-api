@@ -21,29 +21,45 @@ const fetchBaseApi = (type, callback) => {
   });
 }
 
-const filterByRouteId = (data, routeId) => {
+const filterByRouteId = (data, type, routeId) => {
+  const path = {
+    tripupdates: 'trip_update',
+    vehiclepositions: 'vehicle',
+    servicealerts: 'alert'
+  }[type];
   const filtered = _.filter(data.entity, (record) => {
-    return (record.trip_update.trip.route_id === routeId);
+    return (record[path].trip.route_id === routeId);
   });
   return {header: data.header, entity: filtered};
 }
 
-app.get('/api/:type/:routeId?', (req, res) => {
-  console.log(req.params.type, Date.now());
+app.get('/api/:type', (req, res) => {
   const type = req.params.type.toLowerCase();
   if (_.includes(validApiTypes, type)) {
     fetchBaseApi(type, (data) => {
-      if (req.params.routeId !== undefined) {
-        data = filterByRouteId(data, req.params.routeId);
-      }
       res.writeHead(200, {'Content-Type': 'application/json'});
-      res.end(JSON.stringify(data,null,2));      
+      res.end(JSON.stringify(data,null,2));
     });
   }
   else {
     res.send('Error: Not a valid api call');
   }
 });
+
+app.get('/api/:type/route/:routeId', (req, res) => {
+  const type = req.params.type.toLowerCase();
+  if (_.includes(validApiTypes, type)) {
+    fetchBaseApi(type, (data) => {
+      data = filterByRouteId(data, type, req.params.routeId);
+      res.writeHead(200, {'Content-Type': 'application/json'});
+      res.end(JSON.stringify(data,null,2));
+    });
+  }
+  else {
+    res.send('Error: Not a valid api call');
+  }
+});
+
 
 app.listen(port, function () {
   console.log(`App listening on port ${port}`);
