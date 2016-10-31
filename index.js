@@ -21,20 +21,20 @@ const fetchBaseApi = (type, callback) => {
   });
 }
 
-const filterByRouteId = (data, route_id) => {
+const filterByRouteId = (data, routeId) => {
   const filtered = _.filter(data.entity, (record) => {
-    return (record.trip_update.trip.route_id === route_id);
+    return (record.trip_update.trip.route_id === routeId);
   });
   return {header: data.header, entity: filtered};
 }
 
-app.get('/api/:type/:route_id?', (req, res) => {
+app.get('/api/:type/:routeId?', (req, res) => {
   console.log(req.params.type, Date.now());
   const type = req.params.type.toLowerCase();
   if (_.includes(validApiTypes, type)) {
     fetchBaseApi(type, (data) => {
-      if (req.params.route_id !== undefined) {
-        data = filterByRouteId(data, req.params.route_id);
+      if (req.params.routeId !== undefined) {
+        data = filterByRouteId(data, req.params.routeId);
       }
       res.writeHead(200, {'Content-Type': 'application/json'});
       res.end(JSON.stringify(data,null,2));      
