@@ -16,15 +16,16 @@ const fetchBaseApi = (type, callback) => {
   const options = { url: riptaApiUrl };
   request(options, (error, response, data) => {
     if (!error) {
-      callback(data);
+      callback(JSON.parse(data));
     }
   });
 }
 
 const filterByRouteId = (data, route_id) => {
-  return `${data} filtered by route_id: ${route_id}`;
-  // filter on records that contain given route_id
-  // return filtered results
+  const filtered = _.filter(data.entity, (record) => {
+    return (record.trip_update.trip.route_id === route_id);
+  });
+  return {header: data.header, entity: filtered};
 }
 
 app.get('/api/:type/:route_id?', (req, res) => {
@@ -36,7 +37,7 @@ app.get('/api/:type/:route_id?', (req, res) => {
         data = filterByRouteId(data, req.params.route_id);
       }
       res.writeHead(200, {'Content-Type': 'application/json'});
-      res.end(data);      
+      res.end(JSON.stringify(data,null,2));      
     });
   }
   else {

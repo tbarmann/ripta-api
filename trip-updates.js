@@ -1,4 +1,4 @@
-{
+module.exports = {
  "header": {
   "gtfs_realtime_version": "1",
   "incrementality": 0,
