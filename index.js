@@ -2,11 +2,14 @@
 
 const express = require('express');
 const request = require('request');
+const jsonfile = require('jsonfile');
 const moment = require('moment-timezone');
+const path = require('path');
 const _ = require('lodash');
 
 const port = 3000;
-const riptaApiBaseUrl = 'http://realtime.ripta.com:81/api/';
+//const riptaApiBaseUrl = 'http://realtime.ripta.com:81/api/';
+const riptaApiBaseUrl = 'http://localhost:3000/static/';
 const validApiTypes = ['tripupdates', 'vehiclepositions', 'servicealerts'];
 
 const app = express();
@@ -32,6 +35,8 @@ const filterByRouteId = (data, type, routeId) => {
   });
   return {header: data.header, entity: filtered};
 }
+
+app.use(express.static('static'));
 
 app.get('/api/:type', (req, res) => {
   const type = req.params.type.toLowerCase();
@@ -60,6 +65,18 @@ app.get('/api/:type/route/:routeId', (req, res) => {
   }
 });
 
+app.get('/static/:fileName', (req, res) => {
+  const fileName = req.params.fileName + '.json';
+  const file = path.normalize(__dirname + '/static/' + fileName);
+
+  jsonfile.readFile(file, function(err, obj) {
+    if(err) {
+      res.json({status: 'error', reason: err.toString()});
+      return;
+    }
+    res.json(obj);
+  });
+});
 
 app.listen(port, function () {
   console.log(`App listening on port ${port}`);
