@@ -36,8 +36,6 @@ const filterByRouteId = (data, type, routeId) => {
   return {header: data.header, entity: filtered};
 }
 
-app.use(express.static('static'));
-
 app.get('/api/:type', (req, res) => {
   const type = req.params.type.toLowerCase();
   if (_.includes(validApiTypes, type)) {
