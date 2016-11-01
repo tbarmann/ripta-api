@@ -1,0 +1,55 @@
+route_id,route_short_name,route_long_name,route_desc,route_type,route_url
+1,1,"Eddy/Hope/Benefit",,3,http://www.ripta.com/1
+3,3,"Warwick Avenue",,3,http://www.ripta.com/3
+4,4,"Providence Schools Service",,3,
+6,6,"Prairie Avenue",,3,http://www.ripta.com/6
+8,8X,"Jefferson Boulevard",,3,http://www.ripta.com/8
+9,9X,"Pascoag",,3,http://www.ripta.com/9
+10,10X,"North Scituate Express",,3,http://www.ripta.com/10
+11,R,"Broad/North Main",,3,http://www.ripta.com/11-1
+12,12X,"Arctic/R.I. Route117 Express",,3,http://www.ripta.com/12
+13,13,"Coventry/Arctic/Warwick Mall",,3,http://www.ripta.com/13
+14,14,"West Bay",,3,http://www.ripta.com/14
+17,17,"Dyer/Pocasset/Westminster",,3,http://www.ripta.com/17
+18,18,"Union Avenue",,3,http://www.ripta.com/18
+19,19,"Plainfield/Westminster",,3,http://www.ripta.com/19
+20,20,"Elmwood/Airport",,3,http://www.ripta.com/20
+21,21,"Reservoir/Garden City/CCRI-Warwick",,3,http://www.ripta.com/21
+22,22,"Pontiac Avenue",,3,http://www.ripta.com/22
+27,27,"Broadway/Manton",,3,http://www.ripta.com/27
+28,28,"Broadway/Hartford",,3,http://www.ripta.com/28
+29,29,"Kent County",,3,http://www.ripta.com/29
+30,30,"Arlington/Oaklawn",,3,http://www.ripta.com/30
+31,31,"Cranston Street",,3,http://www.ripta.com/31
+32,32,"East Providence/Wampanoag Trail",,3,http://www.ripta.com/32
+33,33,"Riverside",,3,http://www.ripta.com/33
+34,34,"East Providence",,3,http://www.ripta.com/34
+35,35,"Rumford/Newport Avenue",,3,http://www.ripta.com/35
+40,40,"Butler/Elmgrove",,3,http://www.ripta.com/40
+49,49,"Camp Street",,3,http://www.ripta.com/49
+50,50,"Douglas Avenue",,3,http://www.ripta.com/50
+51,51,"Charles Street",,3,http://www.ripta.com/51
+54,54,"Lincoln/Woonsocket",,3,http://www.ripta.com/54
+55,55,"Admiral Street/Providence College",,3,http://www.ripta.com/55
+56,56,"Chalkstone Avenue",,3,http://www.ripta.com/56
+57,57,"Smith Street",,3,http://www.ripta.com/57
+58,58,"Mineral Spring/North Providence",,3,http://www.ripta.com/58
+59,59X,"North Smithfield/Lincoln Express",,3,http://www.ripta.com/59
+60,60,"Providence/Newport",,3,http://www.ripta.com/60
+61,61X,"Tiverton/East Bay Express",,3,http://www.ripta.com/61-1
+63,63,"Broadway (Newport-Middletown)",,3,http://www.ripta.com/63
+64,64,"Newport/URI-Kingston",,3,http://www.ripta.com/64
+65,65X,"Wakefield Express",,3,http://www.ripta.com/65
+66,66,"URI-Kingston/Galilee",,3,http://www.ripta.com/66
+67,67,"Bellevue/Mansions/Salve Regina University",,3,http://www.ripta.com/67
+69,69,"URI-Kingston Campus Hillclimber",,3,
+71,71,"Pawtucket Avenue/Broad Street (Pawtucket)",,3,http://www.ripta.com/71
+72,72,"Weeden Street (Central Falls)",,3,http://www.ripta.com/72
+73,73,"Fairlawn/CCRI-Lincoln/Twin River Casino",,3,http://www.ripta.com/73
+75,75,"Dexter Street/Lincoln Mall",,3,http://www.ripta.com/75
+76,76,"Central Avenue",,3,http://www.ripta.com/76
+78,78,"Beverage Hill (East Providence)",,3,http://www.ripta.com/78
+80,80,"Armistice Boulevard",,3,http://www.ripta.com/80
+87,87,"Fairmount/Walnut Hill",,3,http://www.ripta.com/87
+92,92,"East Side/Federal Hill/RI College",,3,http://www.ripta.com/92
+95,95X,"Westerly Express",,3,http://www.ripta.com/95
