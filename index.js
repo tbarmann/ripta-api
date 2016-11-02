@@ -8,11 +8,15 @@ const path = require('path');
 const _ = require('lodash');
 
 const port = 3000;
-//const riptaApiBaseUrl = 'http://realtime.ripta.com:81/api/';
-const riptaApiBaseUrl = 'http://localhost:3000/static/';
 const validApiTypes = ['tripupdates', 'vehiclepositions', 'servicealerts'];
 
 const app = express();
+const staticOptions = {
+  maxAge: 1,
+  redirect: true,
+  index: 'index.htm'
+};
+
 
 const fetchBaseApi = (type, callback) => {
   const riptaApiUrl = `${riptaApiBaseUrl}${type}?format=json`;
@@ -36,12 +40,14 @@ const filterByRouteId = (data, type, routeId) => {
   return {header: data.header, entity: filtered};
 }
 
+app.use(express.static('public', staticOptions));
+
 app.get('/api/:type', (req, res) => {
   const type = req.params.type.toLowerCase();
   if (_.includes(validApiTypes, type)) {
     fetchBaseApi(type, (data) => {
       res.writeHead(200, {'Content-Type': 'application/json'});
-      res.end(JSON.stringify(data,null,2));
+      res.end(JSON.stringify(data, null, 2));
     });
   }
   else {
@@ -55,7 +61,7 @@ app.get('/api/:type/route/:routeId', (req, res) => {
     fetchBaseApi(type, (data) => {
       data = filterByRouteId(data, type, req.params.routeId);
       res.writeHead(200, {'Content-Type': 'application/json'});
-      res.end(JSON.stringify(data,null,2));
+      res.end(JSON.stringify(data, null, 2));
     });
   }
   else {
