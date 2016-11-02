@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.16.6/lodash.js"></script>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+
+
+<script type="text/javascript">
+  $(document).ready(function(){
+
+    var stopsIndexed;
+
+    function convertFromUnixTimestamp(ts) {
+      var date = new Date(ts*1000);
+      var hours = date.getHours();
+      var minutes = "0" + date.getMinutes();
+      var seconds = "0" + date.getSeconds();
+      return hours + ':' + minutes.substr(-2);
+    }
+
+    function getStop(id) {
+      return stopsIndexed[id].stop_name;
+    }
+
+    function getDelayStr(seconds) {
+      secondsInt = parseInt(seconds, 10);
+      if (seconds === 0) {
+        return '(on time)';
+      }
+      var delay = secondsInt/60;
+      var minuteStr = (Math.abs(delay) === 1) ? "minute" : "minutes";
+      var modifier = (secondsInt < 0) ? "early" : "late"
+      return Math.abs(delay) + " minutes " + modifier;
+    }
+
+    $.getJSON('/static/stops', function(stops){
+        stopsIndexed = _.keyBy(stops, 'stop_id');
+        displayTrips('60');
+    });
+
+    function displayTrips(routeStr) {
+      $.getJSON('/api/tripupdates/route/' + routeStr, function(trips){
+        $.each(trips.entity, function(key, trip){
+          var title = "Route " + routeStr;
+          var startTime = trip.trip_update.trip.start_time;
+          console.log(title, startTime);
+          $.each(trip.trip_update.stop_time_update, function(key, update){
+              if (update.arrival === null) {
+                console.log(update);
+              }
+              else {
+                var atime = convertFromUnixTimestamp(update.arrival.time);
+                var thisStop = getStop(update.stop_id);
+                var delayStr = getDelayStr(update.arrival.delay);
+                console.log(atime + ' ' + thisStop + ' ' + delayStr);
+              }
+          });
+
+        });
+      });
+
+    }
+
+
+  });
+
+
+
+
+
+</script>
+
+</body>
+</html>
