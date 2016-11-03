@@ -3,7 +3,7 @@
 <head>
   <title></title>
 
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.16.6/lodash.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.16.6/lodash.min.js"></script>
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
@@ -18,19 +18,27 @@
   $(document).ready(function(){
 
     var stopsIndexed;
+    var tripsIndexed;
 
     function tsToTime(ts) {
       return moment.unix(ts).format('h:mma');
     }
 
-    function getStop(id) {
+    function getStopDetail(id) {
       if (stopsIndexed.hasOwnProperty(id)) {
         return stopsIndexed[id].stop_name;
       }
       return 'Unknown stop id: ' + id;
     }
 
-    function getDelayStr(seconds) {
+    function getTripDetail(id) {
+      if (tripsIndexed.hasOwnProperty(id)) {
+        return tripsIndexed[id];
+      }
+      return 'Unknown trip id: ' + id;
+    }
+
+    function formatDelay(seconds) {
       secondsInt = parseInt(seconds, 10);
       if (seconds === 0) {
         return '(on time)';
@@ -43,40 +51,47 @@
 
     $.getJSON('/static/stops', function(stops){
         stopsIndexed = _.keyBy(stops, 'stop_id');
-        displayTrips('60');
+        loadTrips();
     });
 
-    function displayTrips(routeStr) {
-      $.getJSON('/api/tripupdates/route/' + routeStr, function(trips){
+    function loadTrips() {
+     $.getJSON('/static/trips', function(trips){
+        tripsIndexed = _.keyBy(trips, 'trip_id');
+        displayTrips('60');
+      });
+    }
+
+    function displayTrips(route_id) {
+      $.getJSON('/api/tripupdates/route/' + route_id, function(trips){
         console.log('Update created at ' + tsToTime(trips.header.timestamp));
         $.each(trips.entity, function(key, trip){
-          var title = "Route " + routeStr;
-          var startTime = trip.trip_update.trip.start_time;
-          console.log(title, startTime);
+          var title = "Route " + route_id;
+          var thisTrip = trip.trip_update.trip;
+          var trip_id = thisTrip.trip_id;
+          var startTime = "Start time: " + thisTrip.start_time;
+          var description = getTripDetail(trip_id).trip_headsign;
+          var direction_id = getTripDetail(trip_id).direction_id;
+          var direction = (direction_id === '0') ? 'Inbound' : 'Outbound';
+          console.log('>>>', title, startTime, description, direction, '<<<');
+
           $.each(trip.trip_update.stop_time_update, function(key, update){
               if (update.arrival === null) {
-                console.log('---------------------');
-                console.log(update);
-                console.log('---------------------');
+                var atime = 'Departs ' + tsToTime(update.departure.time);
+                var thisStop = getStopDetail(update.stop_id);
+                var delayStr = formatDelay(update.departure.delay);
+                console.log(atime + ' ' + thisStop + ' ' + delayStr);
               }
               else {
                 var atime = tsToTime(update.arrival.time);
-                var thisStop = getStop(update.stop_id);
-                var delayStr = getDelayStr(update.arrival.delay);
-                console.log(atime + ' ' + thisStop + ' ' + delayStr);
+                var thisStop = getStopDetail(update.stop_id);
+                var delayStr = formatDelay(update.arrival.delay);
+                console.log('Arrives ' + atime + ' ' + thisStop + ' ' + delayStr);
               }
           });
         });
       });
     }
-
-
   });
-
-
-
-
-
 </script>
 
 </body>
