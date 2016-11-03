@@ -38,7 +38,7 @@
       var delay = secondsInt/60;
       var minuteStr = (Math.abs(delay) === 1) ? "minute" : "minutes";
       var modifier = (secondsInt < 0) ? "early" : "late"
-      return Math.abs(delay) + " minutes " + modifier;
+      return Math.abs(delay) + " " + minuteStr + " " + modifier;
     }
 
     $.getJSON('/static/stops', function(stops){
