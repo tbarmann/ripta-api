@@ -7,6 +7,8 @@
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.2/moment.min.js"></script>
+
 </head>
 <body>
 
@@ -17,12 +19,8 @@
 
     var stopsIndexed;
 
-    function convertFromUnixTimestamp(ts) {
-      var date = new Date(ts*1000);
-      var hours = date.getHours();
-      var minutes = "0" + date.getMinutes();
-      var seconds = "0" + date.getSeconds();
-      return hours + ':' + minutes.substr(-2);
+    function tsToTime(ts) {
+      return moment.unix(ts).format('h:mma');
     }
 
     function getStop(id) {
@@ -47,25 +45,26 @@
 
     function displayTrips(routeStr) {
       $.getJSON('/api/tripupdates/route/' + routeStr, function(trips){
+        console.log('Update created at ' + tsToTime(trips.header.timestamp));
         $.each(trips.entity, function(key, trip){
           var title = "Route " + routeStr;
           var startTime = trip.trip_update.trip.start_time;
           console.log(title, startTime);
           $.each(trip.trip_update.stop_time_update, function(key, update){
               if (update.arrival === null) {
+                console.log('---------------------');
                 console.log(update);
+                console.log('---------------------');
               }
               else {
-                var atime = convertFromUnixTimestamp(update.arrival.time);
+                var atime = tsToTime(update.arrival.time);
                 var thisStop = getStop(update.stop_id);
                 var delayStr = getDelayStr(update.arrival.delay);
                 console.log(atime + ' ' + thisStop + ' ' + delayStr);
               }
           });
-
         });
       });
-
     }
 
 
