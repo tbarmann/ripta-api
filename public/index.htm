@@ -24,7 +24,10 @@
     }
 
     function getStop(id) {
-      return stopsIndexed[id].stop_name;
+      if (stopsIndexed.hasOwnProperty(id)) {
+        return stopsIndexed[id].stop_name;
+      }
+      return 'Unknown stop id: ' + id;
     }
 
     function getDelayStr(seconds) {
