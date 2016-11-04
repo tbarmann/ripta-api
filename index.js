@@ -8,6 +8,9 @@ const path = require('path');
 const _ = require('lodash');
 
 const port = 3000;
+
+//const riptaApiBaseUrl = 'http://realtime.ripta.com:81/api/';
+const riptaApiBaseUrl = 'http://localhost:3000/static/';
 const validApiTypes = ['tripupdates', 'vehiclepositions', 'servicealerts'];
 const validDirectionTypes = ['inbound', 'outbound'];
 
