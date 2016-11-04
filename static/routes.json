@@ -1,0 +1,434 @@
+[
+  {
+    "route_id": "1",
+    "route_short_name": "1",
+    "route_long_name": "Eddy/Hope/Benefit",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/1"
+  },
+  {
+    "route_id": "3",
+    "route_short_name": "3",
+    "route_long_name": "Warwick Avenue",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/3"
+  },
+  {
+    "route_id": "4",
+    "route_short_name": "4",
+    "route_long_name": "Providence Schools Service",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": ""
+  },
+  {
+    "route_id": "6",
+    "route_short_name": "6",
+    "route_long_name": "Prairie Avenue",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/6"
+  },
+  {
+    "route_id": "8",
+    "route_short_name": "8X",
+    "route_long_name": "Jefferson Boulevard",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/8"
+  },
+  {
+    "route_id": "9",
+    "route_short_name": "9X",
+    "route_long_name": "Pascoag",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/9"
+  },
+  {
+    "route_id": "10",
+    "route_short_name": "10X",
+    "route_long_name": "North Scituate Express",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/10"
+  },
+  {
+    "route_id": "11",
+    "route_short_name": "R",
+    "route_long_name": "Broad/North Main",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/11-1"
+  },
+  {
+    "route_id": "12",
+    "route_short_name": "12X",
+    "route_long_name": "Arctic/R.I. Route117 Express",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/12"
+  },
+  {
+    "route_id": "13",
+    "route_short_name": "13",
+    "route_long_name": "Coventry/Arctic/Warwick Mall",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/13"
+  },
+  {
+    "route_id": "14",
+    "route_short_name": "14",
+    "route_long_name": "West Bay",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/14"
+  },
+  {
+    "route_id": "17",
+    "route_short_name": "17",
+    "route_long_name": "Dyer/Pocasset/Westminster",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/17"
+  },
+  {
+    "route_id": "18",
+    "route_short_name": "18",
+    "route_long_name": "Union Avenue",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/18"
+  },
+  {
+    "route_id": "19",
+    "route_short_name": "19",
+    "route_long_name": "Plainfield/Westminster",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/19"
+  },
+  {
+    "route_id": "20",
+    "route_short_name": "20",
+    "route_long_name": "Elmwood/Airport",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/20"
+  },
+  {
+    "route_id": "21",
+    "route_short_name": "21",
+    "route_long_name": "Reservoir/Garden City/CCRI-Warwick",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/21"
+  },
+  {
+    "route_id": "22",
+    "route_short_name": "22",
+    "route_long_name": "Pontiac Avenue",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/22"
+  },
+  {
+    "route_id": "27",
+    "route_short_name": "27",
+    "route_long_name": "Broadway/Manton",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/27"
+  },
+  {
+    "route_id": "28",
+    "route_short_name": "28",
+    "route_long_name": "Broadway/Hartford",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/28"
+  },
+  {
+    "route_id": "29",
+    "route_short_name": "29",
+    "route_long_name": "Kent County",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/29"
+  },
+  {
+    "route_id": "30",
+    "route_short_name": "30",
+    "route_long_name": "Arlington/Oaklawn",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/30"
+  },
+  {
+    "route_id": "31",
+    "route_short_name": "31",
+    "route_long_name": "Cranston Street",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/31"
+  },
+  {
+    "route_id": "32",
+    "route_short_name": "32",
+    "route_long_name": "East Providence/Wampanoag Trail",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/32"
+  },
+  {
+    "route_id": "33",
+    "route_short_name": "33",
+    "route_long_name": "Riverside",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/33"
+  },
+  {
+    "route_id": "34",
+    "route_short_name": "34",
+    "route_long_name": "East Providence",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/34"
+  },
+  {
+    "route_id": "35",
+    "route_short_name": "35",
+    "route_long_name": "Rumford/Newport Avenue",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/35"
+  },
+  {
+    "route_id": "40",
+    "route_short_name": "40",
+    "route_long_name": "Butler/Elmgrove",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/40"
+  },
+  {
+    "route_id": "49",
+    "route_short_name": "49",
+    "route_long_name": "Camp Street",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/49"
+  },
+  {
+    "route_id": "50",
+    "route_short_name": "50",
+    "route_long_name": "Douglas Avenue",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/50"
+  },
+  {
+    "route_id": "51",
+    "route_short_name": "51",
+    "route_long_name": "Charles Street",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/51"
+  },
+  {
+    "route_id": "54",
+    "route_short_name": "54",
+    "route_long_name": "Lincoln/Woonsocket",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/54"
+  },
+  {
+    "route_id": "55",
+    "route_short_name": "55",
+    "route_long_name": "Admiral Street/Providence College",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/55"
+  },
+  {
+    "route_id": "56",
+    "route_short_name": "56",
+    "route_long_name": "Chalkstone Avenue",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/56"
+  },
+  {
+    "route_id": "57",
+    "route_short_name": "57",
+    "route_long_name": "Smith Street",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/57"
+  },
+  {
+    "route_id": "58",
+    "route_short_name": "58",
+    "route_long_name": "Mineral Spring/North Providence",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/58"
+  },
+  {
+    "route_id": "59",
+    "route_short_name": "59X",
+    "route_long_name": "North Smithfield/Lincoln Express",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/59"
+  },
+  {
+    "route_id": "60",
+    "route_short_name": "60",
+    "route_long_name": "Providence/Newport",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/60"
+  },
+  {
+    "route_id": "61",
+    "route_short_name": "61X",
+    "route_long_name": "Tiverton/East Bay Express",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/61-1"
+  },
+  {
+    "route_id": "63",
+    "route_short_name": "63",
+    "route_long_name": "Broadway (Newport-Middletown)",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/63"
+  },
+  {
+    "route_id": "64",
+    "route_short_name": "64",
+    "route_long_name": "Newport/URI-Kingston",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/64"
+  },
+  {
+    "route_id": "65",
+    "route_short_name": "65X",
+    "route_long_name": "Wakefield Express",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/65"
+  },
+  {
+    "route_id": "66",
+    "route_short_name": "66",
+    "route_long_name": "URI-Kingston/Galilee",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/66"
+  },
+  {
+    "route_id": "67",
+    "route_short_name": "67",
+    "route_long_name": "Bellevue/Mansions/Salve Regina University",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/67"
+  },
+  {
+    "route_id": "69",
+    "route_short_name": "69",
+    "route_long_name": "URI-Kingston Campus Hillclimber",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": ""
+  },
+  {
+    "route_id": "71",
+    "route_short_name": "71",
+    "route_long_name": "Pawtucket Avenue/Broad Street (Pawtucket)",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/71"
+  },
+  {
+    "route_id": "72",
+    "route_short_name": "72",
+    "route_long_name": "Weeden Street (Central Falls)",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/72"
+  },
+  {
+    "route_id": "73",
+    "route_short_name": "73",
+    "route_long_name": "Fairlawn/CCRI-Lincoln/Twin River Casino",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/73"
+  },
+  {
+    "route_id": "75",
+    "route_short_name": "75",
+    "route_long_name": "Dexter Street/Lincoln Mall",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/75"
+  },
+  {
+    "route_id": "76",
+    "route_short_name": "76",
+    "route_long_name": "Central Avenue",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/76"
+  },
+  {
+    "route_id": "78",
+    "route_short_name": "78",
+    "route_long_name": "Beverage Hill (East Providence)",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/78"
+  },
+  {
+    "route_id": "80",
+    "route_short_name": "80",
+    "route_long_name": "Armistice Boulevard",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/80"
+  },
+  {
+    "route_id": "87",
+    "route_short_name": "87",
+    "route_long_name": "Fairmount/Walnut Hill",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/87"
+  },
+  {
+    "route_id": "92",
+    "route_short_name": "92",
+    "route_long_name": "East Side/Federal Hill/RI College",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/92"
+  },
+  {
+    "route_id": "95",
+    "route_short_name": "95X",
+    "route_long_name": "Westerly Express",
+    "route_desc": "",
+    "route_type": "3",
+    "route_url": "http://www.ripta.com/95"
+  }
+]
