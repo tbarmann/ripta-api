@@ -6,6 +6,8 @@ const jsonfile = require('jsonfile');
 const moment = require('moment-timezone');
 const path = require('path');
 const _ = require('lodash');
+const routes = require('./static/routes.json');
+const trips = require('./static/trips.json');
 
 const port = 3000;
 
@@ -22,16 +24,7 @@ const staticOptions = {
 };
 
 let tripsIndexed = {};
-
-const loadStaticFile = (fileName, callback) => {
-  const file = path.normalize(__dirname + '/static/' + fileName);
-  jsonfile.readFile(file, function(err, obj) {
-    if(err) {
-      return ({status: 'error', reason: err.toString()});
-    }
-    callback(obj);
-  });
-}
+let routesIndexed = {};
 
 const fetchBaseApi = (type, callback) => {
   const riptaApiUrl = `${riptaApiBaseUrl}${type}?format=json`;
@@ -125,10 +118,9 @@ const startServer = () => {
 }
 
 const initialize = () => {
-  loadStaticFile('trips.json', (trips) => {
-    tripsIndexed = _.keyBy(trips, 'trip_id');
-    startServer();
-  });
+  routesIndexed = _.keyBy(routes, 'route_id');
+  tripsIndexed = _.keyBy(trips, 'trip_id');
+  startServer();
 }
 
 initialize();
