@@ -3,20 +3,16 @@
 const express = require('express');
 const request = require('request');
 const jsonfile = require('jsonfile');
+const cors = require('cors');
 const moment = require('moment-timezone');
 const path = require('path');
 const _ = require('lodash');
 const filterByRoute = require('./filters').filterByRoute;
 const filterByDirection = require('./filters').filterByDirection;
-
 const port = 3000;
-
-//const riptaApiBaseUrl = 'http://realtime.ripta.com:81/api/';
-const riptaApiBaseUrl = 'http://localhost:3000/static/';
-
-const app = express();
+const riptaApiBaseUrl = 'http://realtime.ripta.com:81/api/';
+//const riptaApiBaseUrl = 'http://localhost:3000/static/';
 const staticOptions = { index: 'index.htm' };
-
 const validApiTypes = ['tripupdates', 'vehiclepositions', 'servicealerts'];
 
 const fetchBaseApi = (type, callback) => {
@@ -29,6 +25,8 @@ const fetchBaseApi = (type, callback) => {
   });
 }
 
+const app = express();
+app.use(cors());
 app.use(express.static('public', staticOptions));
 
 app.get('/api/:type', (req, res) => {
