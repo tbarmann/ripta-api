@@ -5,12 +5,20 @@
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.16.6/lodash.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.2/moment.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./main.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
 </head>
 <body>
-
-
+  <div class=container">
+    <div class="controls">
+      <select class="select-route"></select>
+      <input type="radio" class="direction" name="direction" value="inbound" checked/>Inbound
+      <input type="radio" class="direction" name="direction" value="outbound" />Outbound
+      <input type="button" class="button-refresh btn btn-xs" value="Refresh" />
+    </div>
+    <div class="content"></div>
+  </div>
 
 <script type="text/javascript">
   $(document).ready(function(){
@@ -18,6 +26,14 @@
     var stopsIndexed;
     var tripsIndexed;
     var routesIndexed;
+
+    function sortTripsByTime(trips) {
+      const entities = trips.entity;
+      const sortedEntities = _.sortBy(entities, function(update) {
+        return moment(update.trip_update.trip.start_time, 'HH-mm-ss');
+      });
+      return { header: trips.header, entity: sortedEntities } ;
+    }
 
     function tsToTime(ts) {
       return moment.unix(ts).format('h:mma');
@@ -37,15 +53,24 @@
       return 'Unknown trip id: ' + id;
     }
 
+    function createSelectOptions(optionList) {
+      var html = "";
+      $.each(optionList, function (index, value) {
+        html += '<option value="' + value.value + '">';
+        html += value.label;
+        html += '</option>';
+      });
+      return html;
+    }
+
     function formatDelay(seconds) {
       secondsInt = parseInt(seconds, 10);
       if (seconds === 0) {
-        return '(on time)';
+        return 'On time';
       }
       var delay = secondsInt/60;
-      var minuteStr = (Math.abs(delay) === 1) ? "minute" : "minutes";
       var modifier = (secondsInt < 0) ? "early" : "late"
-      return Math.abs(delay) + " " + minuteStr + " " + modifier;
+      return Math.abs(delay) + " min. " + modifier;
     }
 
     function loadStops() {
@@ -65,18 +90,38 @@
     function loadTrips() {
      $.getJSON('/static/trips', function(trips){
         tripsIndexed = _.keyBy(trips, 'trip_id');
-        processTrips('60');
+        initUI();
       });
     }
 
-    function processTrips(route_id) {
-      $.getJSON('/api/tripupdates/route/' + route_id + '/outbound', function(trips){
-        console.log('Update created at ' + tsToTime(trips.header.timestamp));
-        displayTrips(trips);
+    function initUI() {
+      var optionList = [];
+      $.each(routesIndexed, function(key, value){
+        var label = value.route_short_name + " " + value.route_long_name;
+        optionList.push({value: value.route_id, label: label});
+      });
+      var optionsHtml = createSelectOptions(optionList);
+      $('.select-route').html(optionsHtml);
+      $('.select-route, .direction').on('change', function(){
+        processTrips();
+      });
+      $('.button-refresh').on('click', function() {
+        processTrips();
+      });
+      $('.select-route').trigger('change');
+    }
+
+    function processTrips() {
+      var route_id = $('.select-route').val();
+      var direction = $('input[name=direction]:checked').val();
+      $.getJSON('/api/tripupdates/route/' + route_id + '/' + direction, function(trips){
+        displayTrips(sortTripsByTime(trips));
       });
     }
 
     function displayTrips(trips) {
+      var html = '';
+      html += '<p>Last updated ' + tsToTime(trips.header.timestamp) + '</p>';
       $.each(trips.entity, function(key, trip){
         var thisTrip = trip.trip_update.trip;
         var route_id = thisTrip.route_id;
@@ -86,23 +131,39 @@
         var description = getTripDetail(trip_id).trip_headsign;
         var direction_id = getTripDetail(trip_id).direction_id;
         var direction = (direction_id === '0') ? 'Inbound' : 'Outbound';
-        console.log('>>>>>>>>>>>>>>>', title, startTime, description, direction, '<<<<<<<<<<<<<<<');
+
+        html += ['<div class="trip-heading">', title, startTime, description, direction, '</div>'].join(' ');
+        html += '<table class="trip-update table table-sm table-striped">';
+        html += '<thead>';
+        html += '<tr>';
+        html += '<th>Time</th>';
+        html += '<th>Stop</th>';
+        html += '<th>Status</th>';
+        html += '</tr>';
+        html += '</thead>';
+        html += '<tbody>';
 
         $.each(trip.trip_update.stop_time_update, function(key, update){
-            if (update.arrival === null) {
-              var atime = 'Departs ' + tsToTime(update.departure.time);
-              var thisStop = getStopDetail(update.stop_id);
-              var delayStr = formatDelay(update.departure.delay);
-              console.log(atime + ' ' + thisStop + ' ' + delayStr);
-            }
-            else {
-              var atime = tsToTime(update.arrival.time);
-              var thisStop = getStopDetail(update.stop_id);
-              var delayStr = formatDelay(update.arrival.delay);
-              console.log('Arrives ' + atime + ' ' + thisStop + ' ' + delayStr);
-            }
+          html += '<tr>';
+          if (update.arrival === null) {
+            var atime = 'Departs ' + tsToTime(update.departure.time);
+            var thisStop = getStopDetail(update.stop_id);
+            var delayStr = formatDelay(update.departure.delay);
+          }
+          else {
+            var atime = 'Arrives ' + tsToTime(update.arrival.time);
+            var thisStop = getStopDetail(update.stop_id);
+            var delayStr = formatDelay(update.arrival.delay);
+          }
+          html += '<td>' + atime + '</td>';
+          html += '<td>' + thisStop+ '</td>';
+          html += '<td>' + delayStr + '</td>';
+          html += '</tr>';
         });
+        html += '</tbody>';
+        html += '</table>';
       });
+      $('.content').html(html);
     }
     // start
     loadStops();

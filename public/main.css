@@ -1,0 +1,22 @@
+.controls {
+  position: fixed;
+  background-color: #FFFFFF;
+  width:100%;
+}
+
+td, tr {
+  font-size: 9px;
+}
+
+thead>tr {
+  background-color: #999999;
+  color: #FFFFFF;
+}
+
+.trip-heading {
+  font-size: 12px;
+}
+
+.trip-update {
+/*  display: none; */
+}
