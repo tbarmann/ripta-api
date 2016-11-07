@@ -24,8 +24,13 @@
   margin-right: 15px;
 }
 
+.trip-update {
+  display:none;
+}
+
 .trip-heading {
   font-size: 12px;
+  cursor: pointer;
 }
 
 .trip-update td, .trip-update tr {

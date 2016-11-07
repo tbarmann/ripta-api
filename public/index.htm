@@ -169,6 +169,9 @@
         html += '</table>';
       });
       $('.content').html(html);
+      $('.trip-heading').on('click', function(){
+        $(this).next().toggle();
+      });
     }
     // start
     loadStops();
