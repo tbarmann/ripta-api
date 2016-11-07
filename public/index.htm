@@ -12,10 +12,15 @@
 <body>
   <div class=container">
     <div class="controls">
-      <select class="select-route"></select>
-      <input type="radio" class="direction" name="direction" value="inbound" checked/>Inbound
-      <input type="radio" class="direction" name="direction" value="outbound" />Outbound
-      <input type="button" class="button-refresh btn btn-xs" value="Refresh" />
+      <label for="select-route">Select bus route: </label>
+      <select class="select-route" id="select-route"></select>
+      <span class="radio-group">
+        <input type="radio" class="direction" id="inbound" name="direction" value="inbound" checked/>
+        <label for="inbound">Inbound</label>
+        <input type="radio" class="direction" id="outbound" name="direction" value="outbound" /><label for="outbound">Outbound</label>
+      </span>
+      <button class="button-refresh btn btn-default" type="submit">Refresh</button>
+      <span class="last-updated"></span>
     </div>
     <div class="content"></div>
   </div>
@@ -121,7 +126,7 @@
 
     function displayTrips(trips) {
       var html = '';
-      html += '<p>Last updated ' + tsToTime(trips.header.timestamp) + '</p>';
+      $('.last-updated').html('Last updated ' + tsToTime(trips.header.timestamp));
       $.each(trips.entity, function(key, trip){
         var thisTrip = trip.trip_update.trip;
         var route_id = thisTrip.route_id;

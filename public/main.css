@@ -1,22 +1,42 @@
+.content {
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .controls {
-  position: fixed;
-  background-color: #FFFFFF;
+  background-color: Cornsilk;
   width:100%;
+  font-size: 12px;
+  padding: 5px 5%;
+  margin-bottom:5px;
 }
 
-td, tr {
-  font-size: 9px;
-}
-
-thead>tr {
-  background-color: #999999;
+.controls button {
+  font-size: 12px;
+  padding: 2px 5px;
+  background-color: SteelBlue;
   color: #FFFFFF;
+
+  border-color: #000000;
+}
+.controls .radio-group, .controls .select-route, .controls button {
+  margin-right: 15px;
 }
 
 .trip-heading {
   font-size: 12px;
 }
 
-.trip-update {
-/*  display: none; */
+.trip-update td, .trip-update tr {
+  font-size: 10px;
+}
+
+.trip-update thead>tr {
+  background-color: SteelBlue;
+  color: #FFFFFF;
+}
+
+.trip-update td:nth-child(1), .trip-update td:nth-child(3){
+  width: 28%;
 }
