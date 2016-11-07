@@ -4,8 +4,6 @@ const _ = require('lodash');
 
 const routesIndexed = _.keyBy(routes, 'route_id');
 const tripsIndexed = _.keyBy(trips, 'trip_id');
-
-
 const validApiTypes = ['tripupdates', 'vehiclepositions', 'servicealerts'];
 const validDirectionTypes = ['inbound', 'outbound'];
 
