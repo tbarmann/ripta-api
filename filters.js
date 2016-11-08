@@ -1,3 +1,5 @@
+"use strict";
+
 const routes = require('./static/routes.json');
 const trips = require('./static/trips.json');
 const _ = require('lodash');
