@@ -34,6 +34,22 @@ const filterByRoute = (data, type, route) => {
   return { header: data.header, entity: filtered };
 }
 
+const filterByRoutes = (data, type, routesStr) => {
+  let allRoutes = [];
+  const routes = routesStr.split(',');
+  _.each(routes, (route) => {
+    const routeId = routeToRouteId(route);
+    if (!isValidRouteId(routeId)) {
+      return data;
+    }
+    const filtered = _.filter(data.entity, (record) => {
+      return (record[typeToKey(type)].trip.route_id === routeId);
+    });
+    allRoutes = _.uniq(_.concat(allRoutes, filtered));
+  })
+  return { header: data.header, entity: allRoutes };
+}
+
 const filterByDirection = (data, type, direction) => {
   direction = direction.toLowerCase();
   if (!_.includes(validDirectionTypes, direction)) {
@@ -47,4 +63,4 @@ const filterByDirection = (data, type, direction) => {
   return { header: data.header, entity: filtered };
 }
 
-module.exports = { filterByRoute, filterByDirection }
+module.exports = { filterByRoutes, filterByDirection }

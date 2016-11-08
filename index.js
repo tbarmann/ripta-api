@@ -7,7 +7,7 @@ const cors = require('cors');
 const moment = require('moment-timezone');
 const path = require('path');
 const _ = require('lodash');
-const filterByRoute = require('./filters').filterByRoute;
+const filterByRoutes = require('./filters').filterByRoutes;
 const filterByDirection = require('./filters').filterByDirection;
 const port = process.env.PORT || 3000;
 const riptaApiBaseUrl = 'http://realtime.ripta.com:81/api/';
@@ -46,7 +46,7 @@ app.get('/api/:type/route/:route/:dir?', (req, res) => {
   const type = req.params.type.toLowerCase();
   if (_.includes(validApiTypes, type)) {
     fetchBaseApi(type, (data) => {
-      data = filterByRoute(data, type, req.params.route);
+      data = filterByRoutes(data, type, req.params.route);
       if (req.params.dir) {
           data = filterByDirection(data, type, req.params.dir);
       }
