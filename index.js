@@ -14,6 +14,7 @@ const riptaApiBaseUrl = 'http://realtime.ripta.com:81/api/';
 //const riptaApiBaseUrl = 'http://localhost:3000/static/';
 const staticOptions = { index: 'index.htm' };
 const validApiTypes = ['tripupdates', 'vehiclepositions', 'servicealerts'];
+const haversine = require('./lib/haversine');
 
 const fetchBaseApi = (type, callback) => {
   const riptaApiUrl = `${riptaApiBaseUrl}${type}?format=json`;
@@ -28,6 +29,30 @@ const fetchBaseApi = (type, callback) => {
 const app = express();
 app.use(cors());
 app.use(express.static('public', staticOptions));
+
+app.get('/api/stops?', (req, res) => {
+  if (!!req.query.lat && !isNaN(req.query.lat) && !!req.query.lon && !isNaN(req.query.lon)) {
+    const file = path.normalize(__dirname + '/static/stops.json');
+
+    jsonfile.readFile(file, function(err, obj) {
+      if(err) {
+        res.json({status: 'error', reason: err.toString()});
+        return;
+      }
+      const stopsWithDistances = obj.map((stop) => ({
+        stop,
+        distance: haversine.haversineDistance(
+          { lat: parseFloat(req.query.lat), lon: parseFloat(req.query.lon) },
+          { lat: parseFloat(stop.stop_lat), lon: parseFloat(stop.stop_lon) }
+        )
+      })).sort((a, b) => (a.distance - b.distance));
+
+      res.json(stopsWithDistances);
+    });
+  } else {
+    res.sendStatus(422);
+  }
+});
 
 app.get('/api/:type', (req, res) => {
   const type = req.params.type.toLowerCase();
