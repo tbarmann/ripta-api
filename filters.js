@@ -21,7 +21,7 @@ const isValidRouteId = (routeId) => {
 };
 
 const routeToRouteId = (route) => {
-  return route.toLowerCase().replace('x','');
+  return route.toLowerCase().replace('x', '');
 };
 
 const filterByRoutes = (data, type, routesStr) => {
