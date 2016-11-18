@@ -16,6 +16,9 @@ const parse = (csvFile) => {
   };
 
   const parser = csvParse(options, function (err, data) {
+    if (err) {
+      return console.log(err);
+    }    
     fs.writeFile(writePath + fileBase + '.json', JSON.stringify(data, null, 2), function (err) {
       if (err) {
         return console.log(err);
