@@ -103,7 +103,7 @@ app.get('/api/:type/route/:route/:dir?', (req, res) => {
 
 app.get('/static/:fileName', (req, res) => {
   const fileName = req.params.fileName + '.json';
-  const file = path.normalize(__dirname + '/static/' + fileName);
+  const file = path.normalize(path.join(__dirname, '/static/', fileName));
 
   jsonfile.readFile(file, function (err, obj) {
     if(err) {

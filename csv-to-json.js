@@ -2,6 +2,7 @@
 const csvParse = require('csv-parse');
 
 const fs = require('fs');
+const path = require('path');
 
 const parse = (csvFile) => {
 
@@ -32,4 +33,3 @@ const parse = (csvFile) => {
 const files = ['routes.txt', 'stops.txt', 'trips.txt'];
 
 files.map((file)=>{ parse(file);});
-
