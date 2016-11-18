@@ -105,7 +105,7 @@ app.get('/static/:fileName', (req, res) => {
   const fileName = req.params.fileName + '.json';
   const file = path.normalize(__dirname + '/static/' + fileName);
 
-  jsonfile.readFile(file, function(err, obj) {
+  jsonfile.readFile(file, function (err, obj) {
     if(err) {
       res.json({status: 'error', reason: err.toString()});
       return;
