@@ -20,7 +20,7 @@ const parse = (csvFile) => {
       if (err) {
         return console.log(err);
       }
-      console.log('finished writing: ' + writePath+fileBase);
+      console.log('finished writing: ' + writePath + fileBase);
 
     });
   });
