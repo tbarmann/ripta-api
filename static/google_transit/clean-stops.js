@@ -32,7 +32,6 @@ const abbrevOrCapitalize = (w) => {
 
 // stops = JSON.parse(File.read('stops.json'))
 
-
 // # sub in abbreviated values
 // # fix words that start with '(', '(stop' => '(Stop'
 // # fix words with '&' in the middle, 'stop&shop' => 'Stop&Shop'
