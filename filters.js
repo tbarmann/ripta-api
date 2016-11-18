@@ -6,7 +6,6 @@ const _ = require('lodash');
 
 const routesIndexed = _.keyBy(routes, 'route_id');
 const tripsIndexed = _.keyBy(trips, 'trip_id');
-const validApiTypes = ['tripupdates', 'vehiclepositions', 'servicealerts'];
 const validDirectionTypes = ['inbound', 'outbound'];
 
 const typeToKey = (type) => {
@@ -23,17 +22,6 @@ const isValidRouteId = (routeId) => {
 
 const routeToRouteId = (route) => {
   return route.toLowerCase().replace('x','');
-};
-
-const filterByRoute = (data, type, route) => {
-  const routeId = routeToRouteId(route);
-  if (!isValidRouteId(routeId)) {
-    return data;
-  }
-  const filtered = _.filter(data.entity, (record) => {
-    return (record[typeToKey(type)].trip.route_id === routeId);
-  });
-  return { header: data.header, entity: filtered };
 };
 
 const filterByRoutes = (data, type, routesStr) => {

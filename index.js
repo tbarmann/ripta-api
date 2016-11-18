@@ -4,7 +4,6 @@ const express = require('express');
 const request = require('request');
 const jsonfile = require('jsonfile');
 const cors = require('cors');
-const moment = require('moment-timezone');
 const path = require('path');
 const _ = require('lodash');
 const db = require('./db.js');
