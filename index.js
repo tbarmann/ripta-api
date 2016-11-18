@@ -34,6 +34,12 @@ app.get('/api/stops?', (req, res) => {
   if (!!req.query.lat && !isNaN(req.query.lat) && !!req.query.lon && !isNaN(req.query.lon)) {
     let stopsWithDistances = stopsSortedByDisatnce(req.query.lat, req.query.lon);
 
+    const limit = req.query.limit;
+
+    if (!!limit && !isNaN(limit)) {
+      stopsWithDistances = stopsWithDistances.slice(0, parseInt(limit));
+    }
+
    res.json(stopsWithDistances);
   } else {
     res.sendStatus(422);
