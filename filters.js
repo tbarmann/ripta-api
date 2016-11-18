@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 const routes = require('./static/routes.json');
 const trips = require('./static/trips.json');
