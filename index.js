@@ -57,8 +57,7 @@ app.get('/api/route/:route_id/stops', (req, res) => {
   if (isValidRouteId(routeId)) {
     const stops = getStopsByRouteId(routeId);
     res.json(stops);
-  }
-  else {
+  } else {
     res.sendStatus(422);
   }
 });
@@ -74,8 +73,7 @@ app.get('/api/:type', (req, res) => {
       .catch((res) => {
         console.log(res);
       });
-  }
-  else {
+  } else {
     res.send('Error: Not a valid api call');
   }
 });
@@ -95,8 +93,7 @@ app.get('/api/:type/route/:route/:dir?', (req, res) => {
             res.json(Object.assign(data, {entity}));
           });
       });
-  }
-  else {
+  } else {
     res.send('Error: Not a valid api call');
   }
 });
