@@ -119,7 +119,7 @@ const startServer = () => {
   app.listen(port, () => {
     console.log(`App listening on port ${port}`);
   });
-}
+};
 
 startServer();
 

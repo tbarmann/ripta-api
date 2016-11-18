@@ -27,8 +27,8 @@ const abbrevOrCapitalize = (w) => {
     'dfs': 'far side of',
     'hq': 'HQ'
   };
-  return (replace.hasOwnProperty(w)) ? replace[w] : _.capitalize(w)
-}
+  return (replace.hasOwnProperty(w)) ? replace[w] : _.capitalize(w);
+};
 
 // stops = JSON.parse(File.read('stops.json'))
 

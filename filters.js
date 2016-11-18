@@ -15,15 +15,15 @@ const typeToKey = (type) => {
     vehiclepositions: 'vehicle',
     servicealerts: 'alert'
   }[type];
-}
+};
 
 const isValidRouteId = (routeId) => {
   return routesIndexed.hasOwnProperty(routeId);
-}
+};
 
 const routeToRouteId = (route) => {
   return route.toLowerCase().replace('x','');
-}
+};
 
 const filterByRoute = (data, type, route) => {
   const routeId = routeToRouteId(route);
@@ -34,7 +34,7 @@ const filterByRoute = (data, type, route) => {
     return (record[typeToKey(type)].trip.route_id === routeId);
   });
   return { header: data.header, entity: filtered };
-}
+};
 
 const filterByRoutes = (data, type, routesStr) => {
   let allRoutes = [];
@@ -48,9 +48,9 @@ const filterByRoutes = (data, type, routesStr) => {
       return (record[typeToKey(type)].trip.route_id === routeId);
     });
     allRoutes = _.uniq(_.concat(allRoutes, filtered));
-  })
+  });
   return { header: data.header, entity: allRoutes };
-}
+};
 
 const filterByDirection = (data, type, direction) => {
   direction = direction.toLowerCase();
@@ -63,6 +63,7 @@ const filterByDirection = (data, type, direction) => {
     return (direction_id === tripsIndexed[trip_id].direction_id);
   });
   return { header: data.header, entity: filtered };
-}
+};
 
-module.exports = { filterByRoutes, filterByDirection, isValidRouteId }
+module.exports = { filterByRoutes, filterByDirection, isValidRouteId };
+
