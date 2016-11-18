@@ -103,7 +103,7 @@ app.get('/static/:fileName', (req, res) => {
   const file = path.normalize(path.join(__dirname, '/static/', fileName));
 
   jsonfile.readFile(file, function (err, obj) {
-    if(err) {
+    if (err) {
       res.json({status: 'error', reason: err.toString()});
       return;
     }
