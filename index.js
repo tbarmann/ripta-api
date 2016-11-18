@@ -14,7 +14,7 @@ const stopsSortedByDistance = require('./sorted-stops').stopsSortedByDistance;
 const getStopsByRouteId = require('./stop-helpers.js').getStopsByRouteId;
 const port = process.env.PORT || 3000;
 const riptaApiBaseUrl = 'http://realtime.ripta.com:81/api/';
-//const riptaApiBaseUrl = 'http://localhost:3000/static/';
+// const riptaApiBaseUrl = 'http://localhost:3000/static/';
 const staticOptions = { index: 'index.htm' };
 const validApiTypes = ['tripupdates', 'vehiclepositions', 'servicealerts'];
 
