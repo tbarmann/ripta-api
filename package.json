@@ -5,11 +5,12 @@
   "main": "main.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.1",
     "csv-parse": "^1.1.7",
     "express": "^4.14.0",
     "jsonfile": "^2.4.0",
