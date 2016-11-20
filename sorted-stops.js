@@ -3,7 +3,7 @@
 const haversine = require('./lib/haversine');
 const stops = require('./static/stops.json');
 
-const stopsSortedByDisatnce = (lat, lon) => {
+const stopsSortedByDistance = (lat, lon) => {
   return stops.map((stop) => ({
     stop,
     distance: haversine.haversineDistance(
@@ -13,4 +13,4 @@ const stopsSortedByDisatnce = (lat, lon) => {
   })).sort((a, b) => (a.distance - b.distance));
 }
 
-module.exports = { stopsSortedByDisatnce };
+module.exports = { stopsSortedByDistance };

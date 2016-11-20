@@ -9,7 +9,7 @@ const path = require('path');
 const _ = require('lodash');
 const filterByRoutes = require('./filters').filterByRoutes;
 const filterByDirection = require('./filters').filterByDirection;
-const stopsSortedByDisatnce = require('./sorted-stops').stopsSortedByDisatnce;
+const stopsSortedByDistance = require('./sorted-stops').stopsSortedByDistance;
 const port = process.env.PORT || 3000;
 const riptaApiBaseUrl = 'http://realtime.ripta.com:81/api/';
 //const riptaApiBaseUrl = 'http://localhost:3000/static/';
@@ -32,7 +32,7 @@ app.use(express.static('public', staticOptions));
 
 app.get('/api/stops?', (req, res) => {
   if (!!req.query.lat && !isNaN(req.query.lat) && !!req.query.lon && !isNaN(req.query.lon)) {
-    let stopsWithDistances = stopsSortedByDisatnce(req.query.lat, req.query.lon);
+    let stopsWithDistances = stopsSortedByDistance(req.query.lat, req.query.lon);
 
     const limit = req.query.limit;
 
