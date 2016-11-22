@@ -45,3 +45,8 @@
 .trip-update td:nth-child(1), .trip-update td:nth-child(3){
   width: 28%;
 }
+
+.loading {
+  width: 30px;
+  height: 30px;
+}
