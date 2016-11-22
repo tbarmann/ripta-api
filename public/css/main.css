@@ -24,6 +24,14 @@
   margin-right: 15px;
 }
 
+.controls .loading {
+  display: inline-block;
+}
+
+.controls .last-updated {
+  margin-right: 10px;
+}
+
 .trip-update {
   display:none;
 }

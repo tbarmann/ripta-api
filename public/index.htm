@@ -5,9 +5,14 @@
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.16.6/lodash.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.2/moment.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="./main.css">
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/spin.js/2.3.2/spin.min.js"></script>
+  <script type="text/javascript" src="./scripts/spinner-options.js"></script>
+  <script type="text/javascript" src="./scripts/cookies.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <div class=container">
@@ -21,6 +26,7 @@
       </span>
       <button class="button-refresh btn btn-default" type="submit">Refresh</button>
       <span class="last-updated"></span>
+      <span class="loading" id="loading">&nbsp;</span>
     </div>
     <div class="content"></div>
   </div>
@@ -31,6 +37,17 @@
     var stopsIndexed;
     var tripsIndexed;
     var routesIndexed;
+
+    var target = document.getElementById('loading');
+    var spinner = new Spinner(opts).spin(target);
+
+    function getSavedRoute() {
+      return readCookie('saved-route');
+    }
+
+    function getSavedTrip() {
+      return readCookie('saved-trip');
+    }
 
     function sortTripsByTime(trips) {
       const entities = trips.entity;
@@ -107,7 +124,14 @@
       });
       var optionsHtml = createSelectOptions(optionList);
       $('.select-route').html(optionsHtml);
+
+      var savedRoute = getSavedRoute();
+      if (savedRoute !== null) {
+        $('.select-route').val(savedRoute);
+      }
+
       $('.select-route, .direction').on('change', function(){
+        createCookie('saved-route', $('.select-route').val(), 365);
         processTrips();
       });
       $('.button-refresh').on('click', function() {
@@ -116,17 +140,27 @@
       $('.select-route').trigger('change');
     }
 
+    function hideSpinner() {
+      $('.loading').hide();
+    }
+
+    function showSpinner() {
+      $('.loading').show();
+    }
+
     function processTrips() {
+      showSpinner();
       var route_id = $('.select-route').val();
       var direction = $('input[name=direction]:checked').val();
       $.getJSON('/api/tripupdates/route/' + route_id + '/' + direction, function(trips){
         displayTrips(sortTripsByTime(trips));
+        hideSpinner();
       });
     }
 
     function displayTrips(trips) {
       var html = '';
-      $('.last-updated').html('Last updated ' + tsToTime(trips.header.timestamp));
+      $('.last-updated').html('Updated ' + tsToTime(trips.header.timestamp));
       $.each(trips.entity, function(key, trip){
         var thisTrip = trip.trip_update.trip;
         var route_id = thisTrip.route_id;
@@ -137,7 +171,7 @@
         var direction_id = getTripDetail(trip_id).direction_id;
         var direction = (direction_id === '0') ? 'Inbound' : 'Outbound';
 
-        html += ['<div class="trip-heading">', title, startTime, description, direction, '</div>'].join(' ');
+        html += ['<div class="trip-heading" id="' + trip_id + '">', title, startTime, description, direction, '</div>'].join(' ');
         html += '<table class="trip-update table table-sm table-striped">';
         html += '<thead>';
         html += '<tr>';
@@ -169,7 +203,14 @@
         html += '</table>';
       });
       $('.content').html(html);
+
+      var savedTrip = getSavedTrip();
+      if (savedTrip !== null) {
+        $('#' + savedTrip).next().toggle();
+      }
+
       $('.trip-heading').on('click', function(){
+        createCookie('saved-trip', this.id, 365);
         $(this).next().toggle();
       });
     }
