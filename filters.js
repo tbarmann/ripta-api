@@ -65,4 +65,4 @@ const filterByDirection = (data, type, direction) => {
   return { header: data.header, entity: filtered };
 }
 
-module.exports = { filterByRoutes, filterByDirection }
+module.exports = { filterByRoutes, filterByDirection, isValidRouteId }
