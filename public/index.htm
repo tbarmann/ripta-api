@@ -34,6 +34,14 @@
     var tripsIndexed;
     var routesIndexed;
 
+    function getSavedRoute() {
+      return readCookie('saved-route');
+    }
+    
+    function getSavedTrip() {
+      return readCookie('saved-trip');
+    }
+
     function sortTripsByTime(trips) {
       const entities = trips.entity;
       const sortedEntities = _.sortBy(entities, function(update) {
@@ -109,7 +117,14 @@
       });
       var optionsHtml = createSelectOptions(optionList);
       $('.select-route').html(optionsHtml);
+
+      var savedRoute = getSavedRoute();
+      if (savedRoute !== null) {
+        $('.select-route').val(savedRoute);
+      }
+
       $('.select-route, .direction').on('change', function(){
+        createCookie('saved-route', $('.select-route').val(), 365);
         processTrips();
       });
       $('.button-refresh').on('click', function() {
@@ -139,7 +154,7 @@
         var direction_id = getTripDetail(trip_id).direction_id;
         var direction = (direction_id === '0') ? 'Inbound' : 'Outbound';
 
-        html += ['<div class="trip-heading">', title, startTime, description, direction, '</div>'].join(' ');
+        html += ['<div class="trip-heading" id="' + trip_id + '">', title, startTime, description, direction, '</div>'].join(' ');
         html += '<table class="trip-update table table-sm table-striped">';
         html += '<thead>';
         html += '<tr>';
@@ -171,7 +186,14 @@
         html += '</table>';
       });
       $('.content').html(html);
+
+      var savedTrip = getSavedTrip();
+      if (savedTrip !== null) {
+        $('#' + savedTrip).next().toggle();
+      }
+ 
       $('.trip-heading').on('click', function(){
+        createCookie('saved-trip', this.id, 365);
         $(this).next().toggle();
       });
     }
