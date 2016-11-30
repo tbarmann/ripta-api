@@ -12,7 +12,8 @@ const filterByDirection = require('./filters').filterByDirection;
 const isValidRouteId = require('./filters').isValidRouteId;
 const stopsSortedByDistance = require('./sorted-stops').stopsSortedByDistance;
 const getStopsByRouteId = require('./stop-helpers.js').getStopsByRouteId;
-const port = process.env.PORT || 3000;
+const getDirectionId = require('./stop-helpers.js').getDirectionId;
+const port = process.env.PORT || 7999;
 const riptaApiBaseUrl = 'http://realtime.ripta.com:81/api/';
 //const riptaApiBaseUrl = 'http://localhost:3000/static/';
 const staticOptions = { index: 'index.htm' };
@@ -48,10 +49,11 @@ app.get('/api/stops?', (req, res) => {
   }
 });
 
-app.get('/api/route/:route_id/stops', (req, res) => {
+app.get('/api/stops/:route_id/:direction?', (req, res) => {
   const routeId = req.params.route_id;
   if (isValidRouteId(routeId)) {
-    const stops = getStopsByRouteId(routeId);
+    const directionId = getDirectionId(req.params.direction);
+    const stops = getStopsByRouteId(routeId, directionId);
     res.json(stops);
   }
   else {
