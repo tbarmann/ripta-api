@@ -3,8 +3,8 @@ route_id,route_short_name,route_long_name,route_desc,route_type,route_url
 3,3,"Warwick Avenue",,3,http://www.ripta.com/3
 4,4,"Providence Schools Service",,3,
 6,6,"Prairie Avenue",,3,http://www.ripta.com/6
-8,8X,"Jefferson Boulevard",,3,http://www.ripta.com/8
-9,9X,"Pascoag",,3,http://www.ripta.com/9
+8,8X,"Jefferson Boulevard Express",,3,http://www.ripta.com/8
+9,9X,"Pascoag Express",,3,http://www.ripta.com/9
 10,10X,"North Scituate Express",,3,http://www.ripta.com/10
 11,R,"Broad/North Main",,3,http://www.ripta.com/11-1
 12,12X,"Arctic/R.I. Route117 Express",,3,http://www.ripta.com/12
@@ -43,6 +43,7 @@ route_id,route_short_name,route_long_name,route_desc,route_type,route_url
 66,66,"URI-Kingston/Galilee",,3,http://www.ripta.com/66
 67,67,"Bellevue/Mansions/Salve Regina University",,3,http://www.ripta.com/67
 69,69,"URI-Kingston Campus Hillclimber",,3,
+70,70,"URI-Kingston College of Engineering",,3,
 71,71,"Pawtucket Avenue/Broad Street (Pawtucket)",,3,http://www.ripta.com/71
 72,72,"Weeden Street (Central Falls)",,3,http://www.ripta.com/72
 73,73,"Fairlawn/CCRI-Lincoln/Twin River Casino",,3,http://www.ripta.com/73
