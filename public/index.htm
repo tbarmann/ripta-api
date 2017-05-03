@@ -5,6 +5,7 @@
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.16.6/lodash.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.2/moment.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
   <link rel="stylesheet" type="text/css" href="./css/main.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
@@ -159,60 +160,69 @@
     }
 
     function displayTrips(trips) {
+      debugger;
       var html = '';
       $('.last-updated').html('Updated ' + tsToTime(trips.header.timestamp));
-      $.each(trips.entity, function(key, trip){
-        var thisTrip = trip.trip_update.trip;
-        var route_id = thisTrip.route_id;
-        var title = "Route " + route_id;
-        var trip_id = thisTrip.trip_id;
-        var startTime = "Start time: " + moment(thisTrip.start_time, 'HH-mm-ss').format('h:mma');
-        var description = getTripDetail(trip_id).trip_headsign;
-        var direction_id = getTripDetail(trip_id).direction_id;
-        var direction = (direction_id === '0') ? 'Inbound' : 'Outbound';
-
-        html += ['<div class="trip-heading" id="' + trip_id + '">', title, startTime, description, direction, '</div>'].join(' ');
-        html += '<table class="trip-update table table-sm table-striped">';
-        html += '<thead>';
-        html += '<tr>';
-        html += '<th>Time</th>';
-        html += '<th>Stop</th>';
-        html += '<th>Status</th>';
-        html += '</tr>';
-        html += '</thead>';
-        html += '<tbody>';
-
-        $.each(trip.trip_update.stop_time_update, function(key, update){
-          html += '<tr>';
-          if (update.arrival === null) {
-            var atime = 'Departs ' + tsToTime(update.departure.time);
-            var thisStop = getStopDetail(update.stop_id);
-            var delayStr = formatDelay(update.departure.delay);
-          }
-          else {
-            var atime = 'Arrives ' + tsToTime(update.arrival.time);
-            var thisStop = getStopDetail(update.stop_id);
-            var delayStr = formatDelay(update.arrival.delay);
-          }
-          html += '<td>' + atime + '</td>';
-          html += '<td>' + thisStop+ '</td>';
-          html += '<td>' + delayStr + '</td>';
-          html += '</tr>';
-        });
-        html += '</tbody>';
-        html += '</table>';
-      });
-      $('.content').html(html);
-
-      var savedTrip = getSavedTrip();
-      if (savedTrip !== null) {
-        $('#' + savedTrip).next().toggle();
+      if (trips.entity.length <1) {
+        html += 'RIPTA is not returning any data';
       }
+      else {
+        $.each(trips.entity, function(key, trip){
+          var thisTrip = trip.trip_update.trip;
+          var route_id = thisTrip.route_id;
+          var title = "Route " + route_id;
+          var trip_id = thisTrip.trip_id;
+          var startTime = "Start time: " + moment(thisTrip.start_time, 'HH-mm-ss').format('h:mma');
+          var description = getTripDetail(trip_id).trip_headsign;
+          var direction_id = getTripDetail(trip_id).direction_id;
+          var direction = (direction_id === '0') ? 'Inbound' : 'Outbound';
 
-      $('.trip-heading').on('click', function(){
-        createCookie('saved-trip', this.id, 365);
-        $(this).next().toggle();
-      });
+          html += ['<div class="trip-heading" id="' + trip_id + '">', title, startTime, description, direction, '</div>'].join(' ');
+          html += '<table class="trip-update table table-sm table-striped">';
+          html += '<thead>';
+          html += '<tr>';
+          html += '<th>Time</th>';
+          html += '<th>Stop</th>';
+          html += '<th>Status</th>';
+          html += '</tr>';
+          html += '</thead>';
+          html += '<tbody>';
+
+          $.each(trip.trip_update.stop_time_update, function(key, update){
+            html += '<tr>';
+            if (update.arrival === null) {
+              var atime = 'Departs ' + tsToTime(update.departure.time);
+              var thisStop = getStopDetail(update.stop_id);
+              var delayStr = formatDelay(update.departure.delay);
+            }
+            else {
+              var atime = 'Arrives ' + tsToTime(update.arrival.time);
+              var thisStop = getStopDetail(update.stop_id);
+              var delayStr = formatDelay(update.arrival.delay);
+            }
+            html += '<td>' + atime + '</td>';
+            html += '<td>' + thisStop+ '</td>';
+            html += '<td>' + delayStr + '</td>';
+            html += '</tr>';
+          });
+          html += '</tbody>';
+          html += '</table>';
+        });
+
+        var savedTrip = getSavedTrip();
+        if (savedTrip !== null) {
+          $('#' + savedTrip).next().toggle();
+        }
+
+        $('.trip-heading').on('click', function(){
+          createCookie('saved-trip', this.id, 365);
+          $(this).next().toggle();
+        });
+      } // end else
+
+      $('.content').html(html);
+    
+
     }
     // start
     loadStops();
