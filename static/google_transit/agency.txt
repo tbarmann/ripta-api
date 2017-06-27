@@ -1,2 +1,2 @@
-agency_phone,agency_url,agency_id,agency_name,agency_timezone,agency_lang
-401-781-9400,http://www.ripta.com,RIPTA,Rhode Island Public Transit Authority,America/New_York,en
+agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone
+"RIPTA","Rhode Island Public Transit Authority",http://www.ripta.com/,America/New_York,en,401-781-9400
