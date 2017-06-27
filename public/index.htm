@@ -160,7 +160,6 @@
     }
 
     function displayTrips(trips) {
-      debugger;
       var html = '';
       $('.last-updated').html('Updated ' + tsToTime(trips.header.timestamp));
       if (trips.entity.length <1) {
@@ -213,15 +212,14 @@
         if (savedTrip !== null) {
           $('#' + savedTrip).next().toggle();
         }
-
-        $('.trip-heading').on('click', function(){
-          createCookie('saved-trip', this.id, 365);
-          $(this).next().toggle();
-        });
       } // end else
 
       $('.content').html(html);
-    
+      $('.trip-heading').on('click', function(){
+        createCookie('saved-trip', this.id, 365);
+        $(this).next().toggle();
+      });
+
 
     }
     // start
