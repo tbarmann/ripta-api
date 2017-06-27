@@ -57,7 +57,7 @@ const filterByDirection = (data, type, direction) => {
   if (!_.includes(validDirectionTypes, direction)) {
     return data;
   }
-  const direction_id = (direction === 'outbound') ? '1' : '0';
+  const direction_id = (direction === 'outbound') ? 1 : 0;
   const filtered = _.filter(data.entity, (record) => {
     const trip_id = record[typeToKey(type)].trip.trip_id;
     return (direction_id === tripsIndexed[trip_id].direction_id);
