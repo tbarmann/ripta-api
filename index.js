@@ -7,6 +7,7 @@ const cors = require('cors');
 const moment = require('moment-timezone');
 const path = require('path');
 const _ = require('lodash');
+const db = require('./db.js');
 const filterByRoutes = require('./filters').filterByRoutes;
 const filterByDirection = require('./filters').filterByDirection;
 const isValidRouteId = require('./filters').isValidRouteId;
@@ -18,15 +19,19 @@ const riptaApiBaseUrl = 'http://realtime.ripta.com:81/api/';
 const staticOptions = { index: 'index.htm' };
 const validApiTypes = ['tripupdates', 'vehiclepositions', 'servicealerts'];
 
-const fetchBaseApi = (type, callback) => {
+const fetchBaseApi = (type) => {
   const riptaApiUrl = `${riptaApiBaseUrl}${type}?format=json`;
   const options = { url: riptaApiUrl };
-  request(options, (error, response, data) => {
-    if (!error) {
-      callback(JSON.parse(data));
-    }
+  return new Promise((resolve, reject) => {
+    request(options, (error, response, data) => {
+      if (error) {
+        reject(error);
+      } else {
+        resolve(JSON.parse(data));
+      }
+    });
   });
-}
+};
 
 const app = express();
 app.use(cors());
@@ -63,9 +68,13 @@ app.get('/api/:type', (req, res) => {
   const type = req.params.type.toLowerCase();
 
   if (_.includes(validApiTypes, type)) {
-    fetchBaseApi(type, (data) => {
-      res.json(data);
-    });
+    fetchBaseApi(type)
+      .then((data) => {
+        res.json(data);
+      })
+      .catch((res) => {
+        console.log(res);
+      });
   }
   else {
     res.send('Error: Not a valid api call');
@@ -75,13 +84,18 @@ app.get('/api/:type', (req, res) => {
 app.get('/api/:type/route/:route/:dir?', (req, res) => {
   const type = req.params.type.toLowerCase();
   if (_.includes(validApiTypes, type)) {
-    fetchBaseApi(type, (data) => {
-      data = filterByRoutes(data, type, req.params.route);
-      if (req.params.dir) {
-          data = filterByDirection(data, type, req.params.dir);
-      }
-      res.json(data);
-    });
+    fetchBaseApi(type)
+      .then ((data) => {
+        data = filterByRoutes(data, type, req.params.route);
+        if (req.params.dir) {
+            data = filterByDirection(data, type, req.params.dir);
+        }
+        db.getTripDelays(data.entity)
+          .then((delays) => {
+            const entity = db.mergeDelayData(data.entity, delays);
+            res.json(Object.assign(data, {entity}));
+          });
+      });
   }
   else {
     res.send('Error: Not a valid api call');
