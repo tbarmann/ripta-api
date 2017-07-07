@@ -15,9 +15,12 @@
     "express": "^4.14.0",
     "jsonfile": "^2.4.0",
     "lodash": "^4.16.4",
+    "moment": "^2.18.1",
     "moment-timezone": "^0.5.7",
     "nodemon": "^1.11.0",
     "path": "^0.12.7",
+    "pg": "6.4.0",
+    "pg-format": "1.0.4",
     "request": "^2.76.0"
   }
 }
