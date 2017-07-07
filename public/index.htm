@@ -192,12 +192,12 @@
             if (update.arrival === null) {
               var atime = 'Departs ' + tsToTime(update.departure.time);
               var thisStop = getStopDetail(update.stop_id);
-              var delayStr = formatDelay(update.departure.delay);
+              var delayStr = formatDelay(trip.delay);
             }
             else {
               var atime = 'Arrives ' + tsToTime(update.arrival.time);
               var thisStop = getStopDetail(update.stop_id);
-              var delayStr = formatDelay(update.arrival.delay);
+              var delayStr = formatDelay(trip.delay);
             }
             html += '<td>' + atime + '</td>';
             html += '<td>' + thisStop+ '</td>';
