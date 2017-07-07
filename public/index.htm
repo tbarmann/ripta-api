@@ -188,7 +188,8 @@
           html += '<tbody>';
 
           $.each(trip.trip_update.stop_time_update, function(key, update){
-            html += '<tr>';
+            var tooltip = 'trip_id: ' + trip_id + ', stop_id: ' + update.stop_id;
+            html += '<tr title="' + tooltip + '">';
             if (update.arrival === null) {
               var atime = 'Departs ' + tsToTime(update.departure.time);
               var thisStop = getStopDetail(update.stop_id);
