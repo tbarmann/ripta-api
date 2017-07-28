@@ -91,6 +91,45 @@ const toTimeStamp = (thisTime) => {
   return parseInt(moment(thisTime, 'HH:mm:ss').format('X'), 10);
 }
 
+const mergeScheduleData = (trips, schedules) => {
+  return trips.map((trip) => {
+    const trip_id = _.get(trip, ['trip_update', 'trip', 'trip_id']);
+    const firstStop = _.first(trip.trip_update.stop_time_update);
+    const thisTripDelay = _.get(firstStop, ['departure', 'delay'] , 0);
+    const stops = trip.trip_update.stop_time_update.map((stop) => {
+      const times = getArrivalDepartureTime(schedules, trip_id, stop.stop_id);
+      const arrival = stop.arrival ? {
+        delay: stop.arrival.delay,
+        time: toTimeStamp(times.arrival)
+      } : null;
+      const departure = stop.departure ? {
+        delay: stop.departure.delay,
+        time: toTimeStamp(times.departure)
+      } : null;
+      return {
+        stop_sequence: stop.stop_sequence,
+        arrival,
+        departure,
+        stop_id: stop.stop_id,
+        schedule_relationship: stop.schedule_relationship
+      }
+    });
+    return {
+      delay: thisTripDelay,
+      id: trip.id,
+      is_deleted: trip.is_deleted,
+      trip_update: {
+        trip: trip.trip_update.trip,
+        stop_time_update: stops,
+        vehicle: trip.trip_update.vehicle,
+        timestamp: trip.trip_update.timestamp
+      },
+      vehicle: trip.vehicle,
+      alert: trip.alert
+    }
+  });
+}
+
 app.get('/api/:type/route/:route/:dir?', (req, res) => {
   const type = req.params.type.toLowerCase();
   if (_.includes(validApiTypes, type)) {
