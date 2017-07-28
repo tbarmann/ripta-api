@@ -139,9 +139,9 @@ app.get('/api/:type/route/:route/:dir?', (req, res) => {
         if (req.params.dir) {
             data = filterByDirection(data, type, req.params.dir);
         }
-        db.getTripDelays(data.entity)
-          .then((delays) => {
-            const entity = db.mergeDelayData(data.entity, delays);
+        db.getTripSchedules(data.entity)
+          .then((schedules) => {
+            const entity = mergeScheduleData(data.entity, schedules);
             res.json(Object.assign(data, {entity}));
           });
       });
