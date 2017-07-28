@@ -81,6 +81,12 @@ app.get('/api/:type', (req, res) => {
   }
 });
 
+const getArrivalDepartureTime = (schedules, trip_id, stop_id) => {
+  const trip = _.find(schedules, {trip_id});
+  return _.find(trip.schedule, {stop_id: parseInt(stop_id, 10)});
+}
+
+
 const toTimeStamp = (thisTime) => {
   return parseInt(moment(thisTime, 'HH:mm:ss').format('X'), 10);
 }
