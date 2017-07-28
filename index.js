@@ -81,6 +81,10 @@ app.get('/api/:type', (req, res) => {
   }
 });
 
+const toTimeStamp = (thisTime) => {
+  return parseInt(moment(thisTime, 'HH:mm:ss').format('X'), 10);
+}
+
 app.get('/api/:type/route/:route/:dir?', (req, res) => {
   const type = req.params.type.toLowerCase();
   if (_.includes(validApiTypes, type)) {
