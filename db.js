@@ -69,6 +69,27 @@ const getTripDelays = (trips) => {
   return Promise.all(predictedArrivalTimeQueries);
 };
 
+
+const getTripSchedules = (trips) => {
+  const scheduleQueries = trips.map(trip => {
+    const tripId = _.get(trip, ['trip_update', 'trip', 'trip_id']);
+    return getTripSchedule(tripId);
+  });
+  return Promise.all(scheduleQueries);
+}
+
+const getTripSchedule = (tripId) => {
+
+  const sql = `SELECT stop_id, arrival_time as arrival, departure_time as departure FROM stop_times WHERE trip_id = ${tripId} ORDER BY stop_sequence`;
+  return query(sql).then((result) => {
+    if (result.length > 0) {
+      return({trip_id: tripId, schedule: result});
+    }
+    return null;
+  });
+
+}
+
 const mergeDelayData = (trips, delays) => {
   return trips.map(trip => {
     const trip_id = _.get(trip, ['trip_update', 'trip', 'trip_id']);
@@ -78,4 +99,4 @@ const mergeDelayData = (trips, delays) => {
   });
 };
 
-module.exports = {query, getTripDelays, mergeDelayData}
+module.exports = {query, getTripDelays, mergeDelayData, getTripSchedules}
