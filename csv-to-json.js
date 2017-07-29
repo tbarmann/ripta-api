@@ -1,7 +1,8 @@
-"use strict";
+'use strict';
 const csvParse = require('csv-parse');
 
 const fs = require('fs');
+const path = require('path');
 
 const parse = (csvFile) => {
 
@@ -15,13 +16,15 @@ const parse = (csvFile) => {
     trim: true
   };
 
-  const parser = csvParse(options, function(err, data){
+  const parser = csvParse(options, function (err, data) {
+    if (err) {
+      return console.log(err);
+    }    
     fs.writeFile(writePath + fileBase + '.json', JSON.stringify(data, null, 2), function (err) {
       if (err) {
         return console.log(err);
       }
-      console.log('finished writing: ' + writePath+fileBase);
-
+      console.log('finished writing: ' + writePath + fileBase);
     });
   });
   fs.createReadStream(readPath + csvFile).pipe(parser);
@@ -30,4 +33,3 @@ const parse = (csvFile) => {
 const files = ['routes.txt', 'stops.txt', 'trips.txt'];
 
 files.map((file)=>{ parse(file);});
-
