@@ -8,6 +8,7 @@ route_id,route_short_name,route_long_name,route_desc,route_type,route_url
 17,17,"Dyer/Pocasset/Westminster",,3,http://www.ripta.com/17
 18,18,"Union Avenue",,3,http://www.ripta.com/18
 19,19,"Plainfield/Westminster",,3,http://www.ripta.com/19
+2,2,"stand-by",,3,
 20,20,"Elmwood/Airport",,3,http://www.ripta.com/20
 21,21,"Reservoir/Garden City/CCRI-Warwick",,3,http://www.ripta.com/21
 22,22,"Pontiac Avenue",,3,http://www.ripta.com/22
@@ -23,7 +24,6 @@ route_id,route_short_name,route_long_name,route_desc,route_type,route_url
 35,35,"Rumford/Newport Avenue",,3,http://www.ripta.com/35
 40,40,"Butler/Elmgrove",,3,http://www.ripta.com/40
 49,49,"Camp Street",,3,http://www.ripta.com/49
-5,5,"PawSox Shuttle",,3,
 50,50,"Douglas Avenue",,3,http://www.ripta.com/50
 51,51,"Charles Street",,3,http://www.ripta.com/51
 54,54,"Lincoln/Woonsocket",,3,http://www.ripta.com/54
@@ -35,11 +35,14 @@ route_id,route_short_name,route_long_name,route_desc,route_type,route_url
 6,6,"Prairie Avenue",,3,http://www.ripta.com/6
 60,60,"Providence/Newport",,3,http://www.ripta.com/60
 61,61X,"Tiverton/East Bay Express",,3,http://www.ripta.com/61-1
+62,62,"URI-Kington/NEC/PITC",,3,
 63,63,"Broadway (Newport-Middletown)",,3,http://www.ripta.com/63
 64,64,"Newport/URI-Kingston",,3,http://www.ripta.com/64
 65,65X,"Wakefield Express",,3,http://www.ripta.com/65
 66,66,"URI-Kingston/Galilee",,3,http://www.ripta.com/66
 67,67,"Bellevue/Mansions/Salve Regina University",,3,http://www.ripta.com/67
+69,69,"URI-Kingston Campus Hillclimber",,3,
+70,70,"URI-Kingston College of Engineering",,3,
 71,71,"Pawtucket Avenue/Broad Street (Pawtucket)",,3,http://www.ripta.com/71
 72,72,"Weeden Street (Central Falls)",,3,http://www.ripta.com/72
 73,73,"Fairlawn/CCRI-Lincoln/Twin River Casino",,3,http://www.ripta.com/73
@@ -50,6 +53,5 @@ route_id,route_short_name,route_long_name,route_desc,route_type,route_url
 80,80,"Armistice Boulevard",,3,http://www.ripta.com/80
 87,87,"Fairmount/Walnut Hill",,3,http://www.ripta.com/87
 9,9X,"Pascoag Express",,3,http://www.ripta.com/9
-91,91,"Ferry Shuttle",,3,
 92,92,"East Side/Federal Hill/RI College",,3,http://www.ripta.com/92
 95,95X,"Westerly Express",,3,http://www.ripta.com/95

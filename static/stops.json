@@ -455,51 +455,12 @@
     "stop_associated_place": ""
   },
   {
-    "stop_id": 370,
-    "stop_code": "",
-    "stop_name": "MAIN OPP CLEVELAND",
-    "stop_desc": "",
-    "stop_lat": 41.440945,
-    "stop_lon": -71.493886,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
-    "stop_id": 375,
-    "stop_code": "",
-    "stop_name": "MAIN NS CHAPPELL",
-    "stop_desc": "",
-    "stop_lat": 41.441236,
-    "stop_lon": -71.490843,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
     "stop_id": 380,
     "stop_code": "",
     "stop_name": "BOSTON NECK FS WOOD",
     "stop_desc": "",
     "stop_lat": 41.440427,
     "stop_lon": -71.451033,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
-    "stop_id": 390,
-    "stop_code": "",
-    "stop_name": "MAIN FS COLUMBIA",
-    "stop_desc": "",
-    "stop_lat": 41.440837,
-    "stop_lon": -71.49579,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -899,10 +860,10 @@
   {
     "stop_id": 615,
     "stop_code": "",
-    "stop_name": "KINGSTOWN NS SAUGATUCKET",
+    "stop_name": "KINGSTOWN FS SAUGATUCKET",
     "stop_desc": "",
-    "stop_lat": 41.462169,
-    "stop_lon": -71.509323,
+    "stop_lat": 41.462456,
+    "stop_lon": -71.509463,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -1170,19 +1131,6 @@
     "stop_associated_place": ""
   },
   {
-    "stop_id": 805,
-    "stop_code": "",
-    "stop_name": "KINGSTOWN NS ROLENS",
-    "stop_desc": "",
-    "stop_lat": 41.469874,
-    "stop_lon": -71.513576,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
     "stop_id": 815,
     "stop_code": "",
     "stop_name": "KINGSTOWN OPP ROLENS",
@@ -1300,19 +1248,6 @@
     "stop_associated_place": ""
   },
   {
-    "stop_id": 905,
-    "stop_code": "",
-    "stop_name": "KINGSTOWN NS WESTWIND",
-    "stop_desc": "",
-    "stop_lat": 41.47106,
-    "stop_lon": -71.51468,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
     "stop_id": 910,
     "stop_code": "",
     "stop_name": "OCHRE POINT NS WEBSTER",
@@ -1391,12 +1326,38 @@
     "stop_associated_place": ""
   },
   {
+    "stop_id": 955,
+    "stop_code": "",
+    "stop_name": "OCHRE POINT NS NARRAGANSETT",
+    "stop_desc": "",
+    "stop_lat": 41.475545,
+    "stop_lon": -71.300055,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
     "stop_id": 965,
     "stop_code": "",
     "stop_name": "NARRAGANSETT OPP NEWPORT HALL",
     "stop_desc": "",
     "stop_lat": 41.475517,
     "stop_lon": -71.302747,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 970,
+    "stop_code": "",
+    "stop_name": "NARRAGANSETT AT CHEPSTOW HOUSE",
+    "stop_desc": "",
+    "stop_lat": 41.475495,
+    "stop_lon": -71.304955,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -1430,12 +1391,12 @@
     "stop_associated_place": ""
   },
   {
-    "stop_id": 1010,
+    "stop_id": 985,
     "stop_code": "",
-    "stop_name": "BELLEVUE FS DIXON",
+    "stop_name": "NARRAGANSETT AT NARRAGANSETT HALL",
     "stop_desc": "",
-    "stop_lat": 41.477154,
-    "stop_lon": -71.308055,
+    "stop_lat": 41.475598,
+    "stop_lon": -71.302763,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -1443,12 +1404,12 @@
     "stop_associated_place": ""
   },
   {
-    "stop_id": 1030,
+    "stop_id": 1010,
     "stop_code": "",
-    "stop_name": "KINGSTOWN AT 2327 KINGSTOWN",
+    "stop_name": "BELLEVUE FS DIXON",
     "stop_desc": "",
-    "stop_lat": 41.476133,
-    "stop_lon": -71.518739,
+    "stop_lat": 41.477154,
+    "stop_lon": -71.308055,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -1501,19 +1462,6 @@
     "stop_desc": "",
     "stop_lat": 41.479533,
     "stop_lon": -71.436402,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
-    "stop_id": 1070,
-    "stop_code": "",
-    "stop_name": "KINGSTOWN AT 2318 KINGSTOWN",
-    "stop_desc": "",
-    "stop_lat": 41.475945,
-    "stop_lon": -71.518724,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -1813,19 +1761,6 @@
     "stop_desc": "",
     "stop_lat": 41.485433,
     "stop_lon": -71.437117,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
-    "stop_id": 1275,
-    "stop_code": "",
-    "stop_name": "BELLEVUE NS OLD BEACH",
-    "stop_desc": "",
-    "stop_lat": 41.485734,
-    "stop_lon": -71.308748,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -4147,19 +4082,6 @@
     "stop_associated_place": "oxbo"
   },
   {
-    "stop_id": 2575,
-    "stop_code": "",
-    "stop_name": "E MAIN AT AQUIDNECK CHRISTIAN ACADEMY",
-    "stop_desc": "",
-    "stop_lat": 41.546436,
-    "stop_lon": -71.259947,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
     "stop_id": 2585,
     "stop_code": "",
     "stop_name": "RT 4 FS W ALLENTON",
@@ -5278,19 +5200,6 @@
     "stop_associated_place": ""
   },
   {
-    "stop_id": 3185,
-    "stop_code": "",
-    "stop_name": "E MAIN FS TURNPIKE",
-    "stop_desc": "",
-    "stop_lat": 41.601116,
-    "stop_lon": -71.249393,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
     "stop_id": 3190,
     "stop_code": "",
     "stop_name": "E MAIN FS FREEBORN",
@@ -5379,7 +5288,7 @@
     "stop_url": "",
     "location_type": 0,
     "parent_station": "",
-    "stop_associated_place": ""
+    "stop_associated_place": "rt24"
   },
   {
     "stop_id": 3250,
@@ -5739,19 +5648,6 @@
     "stop_desc": "",
     "stop_lat": 41.621496,
     "stop_lon": -71.244826,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
-    "stop_id": 3450,
-    "stop_code": "",
-    "stop_name": "E MAIN OPP 66 E MAIN",
-    "stop_desc": "",
-    "stop_lat": 41.621969,
-    "stop_lon": -71.244379,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -9516,19 +9412,6 @@
     "stop_associated_place": ""
   },
   {
-    "stop_id": 5495,
-    "stop_code": "",
-    "stop_name": "W SHORE AT BANK OF RI",
-    "stop_desc": "",
-    "stop_lat": 41.702633,
-    "stop_lon": -71.428779,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
     "stop_id": 5500,
     "stop_code": "",
     "stop_name": "OAKLAND BEACH OPP VICTORY",
@@ -9585,8 +9468,8 @@
     "stop_code": "",
     "stop_name": "W SHORE after MODENA",
     "stop_desc": "",
-    "stop_lat": 41.702868,
-    "stop_lon": -71.427365,
+    "stop_lat": 41.702696,
+    "stop_lon": -71.428311,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -9960,10 +9843,10 @@
   {
     "stop_id": 5825,
     "stop_code": "",
-    "stop_name": "SANDY before TREMONT",
+    "stop_name": "SANDY AFTER WESTSHORE",
     "stop_desc": "",
-    "stop_lat": 41.707077,
-    "stop_lon": -71.414412,
+    "stop_lat": 41.706269,
+    "stop_lon": -71.416565,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -10649,10 +10532,10 @@
   {
     "stop_id": 6280,
     "stop_code": "",
-    "stop_name": "PROVIDENCE OPP 322 PROVIDENCE",
+    "stop_name": "PROVIDENCE OPP WESTCOTT TERRACE",
     "stop_desc": "",
-    "stop_lat": 41.712057,
-    "stop_lon": -71.504433,
+    "stop_lat": 41.712302,
+    "stop_lon": -71.505028,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -10671,19 +10554,6 @@
     "location_type": 0,
     "parent_station": "",
     "stop_associated_place": ""
-  },
-  {
-    "stop_id": 6295,
-    "stop_code": "",
-    "stop_name": "COMMONWEALTH - TRUDEAU CENTER",
-    "stop_desc": "",
-    "stop_lat": 41.712263,
-    "stop_lon": -71.484852,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": "trce"
   },
   {
     "stop_id": 6300,
@@ -10755,8 +10625,8 @@
     "stop_code": "",
     "stop_name": "CCRI (WARWICK CAMPUS)",
     "stop_desc": "",
-    "stop_lat": 41.713419,
-    "stop_lon": -71.481354,
+    "stop_lat": 41.712236,
+    "stop_lon": -71.479804,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -12424,7 +12294,7 @@
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
-    "parent_station": "tfgr",
+    "parent_station": "",
     "stop_associated_place": "tfgr"
   },
   {
@@ -15756,17 +15626,30 @@
     "stop_associated_place": ""
   },
   {
-    "stop_id": 9410,
+    "stop_id": 9400,
     "stop_code": "",
-    "stop_name": "MIDWAY FS CYPRESS",
+    "stop_name": "MIDWAY AT GARDEN CITY CTR",
     "stop_desc": "",
-    "stop_lat": 41.760721,
-    "stop_lon": -71.456737,
+    "stop_lat": 41.762554,
+    "stop_lon": -71.457072,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
     "parent_station": "",
     "stop_associated_place": "grph"
+  },
+  {
+    "stop_id": 9410,
+    "stop_code": "",
+    "stop_name": "MIDWAY FS CYPRESS",
+    "stop_desc": "",
+    "stop_lat": 41.760938,
+    "stop_lon": -71.456749,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
   },
   {
     "stop_id": 9415,
@@ -16276,19 +16159,6 @@
     "stop_associated_place": ""
   },
   {
-    "stop_id": 9910,
-    "stop_code": "",
-    "stop_name": "RESERVOIR FS COULTERS",
-    "stop_desc": "",
-    "stop_lat": 41.768368,
-    "stop_lon": -71.456161,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
     "stop_id": 9955,
     "stop_code": "",
     "stop_name": "RESERVOIR NS RANGELY",
@@ -16776,19 +16646,6 @@
     "stop_desc": "",
     "stop_lat": 41.775349,
     "stop_lon": -71.468533,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
-    "stop_id": 10470,
-    "stop_code": "",
-    "stop_name": "RESERVOIR NS VIKING",
-    "stop_desc": "",
-    "stop_lat": 41.775656,
-    "stop_lon": -71.44903,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -17619,8 +17476,8 @@
     "stop_code": "",
     "stop_name": "RESERVOIR NS WILLIS",
     "stop_desc": "",
-    "stop_lat": 41.784862,
-    "stop_lon": -71.436273,
+    "stop_lat": 41.785342,
+    "stop_lon": -71.435594,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -19431,7 +19288,7 @@
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
-    "parent_station": "brpa",
+    "parent_station": "",
     "stop_associated_place": "brpa"
   },
   {
@@ -19457,7 +19314,7 @@
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
-    "parent_station": "brpa",
+    "parent_station": "",
     "stop_associated_place": "brpa"
   },
   {
@@ -20635,8 +20492,8 @@
     "stop_code": "",
     "stop_name": "CCRI (PROVIDENCE CAMPUS)",
     "stop_desc": "",
-    "stop_lat": 41.807713,
-    "stop_lon": -71.412881,
+    "stop_lat": 41.807956,
+    "stop_lon": -71.41491,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -20754,19 +20611,6 @@
     "stop_desc": "",
     "stop_lat": 41.808464,
     "stop_lon": -71.434516,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
-    "stop_id": 13650,
-    "stop_code": "",
-    "stop_name": "STANIFORD NS WILLARD",
-    "stop_desc": "",
-    "stop_lat": 41.808646,
-    "stop_lon": -71.411755,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -20971,23 +20815,10 @@
   {
     "stop_id": 13840,
     "stop_code": "",
-    "stop_name": "CRANSTON NS FORD",
+    "stop_name": "CRANSTON NS SUPERIOR",
     "stop_desc": "",
-    "stop_lat": 41.810082,
-    "stop_lon": -71.433066,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
-    "stop_id": 13850,
-    "stop_code": "",
-    "stop_name": "GAY NS DUDLEY",
-    "stop_desc": "",
-    "stop_lat": 41.809862,
-    "stop_lon": -71.412821,
+    "stop_lat": 41.810401,
+    "stop_lon": -71.432758,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -22487,7 +22318,7 @@
     "stop_url": "",
     "location_type": 0,
     "parent_station": "",
-    "stop_associated_place": ""
+    "stop_associated_place": "unec"
   },
   {
     "stop_id": 15045,
@@ -24098,7 +23929,7 @@
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
-    "parent_station": "kepl",
+    "parent_station": "",
     "stop_associated_place": "kepl"
   },
   {
@@ -24137,7 +23968,7 @@
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
-    "parent_station": "kepl",
+    "parent_station": "",
     "stop_associated_place": "kepl"
   },
   {
@@ -24176,7 +24007,7 @@
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
-    "parent_station": "kepl",
+    "parent_station": "",
     "stop_associated_place": "kepl"
   },
   {
@@ -24202,7 +24033,7 @@
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
-    "parent_station": "kepl",
+    "parent_station": "",
     "stop_associated_place": "kepl"
   },
   {
@@ -24228,7 +24059,7 @@
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
-    "parent_station": "kepl",
+    "parent_station": "",
     "stop_associated_place": "kepl"
   },
   {
@@ -24243,19 +24074,6 @@
     "location_type": 0,
     "parent_station": "",
     "stop_associated_place": ""
-  },
-  {
-    "stop_id": 16555,
-    "stop_code": "",
-    "stop_name": "KENNEDY PLAZA (STOP E)",
-    "stop_desc": "",
-    "stop_lat": 41.825233,
-    "stop_lon": -71.410869,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "kepl",
-    "stop_associated_place": "kepl"
   },
   {
     "stop_id": 16565,
@@ -24280,7 +24098,7 @@
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
-    "parent_station": "kepl",
+    "parent_station": "",
     "stop_associated_place": "kepl"
   },
   {
@@ -24293,7 +24111,7 @@
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
-    "parent_station": "kepl",
+    "parent_station": "",
     "stop_associated_place": "kepl"
   },
   {
@@ -24332,7 +24150,7 @@
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
-    "parent_station": "kepl",
+    "parent_station": "",
     "stop_associated_place": "kepl"
   },
   {
@@ -24678,8 +24496,8 @@
     "stop_code": "",
     "stop_name": "FRANCIS FS FINANCE",
     "stop_desc": "",
-    "stop_lat": 41.827695,
-    "stop_lon": -71.415248,
+    "stop_lat": 41.827697,
+    "stop_lon": -71.415246,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -25165,7 +24983,7 @@
     "stop_url": "",
     "location_type": 0,
     "parent_station": "",
-    "stop_associated_place": ""
+    "stop_associated_place": "pstg"
   },
   {
     "stop_id": 17266,
@@ -25191,7 +25009,7 @@
     "stop_url": "",
     "location_type": 0,
     "parent_station": "",
-    "stop_associated_place": ""
+    "stop_associated_place": "pstg"
   },
   {
     "stop_id": 17275,
@@ -28823,10 +28641,10 @@
   {
     "stop_id": 19790,
     "stop_code": "",
-    "stop_name": "SILVER SPRING OPP ASHTON",
+    "stop_name": "SILVER SPRING BEFORE BRANCH",
     "stop_desc": "",
-    "stop_lat": 41.848712,
-    "stop_lon": -71.414138,
+    "stop_lat": 41.847721,
+    "stop_lon": -71.414797,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -29386,19 +29204,6 @@
     "stop_desc": "",
     "stop_lat": 41.854661,
     "stop_lon": -71.488457,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
-    "stop_id": 20180,
-    "stop_code": "",
-    "stop_name": "DOUGLAS OPP 900 DOUGLAS",
-    "stop_desc": "",
-    "stop_lat": 41.852566,
-    "stop_lon": -71.436778,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -30569,19 +30374,6 @@
     "stop_desc": "",
     "stop_lat": 41.859582,
     "stop_lon": -71.4741,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
-    "stop_id": 20975,
-    "stop_code": "",
-    "stop_name": "DOUGLAS FS CUSHING",
-    "stop_desc": "",
-    "stop_lat": 41.859729,
-    "stop_lon": -71.447797,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -33620,7 +33412,7 @@
   {
     "stop_id": 23270,
     "stop_code": "",
-    "stop_name": "BROAD FS BARTON",
+    "stop_name": "BROAD AT KENNEDY MANOR",
     "stop_desc": "",
     "stop_lat": 41.882688,
     "stop_lon": -71.386555,
@@ -34543,10 +34335,10 @@
   {
     "stop_id": 23995,
     "stop_code": "",
-    "stop_name": "RT 246 NS 1575 OLD LOUISQUISSET (state police)",
+    "stop_name": "RTE 246 AT LINCOLN WOODS TUNNEL",
     "stop_desc": "",
-    "stop_lat": 41.887862,
-    "stop_lon": -71.440832,
+    "stop_lat": 41.88622,
+    "stop_lon": -71.439646,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -36309,19 +36101,6 @@
     "stop_associated_place": ""
   },
   {
-    "stop_id": 29110,
-    "stop_code": "",
-    "stop_name": "CRANSTON CITY HALL",
-    "stop_desc": "",
-    "stop_lat": 41.779332,
-    "stop_lon": -71.436797,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": "ccha"
-  },
-  {
     "stop_id": 29120,
     "stop_code": "",
     "stop_name": "GREAT ISLAND AT FERRY TERMINAL",
@@ -36333,19 +36112,6 @@
     "location_type": 0,
     "parent_station": "",
     "stop_associated_place": "gabe"
-  },
-  {
-    "stop_id": 29125,
-    "stop_code": "",
-    "stop_name": "NORTH PROVIDENCE",
-    "stop_desc": "",
-    "stop_lat": 41.857895,
-    "stop_lon": -71.48497,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": "nopr"
   },
   {
     "stop_id": 29140,
@@ -36476,45 +36242,6 @@
     "location_type": 0,
     "parent_station": "",
     "stop_associated_place": "weho"
-  },
-  {
-    "stop_id": 29510,
-    "stop_code": "",
-    "stop_name": "KAY FS BELLEVUE",
-    "stop_desc": "",
-    "stop_lat": 41.489464,
-    "stop_lon": -71.308481,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
-    "stop_id": 29515,
-    "stop_code": "",
-    "stop_name": "KAY NS BRINLEY",
-    "stop_desc": "",
-    "stop_lat": 41.490324,
-    "stop_lon": -71.307902,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
-    "stop_id": 29520,
-    "stop_code": "",
-    "stop_name": "KAY NS PELL",
-    "stop_desc": "",
-    "stop_lat": 41.490793,
-    "stop_lon": -71.307617,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": "kama"
   },
   {
     "stop_id": 29570,
@@ -36710,6 +36437,19 @@
     "location_type": 0,
     "parent_station": "",
     "stop_associated_place": ""
+  },
+  {
+    "stop_id": 30126,
+    "stop_code": "",
+    "stop_name": "CAHIR AFTER WESTMINSTER",
+    "stop_desc": "",
+    "stop_lat": 41.817947,
+    "stop_lon": -71.419563,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": "cawe"
   },
   {
     "stop_id": 30175,
@@ -37024,19 +36764,6 @@
     "stop_associated_place": ""
   },
   {
-    "stop_id": 30335,
-    "stop_code": "",
-    "stop_name": "RT 2 OPP BALD HILL GARDEN CENTER",
-    "stop_desc": "",
-    "stop_lat": 41.573863,
-    "stop_lon": -71.516586,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
     "stop_id": 30350,
     "stop_code": "",
     "stop_name": "MEMORIAL HOSPITAL",
@@ -37173,19 +36900,6 @@
     "stop_desc": "",
     "stop_lat": 41.988884,
     "stop_lon": -71.521727,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
-    "stop_id": 30490,
-    "stop_code": "",
-    "stop_name": "PROVIDENCE NS BROAD",
-    "stop_desc": "",
-    "stop_lat": 41.992712,
-    "stop_lon": -71.520976,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -37713,19 +37427,6 @@
     "stop_associated_place": ""
   },
   {
-    "stop_id": 50310,
-    "stop_code": "",
-    "stop_name": "DIAMOND HILL OPP CROWN COURT",
-    "stop_desc": "",
-    "stop_lat": 42.015797,
-    "stop_lon": -71.484791,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
     "stop_id": 50315,
     "stop_code": "",
     "stop_name": "LINDEN FS DIAMOND HILL",
@@ -38103,19 +37804,6 @@
     "stop_associated_place": ""
   },
   {
-    "stop_id": 50640,
-    "stop_code": "",
-    "stop_name": "RT 2 AT 2081 S COUNTY",
-    "stop_desc": "",
-    "stop_lat": 41.503871,
-    "stop_lon": -71.561119,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
     "stop_id": 50645,
     "stop_code": "",
     "stop_name": "RT 2 NS WAITES CORNER",
@@ -38417,10 +38105,10 @@
   {
     "stop_id": 50815,
     "stop_code": "",
-    "stop_name": "MIDWAY NS CYPRESS",
+    "stop_name": "MIDWAY AT GARDEN CITY CTR",
     "stop_desc": "",
-    "stop_lat": 41.760631,
-    "stop_lon": -71.456653,
+    "stop_lat": 41.762559,
+    "stop_lon": -71.456916,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -39175,6 +38863,19 @@
     "stop_desc": "",
     "stop_lat": 41.841578,
     "stop_lon": -71.456403,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 55660,
+    "stop_code": "",
+    "stop_name": "COLLEGE OPP COLE",
+    "stop_desc": "",
+    "stop_lat": 41.841379,
+    "stop_lon": -71.456924,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -40625,19 +40326,6 @@
     "stop_associated_place": ""
   },
   {
-    "stop_id": 56915,
-    "stop_code": "",
-    "stop_name": "RT 2 FS RAYMOND POTTER",
-    "stop_desc": "",
-    "stop_lat": 41.517724,
-    "stop_lon": -71.555077,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
     "stop_id": 56920,
     "stop_code": "",
     "stop_name": "RT 2 OPP WOLF ROCK",
@@ -40705,10 +40393,10 @@
   {
     "stop_id": 56970,
     "stop_code": "",
-    "stop_name": "MAIN NS WOODRUFF",
+    "stop_name": "MAIN fS WOODRUFF",
     "stop_desc": "",
-    "stop_lat": 41.440713,
-    "stop_lon": -71.495915,
+    "stop_lat": 41.440811,
+    "stop_lon": -71.495206,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -41691,6 +41379,45 @@
     "stop_associated_place": ""
   },
   {
+    "stop_id": 57905,
+    "stop_code": "",
+    "stop_name": "TOURO OPP DIVISION",
+    "stop_desc": "",
+    "stop_lat": 41.489445,
+    "stop_lon": -71.312216,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 57915,
+    "stop_code": "",
+    "stop_name": "THAMES FS WASHINGTON",
+    "stop_desc": "",
+    "stop_lat": 41.489473,
+    "stop_lon": -71.315268,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 57920,
+    "stop_code": "",
+    "stop_name": "THAMES OPP MARY",
+    "stop_desc": "",
+    "stop_lat": 41.48838,
+    "stop_lon": -71.315153,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
     "stop_id": 58040,
     "stop_code": "",
     "stop_name": "UNDERWOOD FS WALCOTT",
@@ -41862,10 +41589,10 @@
   {
     "stop_id": 58175,
     "stop_code": "",
-    "stop_name": "EDDY AFTER EUDORA",
+    "stop_name": "EDDY AFTER RHODES",
     "stop_desc": "",
-    "stop_lat": 41.80784,
-    "stop_lon": -71.407176,
+    "stop_lat": 41.80847,
+    "stop_lon": -71.407207,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -42241,8 +41968,8 @@
     "stop_code": "",
     "stop_name": "MIDWAY AT 150 MIDWAY",
     "stop_desc": "",
-    "stop_lat": 41.759675,
-    "stop_lon": -71.456792,
+    "stop_lat": 41.757544,
+    "stop_lon": -71.457655,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -43394,6 +43121,136 @@
     "stop_associated_place": ""
   },
   {
+    "stop_id": 59400,
+    "stop_code": "",
+    "stop_name": "PLAINS ROAD LOT",
+    "stop_desc": "",
+    "stop_lat": 41.490877,
+    "stop_lon": -71.539261,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": "flpl"
+  },
+  {
+    "stop_id": 59401,
+    "stop_code": "",
+    "stop_name": "W ALUMNI FS PLAINS",
+    "stop_desc": "",
+    "stop_lat": 41.489134,
+    "stop_lon": -71.537089,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 59405,
+    "stop_code": "",
+    "stop_name": "FLAGG AT 210 FLAGG",
+    "stop_desc": "",
+    "stop_lat": 41.491385,
+    "stop_lon": -71.534422,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 59410,
+    "stop_code": "",
+    "stop_name": "FLAGG AT GARRAHY HALL",
+    "stop_desc": "",
+    "stop_lat": 41.490837,
+    "stop_lon": -71.530479,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 59415,
+    "stop_code": "",
+    "stop_name": "FLAGG AT 120 FLAGG",
+    "stop_desc": "",
+    "stop_lat": 41.490615,
+    "stop_lon": -71.528192,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 59420,
+    "stop_code": "",
+    "stop_name": "FLAGG AT COASTAL INSTITUTE",
+    "stop_desc": "",
+    "stop_lat": 41.490434,
+    "stop_lon": -71.526244,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 59530,
+    "stop_code": "",
+    "stop_name": "E ALUMNI FS UPPER COLLEGE",
+    "stop_desc": "",
+    "stop_lat": 41.488481,
+    "stop_lon": -71.52513,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": "ucea"
+  },
+  {
+    "stop_id": 59535,
+    "stop_code": "",
+    "stop_name": "E ALUMNI NS GREENHOUSE",
+    "stop_desc": "",
+    "stop_lat": 41.488528,
+    "stop_lon": -71.526591,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 59540,
+    "stop_code": "",
+    "stop_name": "W ALUMNI AT RODMAN HALL",
+    "stop_desc": "",
+    "stop_lat": 41.488241,
+    "stop_lon": -71.529297,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 59545,
+    "stop_code": "",
+    "stop_name": "W ALUMNI NS HEATHMAN",
+    "stop_desc": "",
+    "stop_lat": 41.488525,
+    "stop_lon": -71.531555,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
     "stop_id": 59565,
     "stop_code": "",
     "stop_name": "E MAIN AT 3111 E MAIN",
@@ -43589,19 +43446,6 @@
     "stop_associated_place": ""
   },
   {
-    "stop_id": 59670,
-    "stop_code": "",
-    "stop_name": "E MAIN AT 1641 E MAIN",
-    "stop_desc": "",
-    "stop_lat": 41.577073,
-    "stop_lon": -71.251736,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
     "stop_id": 59675,
     "stop_code": "",
     "stop_name": "E MAIN NS TURNPIKE",
@@ -43656,10 +43500,10 @@
   {
     "stop_id": 59715,
     "stop_code": "",
-    "stop_name": "KINGSTOWN NS ALLISONS",
+    "stop_name": "KINGSTOWN FS ALLISONS",
     "stop_desc": "",
-    "stop_lat": 41.466329,
-    "stop_lon": -71.511559,
+    "stop_lat": 41.465888,
+    "stop_lon": -71.511322,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -43686,19 +43530,6 @@
     "stop_desc": "",
     "stop_lat": 41.46589,
     "stop_lon": -71.511238,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
-    "stop_id": 59735,
-    "stop_code": "",
-    "stop_name": "KINGSTOWN FS W WIND",
-    "stop_desc": "",
-    "stop_lat": 41.471042,
-    "stop_lon": -71.514533,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -45224,7 +45055,7 @@
     "stop_url": "",
     "location_type": 0,
     "parent_station": "",
-    "stop_associated_place": ""
+    "stop_associated_place": "rt24"
   },
   {
     "stop_id": 70700,
@@ -45233,6 +45064,19 @@
     "stop_desc": "",
     "stop_lat": 41.852531,
     "stop_lon": -71.436868,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 70730,
+    "stop_code": "",
+    "stop_name": "HIGH AT  50 HIGH",
+    "stop_desc": "",
+    "stop_lat": 41.438097,
+    "stop_lon": -71.502153,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -45253,6 +45097,19 @@
     "stop_associated_place": "copr"
   },
   {
+    "stop_id": 70801,
+    "stop_code": "",
+    "stop_name": "W EXCHANGE (LAYOVER)",
+    "stop_desc": "",
+    "stop_lat": 41.825579,
+    "stop_lon": -71.422065,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": "wela"
+  },
+  {
     "stop_id": 70805,
     "stop_code": "",
     "stop_name": "STOP&SHOP (GARFIELD STREET - CRANSTON)",
@@ -45262,7 +45119,7 @@
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
-    "parent_station": "brpa",
+    "parent_station": "",
     "stop_associated_place": "stbp"
   },
   {
@@ -45497,7 +45354,7 @@
     "stop_url": "",
     "location_type": 0,
     "parent_station": "",
-    "stop_associated_place": ""
+    "stop_associated_place": "olsq"
   },
   {
     "stop_id": 71005,
@@ -45990,7 +45847,7 @@
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
-    "parent_station": "kepl",
+    "parent_station": "",
     "stop_associated_place": "kepl"
   },
   {
@@ -46003,7 +45860,7 @@
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
-    "parent_station": "kepl",
+    "parent_station": "",
     "stop_associated_place": "kepl"
   },
   {
@@ -46016,7 +45873,7 @@
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
-    "parent_station": "kepl",
+    "parent_station": "",
     "stop_associated_place": "kepl"
   },
   {
@@ -46217,15 +46074,15 @@
   {
     "stop_id": 72340,
     "stop_code": "",
-    "stop_name": "EDDY AFTER POINT",
+    "stop_name": "EDDY AFTER SOUTH",
     "stop_desc": "",
-    "stop_lat": 41.817537,
-    "stop_lon": -71.40687,
+    "stop_lat": 41.817774,
+    "stop_lon": -71.407031,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
     "parent_station": "",
-    "stop_associated_place": "edpo"
+    "stop_associated_place": "unec"
   },
   {
     "stop_id": 72345,
@@ -46908,8 +46765,21 @@
     "stop_code": "",
     "stop_name": "TOLLGATE BEFORE CENTERVILLE",
     "stop_desc": "",
-    "stop_lat": 41.698695,
-    "stop_lon": -71.465138,
+    "stop_lat": 41.698666,
+    "stop_lon": -71.465088,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 72690,
+    "stop_code": "",
+    "stop_name": "GARDERN CITY DR BEFORE WAYSIDE",
+    "stop_desc": "",
+    "stop_lat": 41.765229,
+    "stop_lon": -71.458162,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -46930,29 +46800,224 @@
     "stop_associated_place": "bele"
   },
   {
-    "stop_id": 88888,
+    "stop_id": 72705,
     "stop_code": "",
-    "stop_name": "MCCOY STADIUM",
+    "stop_name": "DOUGLAS BEFORE SHAW'S ENTRANCE",
     "stop_desc": "",
-    "stop_lat": 41.872583,
-    "stop_lon": -71.369382,
+    "stop_lat": 41.859472,
+    "stop_lon": -71.44741,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
     "parent_station": "",
-    "stop_associated_place": "mcst"
+    "stop_associated_place": ""
   },
   {
-    "stop_id": 99999,
+    "stop_id": 72710,
     "stop_code": "",
-    "stop_name": "Ferry Dock India St",
+    "stop_name": "RT 2 @ TARBOX TOYOTA",
     "stop_desc": "",
-    "stop_lat": 41.816607,
-    "stop_lon": -71.398361,
+    "stop_lat": 41.600982,
+    "stop_lon": -71.496092,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
     "parent_station": "",
-    "stop_associated_place": "fedo"
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 72715,
+    "stop_code": "",
+    "stop_name": "RT 2 AT OAK HARBOUR SHOPPING CTR",
+    "stop_desc": "",
+    "stop_lat": 41.526853,
+    "stop_lon": -71.551244,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 72720,
+    "stop_code": "",
+    "stop_name": "KINGSTON OPP SAMUEL RODMAN",
+    "stop_desc": "",
+    "stop_lat": 41.459666,
+    "stop_lon": -71.508841,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 72725,
+    "stop_code": "",
+    "stop_name": "KINGSTON OPP MEADOWBROOK",
+    "stop_desc": "",
+    "stop_lat": 41.456701,
+    "stop_lon": -71.508445,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 72735,
+    "stop_code": "",
+    "stop_name": "HIGH FS AUSTIN",
+    "stop_desc": "",
+    "stop_lat": 41.4473,
+    "stop_lon": -71.502626,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 72740,
+    "stop_code": "",
+    "stop_name": "GREENWICH NS METRO BLVD",
+    "stop_desc": "",
+    "stop_lat": 41.721269,
+    "stop_lon": -71.465754,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 72745,
+    "stop_code": "",
+    "stop_name": "POINT BEFORE PARSONAGE",
+    "stop_desc": "",
+    "stop_lat": 41.815891,
+    "stop_lon": -71.40881,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 72750,
+    "stop_code": "",
+    "stop_name": "SHIP OPP BASSETT",
+    "stop_desc": "",
+    "stop_lat": 41.81896,
+    "stop_lon": -71.41065,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 72755,
+    "stop_code": "",
+    "stop_name": "CLIFFORD BEFORE CLAVERICK",
+    "stop_desc": "",
+    "stop_lat": 41.817975,
+    "stop_lon": -71.412311,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 72760,
+    "stop_code": "",
+    "stop_name": "TOLLGATE AFTER CENTERVILLIE",
+    "stop_desc": "",
+    "stop_lat": 41.698746,
+    "stop_lon": -71.465032,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 72765,
+    "stop_code": "",
+    "stop_name": "E MAIN OPP CLEARVIEW",
+    "stop_desc": "",
+    "stop_lat": 41.563136,
+    "stop_lon": -71.253449,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 72770,
+    "stop_code": "",
+    "stop_name": "E MAIN OPP BEAUPRE",
+    "stop_desc": "",
+    "stop_lat": 41.565238,
+    "stop_lon": -71.252496,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 72775,
+    "stop_code": "",
+    "stop_name": "STRAWBERRY FIELD AFTER ALMY",
+    "stop_desc": "",
+    "stop_lat": 41.708568,
+    "stop_lon": -71.421605,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 72780,
+    "stop_code": "",
+    "stop_name": "FAIRGROUNDS AT SCNEIDER ELECTRIC",
+    "stop_desc": "",
+    "stop_lat": 41.48267,
+    "stop_lon": -71.566686,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": "schn"
+  },
+  {
+    "stop_id": 72785,
+    "stop_code": "",
+    "stop_name": "PRAIRIE OPP WILLARD",
+    "stop_desc": "",
+    "stop_lat": 41.80771,
+    "stop_lon": -71.415669,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 72795,
+    "stop_code": "",
+    "stop_name": "PRAIRIE AFTER WILLARD",
+    "stop_desc": "",
+    "stop_lat": 41.807557,
+    "stop_lon": -71.415712,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
   }
 ]

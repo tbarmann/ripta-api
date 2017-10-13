@@ -1,0 +1,883 @@
+route_id,direction_label,stop_code,stop_name,stop_sequence
+1,North,tfgr,t.f. green airport,1
+1,North,shwa,warwick ave. at shaw's (on-street),2
+1,North,shal,shaw's (warwick ave. - warwick),3
+1,North,bdcl,broad city line,4
+1,North,rihe,r.i. hospital (eddy st. entrance),5
+1,North,kepl,kennedy plaza - providence,6
+1,North,tuth,tunnel & thayer,7
+1,North,hool,hope & olney,8
+1,North,horo,hope & rochambeau,9
+1,North,slmi,slater mill (main & roosevelt),10
+1,North,maro,pawtucket transit ctr (main & roosevelt),11
+1,North,bebr,benefit & broadway,12
+1,North,soas,south attleboro train station,13
+1,South,soas,south attleboro train station,1
+1,South,bebr,benefit & broadway,2
+1,South,maro,pawtucket transit ctr (main & roosevelt),3
+1,South,horo,hope & rochambeau,4
+1,South,hool,hope & olney,5
+1,South,tuth,tunnel & thayer,6
+1,South,kepl,kennedy plaza - providence,7
+1,South,rihe,r.i. hospital (eddy st. entrance),8
+1,South,bdcl,broad city line,9
+1,South,shal,shaw's (warwick ave. - warwick),10
+1,South,shwa,warwick ave. at shaw's (on-street),11
+1,South,tfgr,t.f. green airport,12
+3,Inbound,oasu,oakland beach & suburban pkwy,1
+3,Inbound,wasa,meadowbrook (warwick & sandy lane),2
+3,Inbound,waba,warwick neck & barton,3
+3,Inbound,coni,conimicut (west shore & beach),4
+3,Inbound,hofo,warwick & west shore,5
+3,Inbound,pabr,pawtuxet bridge,6
+3,Inbound,waps,warwick & post,7
+3,Inbound,nobr,norwood & broad,8
+3,Inbound,riho,rhode island hospital,9
+3,Inbound,kepl,kennedy plaza - providence,10
+3,Outbound,kepl,kennedy plaza - providence,1
+3,Outbound,riho,rhode island hospital,2
+3,Outbound,nobr,norwood & broad,3
+3,Outbound,pabr,pawtuxet bridge,4
+3,Outbound,waps,warwick & post,5
+3,Outbound,hofo,warwick & west shore,6
+3,Outbound,coni,conimicut (west shore & beach),7
+3,Outbound,waba,warwick neck & barton,8
+3,Outbound,wasa,meadowbrook (warwick & sandy lane),9
+3,Outbound,oasu,oakland beach & suburban pkwy,10
+6,Inbound,rwzo,roger williams park zoo,1
+6,Inbound,coho,colony house via prairie,2
+6,Inbound,prth,prairie & thurbers,3
+6,Inbound,ccrp,c.c.r.i. providence campus,4
+6,Inbound,popr,point & prairie,5
+6,Inbound,kepl,kennedy plaza - providence,6
+6,Outbound,kepl,kennedy plaza - providence,1
+6,Outbound,popr,point & prairie,2
+6,Outbound,ccrp,c.c.r.i. providence campus,3
+6,Outbound,prth,prairie & thurbers,4
+6,Outbound,coho,colony house via prairie,5
+6,Outbound,rwzo,roger williams park zoo,6
+8,Inbound,bute,buttonwoods terrace plaza (parking lot),1
+8,Inbound,buws,buttonwoods & west shore,2
+8,Inbound,wico,west shore & strawberry field,3
+8,Inbound,kegi,greenwood church (kenyon & gillmore),4
+8,Inbound,jema,jefferson & main,5
+8,Inbound,je95,jefferson & i-95,6
+8,Inbound,conv,rhode island convention center,7
+8,Inbound,weem,westminster & empire,8
+8,Inbound,weed,weybosset & eddy,9
+8,Inbound,tuhe,turk's head building,10
+8,Inbound,exte,exchange terrace (stop X),11
+8,Outbound,conv,rhode island convention center,1
+8,Outbound,weem,westminster & empire,2
+8,Outbound,weed,weybosset & eddy,3
+8,Outbound,tuhe,turk's head building,4
+8,Outbound,exte,exchange terrace (stop X),5
+8,Outbound,je95,jefferson & i-95,6
+8,Outbound,jema,jefferson & main,7
+8,Outbound,kegi,greenwood church (kenyon & gillmore),8
+8,Outbound,wico,west shore & strawberry field,9
+8,Outbound,buws,buttonwoods & west shore,10
+8,Outbound,bute,buttonwoods terrace plaza (parking lot),11
+9,Inbound,pasc,sayles avenue bus shelter,1
+9,Inbound,harr,chapel & main,2
+9,Inbound,mapl,mapleville (central & old victory),3
+9,Inbound,chep,rte. 44 & douglas hook,4
+9,Inbound,grrt,greenville (rtes. 44 & 116),5
+9,Inbound,stss,stop&shop (putnam pike - smithfield),6
+9,Inbound,copr,park&ride (commerce st. - smithfield),7
+9,Inbound,conv,rhode island convention center,8
+9,Inbound,weem,westminster & empire,9
+9,Inbound,weed,weybosset & eddy,10
+9,Inbound,tuhe,turk's head building,11
+9,Inbound,exte,exchange terrace (stop X),12
+9,Outbound,conv,rhode island convention center,1
+9,Outbound,weem,westminster & empire,2
+9,Outbound,weed,weybosset & eddy,3
+9,Outbound,tuhe,turk's head building,4
+9,Outbound,exte,exchange terrace (stop X),5
+9,Outbound,stss,stop&shop (putnam pike - smithfield),6
+9,Outbound,copr,park&ride (commerce st. - smithfield),7
+9,Outbound,grrt,greenville (rtes. 44 & 116),8
+9,Outbound,chep,rte. 44 & douglas hook,9
+9,Outbound,mapl,mapleville (central & old victory),10
+9,Outbound,harr,chapel & main,11
+9,Outbound,pasc,sayles avenue bus shelter,12
+10,Inbound,chop,chopmist hill fire station,1
+10,Inbound,rtro,danielson pike & rockland,2
+10,Inbound,hare,hartford & reservoir,3
+10,Inbound,haat,hartford & atwood,4
+10,Inbound,weem,westminster & empire,5
+10,Inbound,weed,weybosset & eddy,6
+10,Inbound,tuhe,turk's head building,7
+10,Inbound,exte,exchange terrace (stop X),8
+10,Outbound,weem,westminster & empire,1
+10,Outbound,weed,weybosset & eddy,2
+10,Outbound,tuhe,turk's head building,3
+10,Outbound,exte,exchange terrace (stop X),4
+10,Outbound,conv,rhode island convention center,5
+10,Outbound,haat,hartford & atwood,6
+10,Outbound,hare,hartford & reservoir,7
+10,Outbound,rtro,danielson pike & rockland,8
+10,Outbound,chop,chopmist hill fire station,9
+11,North,bdcl,broad city line,1
+11,North,bdth,broad & thurbers,2
+11,North,bdli,broad & elmwood,3
+11,North,kepl,kennedy plaza - providence,4
+11,North,psta,providence station,6
+11,North,chga,north main & doyle (charlesgate),7
+11,North,nmni,ninth street (north main & 9th),8
+11,North,copk,collyer park (main & conant),9
+11,North,maro,pawtucket transit ctr (main & roosevelt),10
+11,South,maro,pawtucket transit ctr (main & roosevelt),1
+11,South,copk,collyer park (main & conant),2
+11,South,nmni,ninth street (north main & 9th),3
+11,South,chga,north main & doyle (charlesgate),4
+11,South,psta,providence station,5
+11,South,kepl,kennedy plaza - providence,6
+11,South,bdli,broad & elmwood,7
+11,South,bdth,broad & thurbers,8
+11,South,bdcl,broad city line,9
+12,Inbound,arce,arctic center (main & washington),1
+12,Inbound,p117,park&ride (rte. 117 - warwick),2
+12,Inbound,exte,exchange terrace (stop X),3
+12,Inbound,conv,rhode island convention center,4
+12,Inbound,weem,westminster & empire,5
+12,Inbound,weed,weybosset & eddy,6
+12,Inbound,tuhe,turk's head building,7
+12,Outbound,exte,exchange terrace (stop X),1
+12,Outbound,conv,rhode island convention center,2
+12,Outbound,weem,westminster & empire,3
+12,Outbound,weed,weybosset & eddy,4
+12,Outbound,tuhe,turk's head building,5
+12,Outbound,p117,park&ride (rte. 117 - warwick),6
+12,Outbound,arce,arctic center (main & washington),7
+13,Inbound,woma,woodland manor,1
+13,Inbound,walm,job lot (tiogue ave. - coventry),2
+13,Inbound,wash,south main & tiogue,3
+13,Inbound,wasb,washington & sandy bottom,4
+13,Inbound,arce,arctic center (main & washington),5
+13,Inbound,prto,providence & tollgate,6
+13,Inbound,prwa,providence & wakefield,7
+13,Inbound,wmvd,warwick mall (villa del rio apartments),8
+13,Outbound,wmvd,warwick mall (villa del rio apartments),1
+13,Outbound,prwa,providence & wakefield,2
+13,Outbound,prto,providence & tollgate,3
+13,Outbound,arce,arctic center (main & washington),4
+13,Outbound,wasb,washington & sandy bottom,5
+13,Outbound,wash,south main & tiogue,6
+13,Outbound,walm,job lot (tiogue ave. - coventry),7
+13,Outbound,woma,woodland manor,8
+14,Inbound,gace,newport visitor center,1
+14,Inbound,narr,narragansett (salt pond plaza),2
+14,Inbound,nabe,narragansett & beach,3
+14,Inbound,bosh,rte. 1a & bonnet shores,4
+14,Inbound,rt1a,park&ride (rtes. 1a & 138),5
+14,Inbound,wick,wickford (brown & phillips),6
+14,Inbound,kogr,gate road (kohl's),7
+14,Inbound,pofr,post & frenchtown,8
+14,Inbound,fima,first & main,9
+14,Inbound,appo,apponaug (centerville & post),10
+14,Inbound,grbi,greenwood bridge,11
+14,Inbound,tfgr,t.f. green airport,12
+14,Inbound,kepl,kennedy plaza - providence,13
+14,Outbound,kepl,kennedy plaza - providence,1
+14,Outbound,tfgr,t.f. green airport,2
+14,Outbound,grbi,greenwood bridge,3
+14,Outbound,appo,apponaug (centerville & post),4
+14,Outbound,fima,first & main,5
+14,Outbound,pofr,post & frenchtown,6
+14,Outbound,kogr,gate road (kohl's),7
+14,Outbound,wick,wickford (brown & phillips),8
+14,Outbound,rt1a,park&ride (rtes. 1a & 138),9
+14,Outbound,bosh,rte. 1a & bonnet shores,10
+14,Outbound,nabe,narragansett & beach,11
+14,Outbound,narr,narragansett (salt pond plaza),12
+14,Outbound,gace,newport visitor center,13
+17,Inbound,stph,stop&shop (atwood ave. - johnston),1
+17,Inbound,dych,dyer & chestnut hill,2
+17,Inbound,odfe,plainfield & pocasset,3
+17,Inbound,olsq,olneyville square,4
+17,Inbound,crws,cranston & westminster,5
+17,Inbound,kepl,kennedy plaza - providence,6
+17,Outbound,kepl,kennedy plaza - providence,1
+17,Outbound,hosq,cranston & westminster,2
+17,Outbound,olsq,olneyville square,3
+17,Outbound,odfe,plainfield & pocasset,4
+17,Outbound,dych,dyer & chestnut hill,5
+17,Outbound,stph,stop&shop (atwood ave. - johnston),6
+18,Inbound,dych,dyer & chestnut hill,1
+18,Inbound,lhel,laurel hill & elwyn,2
+18,Inbound,weun,webster & union,3
+18,Inbound,crch,cranston & chapin,4
+18,Inbound,crws,cranston & westminster,5
+18,Inbound,kepl,kennedy plaza - providence,6
+18,Outbound,kepl,kennedy plaza - providence,1
+18,Outbound,crws,cranston & westminster,2
+18,Outbound,crch,cranston & chapin,3
+18,Outbound,weun,webster & union,4
+18,Outbound,lhel,laurel hill & elwyn,5
+18,Outbound,dych,dyer & chestnut hill,6
+19,Inbound,afcs,cranston ind. pk. (amflex & comstock),1
+19,Inbound,walc,walmart (cranston),2
+19,Inbound,atpl,atwood & plainfield,3
+19,Inbound,plmu,plainfield & murray,4
+19,Inbound,odfe,plainfield & pocasset,5
+19,Inbound,olsq,olneyville square,6
+19,Inbound,crws,cranston & westminster,7
+19,Inbound,kepl,kennedy plaza - providence,8
+19,Outbound,kepl,kennedy plaza - providence,1
+19,Outbound,crws,cranston & westminster,2
+19,Outbound,olsq,olneyville square,3
+19,Outbound,plmu,plainfield & murray,4
+19,Outbound,atpl,atwood & plainfield,5
+19,Outbound,walc,walmart (cranston),6
+19,Outbound,afcs,cranston ind. pk. (amflex & comstock),7
+20,Inbound,tfgr,t.f. green airport,1
+20,Inbound,poli,post & lincoln,2
+20,Inbound,elpo,elmwood & post,3
+20,Inbound,prfd,pricerite (elmwood ave. - cranston),4
+20,Inbound,prre,elmwood ave. at job lot (on-street),5
+20,Inbound,elga,elmwood garage,6
+20,Inbound,elon,elmwood & adelaide,7
+20,Inbound,elbr,elmwood & broad,8
+20,Inbound,weed,weybosset & eddy,9
+20,Inbound,kepl,kennedy plaza - providence,10
+20,Outbound,kepl,kennedy plaza - providence,1
+20,Outbound,elbr,elmwood & broad,2
+20,Outbound,elon,elmwood & adelaide,3
+20,Outbound,elga,elmwood garage,4
+20,Outbound,prfd,pricerite (elmwood ave. - cranston),5
+20,Outbound,prre,elmwood ave. at job lot (on-street),6
+20,Outbound,elpo,elmwood & post,7
+20,Outbound,poli,post & lincoln,8
+20,Outbound,tfgr,t.f. green airport,9
+21,Inbound,ccrw,c.c.r.i. warwick campus,1
+21,Inbound,rima,rhode island mall,2
+21,Inbound,wmvd,warwick mall (villa del rio apartments),3
+21,Inbound,ince,traffic tribunal,4
+21,Inbound,grph,garden city,5
+21,Inbound,pare,park & reservoir,6
+21,Inbound,kepl,kennedy plaza - providence,7
+21,Outbound,kepl,kennedy plaza - providence,1
+21,Outbound,pare,park & reservoir,2
+21,Outbound,grph,garden city,3
+21,Outbound,ince,traffic tribunal,4
+21,Outbound,wmvd,warwick mall (villa del rio apartments),5
+21,Outbound,rima,rhode island mall,6
+21,Outbound,ccrw,c.c.r.i. warwick campus,7
+22,Inbound,wmvd,warwick mall (villa del rio apartments),1
+22,Inbound,popo,pontiac & power,2
+22,Inbound,pogc,pontiac & garden city drive,3
+22,Inbound,paro,park & rolfe,4
+22,Inbound,pore,pontiac & reservoir,5
+22,Inbound,read,columbus square (reservoir & adelaide),6
+22,Inbound,elbr,elmwood & broad,7
+22,Inbound,weed,weybosset & eddy,8
+22,Inbound,kepl,kennedy plaza - providence,9
+22,Outbound,kepl,kennedy plaza - providence,1
+22,Outbound,elbr,elmwood & broad,2
+22,Outbound,read,columbus square (reservoir & adelaide),3
+22,Outbound,pore,pontiac & reservoir,4
+22,Outbound,paro,park & rolfe,5
+22,Outbound,pogc,pontiac & garden city drive,6
+22,Outbound,popo,pontiac & power,7
+22,Outbound,wmvd,warwick mall (villa del rio apartments),8
+27,Inbound,cent,centerdale,1
+27,Inbound,gwgr,george waterman & greenville,2
+27,Inbound,mach,manton & chalkstone,3
+27,Inbound,stom,stop&shop (manton ave. - providence),4
+27,Inbound,maat,manton & atwells,5
+27,Inbound,olsq,olneyville square,6
+27,Inbound,lasq,lasalle square,7
+27,Inbound,kepl,kennedy plaza - providence,8
+27,Outbound,kepl,kennedy plaza - providence,1
+27,Outbound,lasq,lasalle square,2
+27,Outbound,olsq,olneyville square,3
+27,Outbound,maat,manton & atwells,4
+27,Outbound,stom,stop&shop (manton ave. - providence),5
+27,Outbound,mach,manton & chalkstone,6
+27,Outbound,gwgr,george waterman & greenville,7
+27,Outbound,cent,centerdale,8
+28,Inbound,stop,stop&shop (commerce way - johnston),1
+28,Inbound,haki,hartford & killingly,2
+28,Inbound,olsq,olneyville square,3
+28,Inbound,lasq,lasalle square,4
+28,Inbound,kepl,kennedy plaza - providence,5
+28,Outbound,kepl,kennedy plaza - providence,1
+28,Outbound,lasq,lasalle square,2
+28,Outbound,olsq,olneyville square,3
+28,Outbound,haki,hartford & killingly,4
+28,Outbound,stop,stop&shop (commerce way - johnston),5
+29,East,coco,cowesset corners (rtes. 2 & 3),1
+29,East,kect,kent county court house,2
+29,East,arce,arctic center (main & washington),3
+29,East,phen,phenix hotel,4
+29,East,prto,providence & tollgate,5
+29,East,wmvd,warwick mall (villa del rio apartments),6
+29,East,ccrw,c.c.r.i. warwick campus,7
+29,East,keco,kent hospital,8
+29,East,appo,apponaug (centerville & post),9
+29,East,wasa,meadowbrook (warwick & sandy lane),10
+29,East,wsch,west shore & beach,11
+29,West,wsch,west shore & beach,1
+29,West,wasa,meadowbrook (warwick & sandy lane),2
+29,West,appo,apponaug (centerville & post),3
+29,West,keco,kent hospital,4
+29,West,ccrw,c.c.r.i. warwick campus,5
+29,West,wmvd,warwick mall (villa del rio apartments),6
+29,West,prto,providence & tollgate,7
+29,West,phen,phenix hotel,8
+29,West,arce,arctic center (main & washington),9
+29,West,coco,cowesset corners (rtes. 2 & 3),10
+30,Inbound,wmvd,warwick mall (villa del rio apartments),1
+30,Inbound,megr,oaklawn & new london,2
+30,Inbound,oade,oaklawn & dean,3
+30,Inbound,crga,cranston & gansett,4
+30,Inbound,crwe,cranston & webster,5
+30,Inbound,kepl,kennedy plaza - providence,6
+30,Outbound,kepl,kennedy plaza - providence,1
+30,Outbound,crwe,cranston & webster,2
+30,Outbound,crga,cranston & gansett,3
+30,Outbound,oade,oaklawn & dean,4
+30,Outbound,megr,oaklawn & new london,5
+30,Outbound,wmvd,warwick mall (villa del rio apartments),6
+31,Inbound,brpa,brewery parkade,1
+31,Inbound,crch,cranston & chapin,2
+31,Inbound,crws,cranston & westminster,3
+31,Inbound,kepl,kennedy plaza - providence,4
+31,Outbound,kepl,kennedy plaza - providence,1
+31,Outbound,hosq,cranston & westminster,2
+31,Outbound,crch,cranston & chapin,3
+31,Outbound,brpa,brewery parkade,4
+32,Inbound,sksq,seekonk square mall,1
+32,Inbound,lsep,lifespan east providence,2
+32,Inbound,ciba,citizens bank (e. providence),3
+32,Inbound,sbma,south broadway & martin,4
+32,Inbound,waso,warren & south broadway,5
+32,Inbound,wapo,warren & potter,6
+32,Inbound,aneg,angell & elmgrove,7
+32,Inbound,tuth,tunnel & thayer,8
+32,Inbound,kepl,kennedy plaza - providence,9
+32,Outbound,kepl,kennedy plaza - providence,1
+32,Outbound,tuth,tunnel & thayer,2
+32,Outbound,wabu,waterman & butler,3
+32,Outbound,wapo,warren & potter,4
+32,Outbound,waso,warren & south broadway,5
+32,Outbound,sbma,south broadway & martin,6
+32,Outbound,ciba,citizens bank (e. providence),7
+32,Outbound,sksq,seekonk square mall,8
+33,Inbound,wicv,shaw's (willett ave. - riverside),1
+33,Inbound,bpcv,bullocks point & crescent view,2
+33,Inbound,vepa,veterans parkway & pawtucket,3
+33,Inbound,wapw,warren & pawtucket,4
+33,Inbound,wamp,wampanoag mall,5
+33,Inbound,brsi,taunton & waterman,6
+33,Inbound,aneg,angell & elmgrove,7
+33,Inbound,tuth,tunnel & thayer,8
+33,Inbound,exte,exchange terrace (stop X),9
+33,Inbound,kepl,kennedy plaza - providence,10
+33,Outbound,kepl,kennedy plaza - providence,1
+33,Outbound,tuth,tunnel & thayer,2
+33,Outbound,wabu,waterman & butler,3
+33,Outbound,brsi,taunton & waterman,4
+33,Outbound,wamp,wampanoag mall,5
+33,Outbound,wapw,warren & pawtucket,6
+33,Outbound,vepa,veterans parkway & pawtucket,7
+33,Outbound,bpcv,bullocks point & crescent view,8
+33,Outbound,wicv,shaw's (willett ave. - riverside),9
+34,Inbound,sksq,seekonk square mall,1
+34,Inbound,evgr,evergreen apartments,2
+34,Inbound,tpnr,park&ride (taunton ave. - e. providence),3
+34,Inbound,wamp,wampanoag mall,4
+34,Inbound,wapw,warren & pawtucket,5
+34,Inbound,wapo,warren & potter,6
+34,Inbound,aneg,angell & elmgrove,7
+34,Inbound,tuth,tunnel & thayer,8
+34,Inbound,kepl,kennedy plaza - providence,9
+34,Outbound,kepl,kennedy plaza - providence,1
+34,Outbound,tuth,tunnel & thayer,2
+34,Outbound,wabu,waterman & butler,3
+34,Outbound,wapo,warren & potter,4
+34,Outbound,wapw,warren & pawtucket,6
+34,Outbound,wamp,wampanoag mall,7
+34,Outbound,tpnr,park&ride (taunton ave. - e. providence),8
+34,Outbound,evgr,evergreen apartments,9
+34,Outbound,sksq,seekonk square mall,10
+35,Inbound,soas,south attleboro train station,1
+35,Inbound,arne,armistice & newport,2
+35,Inbound,nebh,newport & beverage hill,3
+35,Inbound,nefe,newport & ferris,4
+35,Inbound,nbrw,north broadway & roger williams,5
+35,Inbound,brsi,taunton & waterman,6
+35,Inbound,tapo,taunton & potter,7
+35,Inbound,kepl,kennedy plaza - providence,8
+35,Outbound,kepl,kennedy plaza - providence,1
+35,Outbound,tapo,taunton & potter,2
+35,Outbound,brsi,taunton & waterman,3
+35,Outbound,nbrw,north broadway & roger williams,4
+35,Outbound,nefe,newport & ferris,5
+35,Outbound,nebh,newport & beverage hill,6
+35,Outbound,arne,armistice & newport,7
+35,Outbound,soas,south attleboro train station,8
+40,Inbound,buho,butler hospital,1
+40,Inbound,elsa,elmgrove & savoy,2
+40,Inbound,elan,elmgrove & angell,3
+40,Inbound,tuth,tunnel & thayer,4
+40,Inbound,kepl,kennedy plaza - providence,5
+40,Outbound,kepl,kennedy plaza - providence,1
+40,Outbound,tuth,tunnel & thayer,2
+40,Outbound,wasq,wayland square,3
+40,Outbound,egsa,elmgrove & savoy,4
+40,Outbound,buho,butler hospital,5
+49,Inbound,miho,miriam hospital,1
+49,Inbound,cawo,camp & rochambeau,2
+49,Inbound,capl,camp & pleasant,3
+49,Inbound,hool,hope & olney,4
+49,Inbound,tuth,tunnel & thayer,5
+49,Inbound,kepl,kennedy plaza - providence,6
+49,Outbound,kepl,kennedy plaza - providence,1
+49,Outbound,tuth,tunnel & thayer,2
+49,Outbound,hool,hope & olney,3
+49,Outbound,capl,camp & pleasant,4
+49,Outbound,cawo,camp & rochambeau,5
+49,Outbound,miho,miriam hospital,6
+50,Inbound,brco,bryant university,1
+50,Inbound,fide,fidelity (900 salem),2
+50,Inbound,d295,douglas pike & rte. 295,3
+50,Inbound,trdp,twin river & douglas pike,4
+50,Inbound,msdo,mineral spring & douglas,5
+50,Inbound,adlu,shaw's (admiral & lubec),6
+50,Inbound,dovz,douglas & veazie,7
+50,Inbound,doea,douglas & eaton,8
+50,Inbound,smga,smith & gaspee,9
+50,Inbound,kepl,kennedy plaza - providence,10
+50,Outbound,kepl,kennedy plaza - providence,1
+50,Outbound,smga,smith & gaspee,2
+50,Outbound,doea,douglas & eaton,3
+50,Outbound,dovz,douglas & veazie,4
+50,Outbound,adlu,shaw's (admiral & lubec),5
+50,Outbound,msdo,mineral spring & douglas,6
+50,Outbound,trdp,twin river & douglas pike,7
+50,Outbound,d295,douglas pike & rte. 295,8
+50,Outbound,fide,fidelity (900 salem),9
+50,Outbound,brco,bryant university,10
+51,Inbound,ccri,c.c.r.i. lincoln campus,1
+51,Inbound,lipa,twin river casino,2
+51,Inbound,msch,mineral spring & charles,3
+51,Inbound,brch,branch & charles,4
+51,Inbound,adch,admiral & charles,5
+51,Inbound,psta,providence station,6
+51,Inbound,kepl,kennedy plaza - providence,7
+51,Outbound,kepl,kennedy plaza - providence,1
+51,Outbound,psta,providence station,2
+51,Outbound,adch,admiral & charles,3
+51,Outbound,brch,branch & charles,4
+51,Outbound,msch,mineral spring & charles,5
+51,Outbound,lipa,twin river casino,6
+51,Outbound,ccri,c.c.r.i. lincoln campus,7
+54,Inbound,cspl,john cummings at comm. care alliance,1
+54,Inbound,pasq,park square (park & rte. 146a),2
+54,Inbound,wmns,walmart (north smithfield),3
+54,Inbound,lima,lincoln mall,4
+54,Inbound,ccri,c.c.r.i. lincoln campus,5
+54,Inbound,lipa,twin river casino,6
+54,Inbound,kepl,kennedy plaza - providence,7
+54,Outbound,kepl,kennedy plaza - providence,1
+54,Outbound,lipa,twin river casino,2
+54,Outbound,ccri,c.c.r.i. lincoln campus,3
+54,Outbound,lima,lincoln mall,4
+54,Outbound,wmns,walmart (north smithfield),5
+54,Outbound,pasq,park square (park & rte. 146a),6
+54,Outbound,cspl,john cummings at comm. care alliance,7
+55,Inbound,hsfi,high service & fatima drive,1
+55,Inbound,adlu,shaw's (admiral & lubec),2
+55,Inbound,huea,providence college,3
+55,Inbound,adcb,admiral & chad brown,4
+55,Inbound,psta,providence station,5
+55,Inbound,kepl,kennedy plaza - providence,6
+55,Outbound,kepl,kennedy plaza - providence,1
+55,Outbound,psta,providence station,2
+55,Outbound,adcb,admiral & chad brown,3
+55,Outbound,huea,providence college,4
+55,Outbound,adlu,shaw's (admiral & lubec),5
+55,Outbound,hsfi,high service & fatima drive,6
+56,Inbound,stom,stop&shop (manton ave. - providence),1
+56,Inbound,chmt,chalkstone & mt. pleasant,2
+56,Inbound,chri,chalkstone & river,3
+56,Inbound,vaho,v.a. hospital,4
+56,Inbound,chsm,chalkstone & smith,5
+56,Inbound,smfr,smith & francis,6
+56,Inbound,kepl,kennedy plaza - providence,7
+56,Outbound,kepl,kennedy plaza - providence,1
+56,Outbound,smfr,smith & francis,2
+56,Outbound,chsm,chalkstone & smith,3
+56,Outbound,vaho,v.a. hospital,4
+56,Outbound,chri,chalkstone & river,5
+56,Outbound,chmt,chalkstone & mt. pleasant,6
+56,Outbound,stom,stop&shop (manton ave. - providence),7
+57,Inbound,cent,centerdale,1
+57,Inbound,smtu,smith & fruit hill,2
+57,Inbound,mesm,smith & academy,3
+57,Inbound,chsm,chalkstone & smith,4
+57,Inbound,smfr,smith & francis,5
+57,Inbound,kepl,kennedy plaza - providence,6
+57,Outbound,kepl,kennedy plaza - providence,1
+57,Outbound,smfr,smith & francis,2
+57,Outbound,chsm,chalkstone & smith,3
+57,Outbound,mesm,smith & academy,4
+57,Outbound,smtu,smith & fruit hill,5
+57,Outbound,cent,centerdale,6
+58,Inbound,sfcr,smithfield crossing,1
+58,Inbound,es44,esmond & rte.44,2
+58,Inbound,esmo,waterman & esmond,3
+58,Inbound,rogr,waterman & graystone,4
+58,Inbound,bpms,by-pass & mineral spring,5
+58,Inbound,ssbo,sunset & bourne,6
+58,Inbound,msdo,mineral spring & douglas,7
+58,Inbound,adlu,shaw's (admiral & lubec),8
+58,Inbound,brdo,branch & douglas,9
+58,Inbound,brch,branch & charles,10
+58,Inbound,adch,admiral & charles,11
+58,Inbound,psta,providence station,12
+58,Inbound,kepl,kennedy plaza - providence,13
+58,Inbound,riho,rhode island hospital,14
+58,Outbound,riho,rhode island hospital,1
+58,Outbound,kepl,kennedy plaza - providence,2
+58,Outbound,psta,providence station,3
+58,Outbound,adch,admiral & charles,4
+58,Outbound,brch,branch & charles,5
+58,Outbound,brdo,branch & douglas,6
+58,Outbound,adlu,shaw's (admiral & lubec),7
+58,Outbound,msdo,mineral spring & douglas,8
+58,Outbound,ssbo,sunset & bourne,9
+58,Outbound,bpms,by-pass & mineral spring,10
+58,Outbound,rogr,waterman & graystone,11
+58,Outbound,esmo,waterman & esmond,12
+58,Outbound,es44,esmond & rte.44,13
+58,Outbound,sfcr,smithfield crossing,14
+59,Inbound,slpl,slatersville plaza (brigidos market),1
+59,Inbound,brvl,branch village,2
+59,Inbound,pasq,park square (park & rte. 146a),3
+59,Inbound,lima,lincoln mall,4
+59,Inbound,exte,exchange terrace (stop X),5
+59,Inbound,conv,rhode island convention center,6
+59,Inbound,weem,westminster & empire,7
+59,Inbound,weed,weybosset & eddy,8
+59,Inbound,tuhe,turk's head building,9
+59,Outbound,conv,rhode island convention center,1
+59,Outbound,weem,westminster & empire,2
+59,Outbound,weed,weybosset & eddy,3
+59,Outbound,tuhe,turk's head building,4
+59,Outbound,exte,exchange terrace (stop X),5
+59,Outbound,lima,lincoln mall,6
+59,Outbound,pasq,park square (park & rte. 146a),7
+59,Outbound,brvl,branch village,8
+59,Outbound,slpl,slatersville plaza (brigidos market),9
+60,Inbound,gace,newport visitor center,1
+60,Inbound,twmi,west main & east main,2
+60,Inbound,grla,green lane (middletown),4
+60,Inbound,pose,portsmouth senior center (rte. 114),5
+60,Inbound,emtu,east main & turnpike,6
+60,Inbound,pmpr,park&ride (east main - portsmouth),7
+60,Inbound,mtho,roger williams university (bristol),8
+60,Inbound,host,hope & state (bristol),9
+60,Inbound,majo,main & joyce (warren),10
+60,Inbound,whch,park&ride (white church - barrington),11
+60,Inbound,kepl,kennedy plaza - providence,12
+60,Outbound,kepl,kennedy plaza - providence,1
+60,Outbound,whch,park&ride (white church - barrington),2
+60,Outbound,majo,main & joyce (warren),3
+60,Outbound,host,hope & state (bristol),4
+60,Outbound,mtho,roger williams university (bristol),5
+60,Outbound,pmpr,park&ride (east main - portsmouth),6
+60,Outbound,pose,portsmouth senior center (rte. 114),7
+60,Outbound,grla,green lane (middletown),8
+60,Outbound,emtu,east main & turnpike,9
+60,Outbound,twmi,west main & east main,10
+60,Outbound,gace,newport visitor center,11
+61,Inbound,fird,park&ride (fish road - tiverton),1
+61,Inbound,pmpr,park&ride (east main - portsmouth),2
+61,Inbound,mtho,roger williams university (bristol),3
+61,Inbound,mtfr,metacom & franklin,4
+61,Inbound,wapk,park&ride (franklin st. - warren),5
+61,Inbound,majo,main & joyce (warren),6
+61,Inbound,whch,park&ride (white church - barrington),7
+61,Inbound,tuth,tunnel & thayer,8
+61,Inbound,exte,exchange terrace (stop X),9
+61,Inbound,conv,rhode island convention center,10
+61,Inbound,weem,westminster & empire,11
+61,Inbound,weed,weybosset & eddy,12
+61,Inbound,tuhe,turk's head building,13
+61,Outbound,conv,rhode island convention center,1
+61,Outbound,weem,westminster & empire,2
+61,Outbound,weed,weybosset & eddy,3
+61,Outbound,tuhe,turk's head building,4
+61,Outbound,exte,exchange terrace (stop X),5
+61,Outbound,tuth,tunnel & thayer,6
+61,Outbound,whch,park&ride (white church - barrington),7
+61,Outbound,majo,main & joyce (warren),8
+61,Outbound,wapk,park&ride (franklin st. - warren),9
+61,Outbound,mtfr,metacom & franklin,10
+61,Outbound,mtho,roger williams university (bristol),11
+61,Outbound,pmpr,park&ride (east main - portsmouth),12
+61,Outbound,fird,park&ride (fish road - tiverton),13
+62,Inbound,uri,u.r.i. (memorial union),1
+62,Inbound,2138,rtes. 2 & 138,2
+62,Inbound,exva,rte. 2 & exeter road (exeter variety),3
+62,Inbound,2102,park&ride (wickford junction train sta.),4
+62,Inbound,ccrw,c.c.r.i. warwick campus,5
+62,Inbound,unec,nursing education ctr,6
+62,Inbound,kepl,kennedy plaza - providence,7
+62,Inbound,psta,providence station,8
+62,Outbound,psta,providence station,1
+62,Outbound,exte,exchange terrace (stop X),2
+62,Outbound,unec,nursing education ctr,3
+62,Outbound,ccrw,c.c.r.i. warwick campus,4
+62,Outbound,2102,park&ride (wickford junction train sta.),5
+62,Outbound,exva,rte. 2 & exeter road (exeter variety),6
+62,Outbound,2138,rtes. 2 & 138,7
+62,Outbound,uri,u.r.i. (memorial union),8
+63,Inbound,oxbo,oxbow farms apartments,1
+63,Inbound,wmss,west main at stop&shop (on-street),2
+63,Inbound,stsm,stop&shop (west main - middletown),3
+63,Inbound,amex,middletown public library,4
+63,Inbound,miga,newport garage,5
+63,Inbound,gafo,connell & maple,6
+63,Inbound,nema,newport towne center,7
+63,Inbound,brak,broadway & admiral kalbfus,8
+63,Inbound,ciha,newport city hall,9
+63,Inbound,gace,newport visitor center,10
+63,Outbound,gace,newport visitor center,1
+63,Outbound,ciha,newport city hall,2
+63,Outbound,brak,broadway & admiral kalbfus,3
+63,Outbound,nema,newport towne center,4
+63,Outbound,gafo,connell & maple,5
+63,Outbound,miga,newport garage,6
+63,Outbound,aqsh,aquidneck shopping center (e. main),7
+63,Outbound,emva,east main & valley,8
+63,Outbound,weho,west house,9
+63,Outbound,stsm,stop&shop (west main - middletown),10
+63,Outbound,oxbo,oxbow farms apartments,11
+64,Inbound,kirr,kingston railroad station,1
+64,Inbound,uri,u.r.i. (memorial union),2
+64,Inbound,rtwe,park&ride (rtes. 1 & 138),3
+64,Inbound,urib,u.r.i. (bay campus),4
+64,Inbound,rt1a,park&ride (rtes. 1a & 138),5
+64,Inbound,jame,jamestown ferry landing,6
+64,Inbound,nema,newport towne center,7
+64,Inbound,ccrn,c.c.r.i. newport campus,8
+64,Inbound,ga17,naval undersea warfare center (gate 23),9
+64,Inbound,gace,newport visitor center,10
+64,Outbound,gace,newport visitor center,1
+64,Outbound,nema,newport towne center,2
+64,Outbound,ga17,naval undersea warfare center (gate 23),3
+64,Outbound,ccrn,c.c.r.i. newport campus,4
+64,Outbound,jame,jamestown ferry landing,5
+64,Outbound,rt1a,park&ride (rtes. 1a & 138),6
+64,Outbound,urib,u.r.i. (bay campus),7
+64,Outbound,rtwe,park&ride (rtes. 1 & 138),8
+64,Outbound,uri,u.r.i. (memorial union),9
+64,Outbound,kirr,kingston railroad station,10
+65,Inbound,wake,wakefield mall,1
+65,Inbound,rtwe,park&ride (rtes. 1 & 138),2
+65,Inbound,2102,park&ride (wickford junction train sta.),3
+65,Inbound,exte,exchange terrace (stop X),4
+65,Inbound,conv,rhode island convention center,5
+65,Inbound,weem,westminster & empire,6
+65,Inbound,weed,weybosset & eddy,7
+65,Inbound,tuhe,turk's head building,8
+65,Outbound,conv,rhode island convention center,1
+65,Outbound,weem,westminster & empire,2
+65,Outbound,weed,weybosset & eddy,3
+65,Outbound,tuhe,turk's head building,4
+65,Outbound,exte,exchange terrace (stop X),5
+65,Outbound,2102,park&ride (wickford junction train sta.),6
+65,Outbound,rtwe,park&ride (rtes. 1 & 138),7
+65,Outbound,wake,wakefield mall,8
+66,Inbound,gabe,galilee beach,1
+66,Inbound,narr,narragansett (salt pond plaza),2
+66,Inbound,wake,wakefield mall,3
+66,Inbound,petr,kingstown & high,4
+66,Inbound,uri,u.r.i. (memorial union),5
+66,Inbound,kirr,kingston railroad station,6
+66,Inbound,2138,rtes. 2 & 138,7
+66,Inbound,exva,rte. 2 & exeter road (exeter variety),8
+66,Inbound,2102,park&ride (wickford junction train sta.),9
+66,Inbound,ccrw,c.c.r.i. warwick campus,10
+66,Inbound,tfgr,t.f. green airport,11
+66,Inbound,kepl,kennedy plaza - providence,12
+66,Inbound,psta,providence station,13
+66,Outbound,psta,providence station,1
+66,Outbound,exte,exchange terrace (stop X),2
+66,Outbound,tfgr,t.f. green airport,3
+66,Outbound,ccrw,c.c.r.i. warwick campus,4
+66,Outbound,2102,park&ride (wickford junction train sta.),5
+66,Outbound,exva,rte. 2 & exeter road (exeter variety),6
+66,Outbound,2138,rtes. 2 & 138,7
+66,Outbound,kirr,kingston railroad station,8
+66,Outbound,uri,u.r.i. (memorial union),9
+66,Outbound,petr,kingstown & high,10
+66,Outbound,wake,wakefield mall,11
+66,Outbound,narr,narragansett (salt pond plaza),12
+66,Outbound,gabe,galilee beach,13
+67,Inbound,bele,bellevue & ledge,1
+67,Inbound,maho,marble house,2
+67,Inbound,beru,bellevue & ruggles,3
+67,Inbound,salv,salve regina university,4
+67,Inbound,beme,bellevue & memorial blvd.,5
+67,Inbound,gace,newport visitor center,6
+67,Outbound,gace,newport visitor center,1
+67,Outbound,beme,bellevue & memorial blvd.,2
+67,Outbound,salv,salve regina university,3
+67,Outbound,beru,bellevue & ruggles,4
+67,Outbound,maho,marble house,5
+67,Outbound,bele,bellevue & ledge,6
+71,North,jlnm,job lot (ann mary st. - pawtucket),1
+71,North,nmda,pawtucket & dartmouth,2
+71,North,nmra,pawtucket & randall,3
+71,North,slmi,slater mill (main & roosevelt),4
+71,North,brba,broad & barton,5
+71,North,hubr,hunt & broad,6
+71,North,brjo,broad & john,7
+71,North,mibr,ann&hope way & broad,8
+71,North,s122,stop&shop (mendon rd. - cumberland),9
+71,South,s122,stop&shop (mendon rd. - cumberland),1
+71,South,mibr,ann&hope way & broad,2
+71,South,brjo,broad & john,3
+71,South,hubr,hunt & broad,4
+71,South,brba,broad & barton,5
+71,South,maro,pawtucket transit ctr (main & roosevelt),6
+71,South,nmra,pawtucket & randall,7
+71,South,nmda,pawtucket & dartmouth,8
+71,South,jlnm,job lot (ann mary st. - pawtucket),9
+71,South,slmi,slater mill (main & roosevelt),10
+72,Inbound,slmi,slater mill (main & roosevelt),1
+72,Inbound,deba,dexter & barton,2
+72,Inbound,dewh,dexter & west hunt,3
+72,Inbound,welo,weeden & lonsdale,4
+72,Inbound,poan,power & anderton,5
+72,Inbound,sfpo,smithfield & power,6
+72,Inbound,walp,walmart (providence),7
+72,Inbound,adch,admiral & charles,8
+72,Inbound,psta,providence station,9
+72,Inbound,kepl,kennedy plaza - providence,10
+72,Outbound,kepl,kennedy plaza - providence,1
+72,Outbound,psta,providence station,2
+72,Outbound,adch,admiral & charles,3
+72,Outbound,walp,walmart (providence),4
+72,Outbound,sfpo,smithfield & power,5
+72,Outbound,poan,power & anderton,6
+72,Outbound,welo,weeden & lonsdale,7
+72,Outbound,dewh,dexter & west hunt,8
+72,Outbound,deba,dexter & barton,9
+72,Outbound,slmi,slater mill (main & roosevelt),10
+73,Inbound,ccri,c.c.r.i. lincoln campus,1
+73,Inbound,lipa,twin river casino,2
+73,Inbound,msch,mineral spring & charles,3
+73,Inbound,loms,lonsdale & mineral spring,4
+73,Inbound,slmi,slater mill (main & roosevelt),5
+73,Outbound,slmi,slater mill (main & roosevelt),1
+73,Outbound,loms,lonsdale & mineral spring,2
+73,Outbound,msch,mineral spring & charles,3
+73,Outbound,lipa,twin river casino,4
+73,Outbound,ccri,c.c.r.i. lincoln campus,5
+75,Inbound,noce,north central industrial park,1
+75,Inbound,lima,lincoln mall,2
+75,Inbound,amic,amica insurance (corporate office),3
+75,Inbound,asht,ashton (rtes. 116 & 122),4
+75,Inbound,menb,mendon & broad,5
+75,Inbound,lode,lonsdale & dexter,6
+75,Inbound,deba,dexter & barton,7
+75,Inbound,maro,pawtucket transit ctr (main & roosevelt),8
+75,Outbound,maro,pawtucket transit ctr (main & roosevelt),1
+75,Outbound,deba,dexter & barton,2
+75,Outbound,lode,lonsdale & dexter,3
+75,Outbound,menb,mendon & broad,4
+75,Outbound,asht,ashton (rtes. 116 & 122),5
+75,Outbound,amic,amica insurance (corporate office),6
+75,Outbound,lima,lincoln mall,7
+75,Outbound,noce,north central industrial park,8
+76,Inbound,beth,benefit & thurber,1
+76,Inbound,nece,newport & central,2
+76,Inbound,stcs,stop&shop (cottage st. - pawtucket),3
+76,Inbound,argb,armistice & george bennett,4
+76,Inbound,maro,pawtucket transit ctr (main & roosevelt),5
+76,Outbound,maro,pawtucket transit ctr (main & roosevelt),1
+76,Outbound,argb,armistice & george bennett,2
+76,Outbound,stcs,stop&shop (cottage st. - pawtucket),3
+76,Outbound,nece,newport & central,4
+76,Outbound,beth,benefit & thurber,5
+78,Inbound,maro,pawtucket transit ctr (main & roosevelt),1
+78,Inbound,scbe,school & beverage hill,2
+78,Inbound,nebh,newport & beverage hill,3
+78,Inbound,pafe,pawtucket & newman,4
+78,Inbound,wamp,wampanoag mall,5
+78,Inbound,brsi,taunton & waterman,6
+78,Inbound,tapo,taunton & potter,7
+78,Inbound,kepl,kennedy plaza - providence,8
+78,Outbound,kepl,kennedy plaza - providence,1
+78,Outbound,tapo,taunton & potter,2
+78,Outbound,brsi,taunton & waterman,3
+78,Outbound,wamp,wampanoag mall,4
+78,Outbound,pafe,pawtucket & newman,5
+78,Outbound,nebh,newport & beverage hill,6
+78,Outbound,bhpr,beverage hill & prospect,7
+78,Outbound,maro,pawtucket transit ctr (main & roosevelt),8
+80,Inbound,arbl,slater park (armistice blvd.),1
+80,Inbound,arne,armistice & newport,2
+80,Inbound,aryo,armistice & york,3
+80,Inbound,cogb,columbus & george bennett,4
+80,Inbound,meho,memorial hospital,5
+80,Inbound,maro,pawtucket transit ctr (main & roosevelt),6
+80,Outbound,maro,pawtucket transit ctr (main & roosevelt),1
+80,Outbound,meho,memorial hospital,2
+80,Outbound,cogb,columbus & george bennett,3
+80,Outbound,aryo,armistice & york,4
+80,Outbound,arne,armistice & newport,5
+80,Outbound,arbl,slater park (armistice blvd.),6
+87,East,medr,memorial & bourdon,1
+87,East,seri,second & river,2
+87,East,maas,main street (municipal parking lot),3
+87,East,cadu,cass & dulude,4
+87,East,wapl,walnut hill plaza,5
+87,East,prri,diamond hill plaza (pricerite),6
+87,West,prri,diamond hill plaza (pricerite),1
+87,West,wapl,walnut hill plaza,2
+87,West,cadu,cass & dulude,3
+87,West,maas,main street (municipal parking lot),4
+87,West,fmse,fairmount & second,5
+87,West,medr,memorial & bourdon,6
+92,East,ric,rhode island college,1
+92,East,atmp,atwells & mount pleasant,2
+92,East,egsq,eagle square (atwells & valley),3
+92,East,atde,atwells & dean,4
+92,East,kepl,kennedy plaza - providence,5
+92,East,edpo,eddy & point,6
+92,East,fopo,fox point (wickenden & ives),7
+92,East,esmp,eastside marketplace,8
+92,West,esmp,eastside marketplace,1
+92,West,fopo,fox point (wickenden & ives),2
+92,West,edpo,eddy & point,3
+92,West,kepl,kennedy plaza - providence,4
+92,West,atde,atwells & dean,5
+92,West,egsq,eagle square (atwells & valley),6
+92,West,atmp,atwells & mount pleasant,7
+92,West,ric,rhode island college,8
+95,Inbound,west,westerly railroad station,1
+95,Inbound,asha,park&ride (rte. 3 - ashaway),2
+95,Inbound,wyom,park&ride (wyoming),3
+95,Inbound,exit,park&ride (exit 7 - w. greenwich),4
+95,Inbound,exte,exchange terrace (stop X),5
+95,Inbound,conv,rhode island convention center,6
+95,Inbound,weem,westminster & empire,7
+95,Inbound,weed,weybosset & eddy,8
+95,Inbound,tuhe,turk's head building,9
+95,Outbound,conv,rhode island convention center,1
+95,Outbound,weem,westminster & empire,2
+95,Outbound,weed,weybosset & eddy,3
+95,Outbound,tuhe,turk's head building,4
+95,Outbound,exte,exchange terrace (stop X),5
+95,Outbound,exit,park&ride (exit 7 - w. greenwich),6
+95,Outbound,wyom,park&ride (wyoming),7
+95,Outbound,asha,park&ride (rte. 3 - ashaway),8
+95,Outbound,west,westerly railroad station,9

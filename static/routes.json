@@ -72,6 +72,14 @@
     "route_url": "http://www.ripta.com/19"
   },
   {
+    "route_id": 2,
+    "route_short_name": 2,
+    "route_long_name": "stand-by",
+    "route_desc": "",
+    "route_type": 3,
+    "route_url": ""
+  },
+  {
     "route_id": 20,
     "route_short_name": 20,
     "route_long_name": "Elmwood/Airport",
@@ -192,14 +200,6 @@
     "route_url": "http://www.ripta.com/49"
   },
   {
-    "route_id": 5,
-    "route_short_name": 5,
-    "route_long_name": "PawSox Shuttle",
-    "route_desc": "",
-    "route_type": 3,
-    "route_url": ""
-  },
-  {
     "route_id": 50,
     "route_short_name": 50,
     "route_long_name": "Douglas Avenue",
@@ -288,6 +288,14 @@
     "route_url": "http://www.ripta.com/61-1"
   },
   {
+    "route_id": 62,
+    "route_short_name": 62,
+    "route_long_name": "URI-Kington/NEC/PITC",
+    "route_desc": "",
+    "route_type": 3,
+    "route_url": ""
+  },
+  {
     "route_id": 63,
     "route_short_name": 63,
     "route_long_name": "Broadway (Newport-Middletown)",
@@ -326,6 +334,22 @@
     "route_desc": "",
     "route_type": 3,
     "route_url": "http://www.ripta.com/67"
+  },
+  {
+    "route_id": 69,
+    "route_short_name": 69,
+    "route_long_name": "URI-Kingston Campus Hillclimber",
+    "route_desc": "",
+    "route_type": 3,
+    "route_url": ""
+  },
+  {
+    "route_id": 70,
+    "route_short_name": 70,
+    "route_long_name": "URI-Kingston College of Engineering",
+    "route_desc": "",
+    "route_type": 3,
+    "route_url": ""
   },
   {
     "route_id": 71,
@@ -406,14 +430,6 @@
     "route_desc": "",
     "route_type": 3,
     "route_url": "http://www.ripta.com/9"
-  },
-  {
-    "route_id": 91,
-    "route_short_name": 91,
-    "route_long_name": "Ferry Shuttle",
-    "route_desc": "",
-    "route_type": 3,
-    "route_url": ""
   },
   {
     "route_id": 92,
