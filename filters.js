@@ -52,6 +52,10 @@ const filterByRoutes = (data, type, routesStr) => {
   return { header: data.header, entity: allRoutes };
 }
 
+// direction information is stored in trips.json
+// that file is read, indexed by trip_id
+// and stored in tripsIndex object
+// we have to look up the direction_id for each trip
 const filterByDirection = (data, type, direction) => {
   direction = direction.toLowerCase();
   if (!_.includes(validDirectionTypes, direction)) {
