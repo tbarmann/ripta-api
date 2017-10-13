@@ -64,6 +64,7 @@ app.get('/api/route/:route_id/stops', (req, res) => {
   }
 });
 
+// pass through from ripta api without any filtering
 app.get('/api/:type', (req, res) => {
   const type = req.params.type.toLowerCase();
 
@@ -73,7 +74,7 @@ app.get('/api/:type', (req, res) => {
         res.json(data);
       })
       .catch((res) => {
-        console.log(res);
+        console.log('error:', res);
       });
   }
   else {
@@ -137,13 +138,14 @@ app.get('/api/:type/route/:route/:dir?', (req, res) => {
       .then ((data) => {
         data = filterByRoutes(data, type, req.params.route);
         if (req.params.dir) {
-            data = filterByDirection(data, type, req.params.dir);
+          data = filterByDirection(data, type, req.params.dir);
         }
-        db.getTripSchedules(data.entity)
-          .then((schedules) => {
-            const entity = mergeScheduleData(data.entity, schedules);
-            res.json(Object.assign(data, {entity}));
-          });
+        res.json(data);
+        // db.getTripSchedules(data.entity)
+        //   .then((schedules) => {
+        //     const entity = mergeScheduleData(data.entity, schedules);
+        //     res.json(Object.assign(data, {entity}));
+        //   });
       });
   }
   else {
