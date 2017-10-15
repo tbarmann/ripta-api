@@ -18,7 +18,8 @@ const typeToKey = (type) => {
 }
 
 const isValidRouteId = (routeId) => {
-  return routesIndexed.hasOwnProperty(routeId);
+  const routeIdInt = parseInt(routeId, 10);
+  return routesIndexed.hasOwnProperty(routeIdInt);
 }
 
 const routeToRouteId = (route) => {

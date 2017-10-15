@@ -53,6 +53,31 @@ app.get('/api/stops?', (req, res) => {
   }
 });
 
+app.get('/api/trip/:tripId', (req, res) => {
+  const tripId = req.params.tripId;
+  db.getStopsByTrip(tripId)
+    .then((stops) => res.json(stops))
+    .catch((error) => console.log(error));
+});
+
+app.get('/api/trips/:routeId', (req, res) => {
+  const params = {
+    routeId: req.params.routeId,
+    stopId: req.query.stopId,
+    serviceDay: req.query.serviceDay,
+    directionId: req.query.directionId,
+    startTime: req.query.startTime,
+    endTime: req.query.endTime
+  };
+  if (isValidRouteId(params.routeId)) {
+    db.getTripsByRoute(params)
+      .then((trips) => res.json(trips))
+      .catch((error) => console.log(error));
+  } else {
+    res.sendStatus(422);
+  }
+});
+
 app.get('/api/route/:route_id/stops', (req, res) => {
   const routeId = req.params.route_id;
   if (isValidRouteId(routeId)) {
@@ -82,55 +107,6 @@ app.get('/api/:type', (req, res) => {
   }
 });
 
-const getArrivalDepartureTime = (schedules, trip_id, stop_id) => {
-  const trip = _.find(schedules, {trip_id});
-  return _.find(trip.schedule, {stop_id: parseInt(stop_id, 10)});
-}
-
-
-const toTimeStamp = (thisTime) => {
-  return parseInt(moment(thisTime, 'HH:mm:ss').format('X'), 10);
-}
-
-const mergeScheduleData = (trips, schedules) => {
-  return trips.map((trip) => {
-    const trip_id = _.get(trip, ['trip_update', 'trip', 'trip_id']);
-    const firstStop = _.first(trip.trip_update.stop_time_update);
-    const thisTripDelay = _.get(firstStop, ['departure', 'delay'] , 0);
-    const stops = trip.trip_update.stop_time_update.map((stop) => {
-      const times = getArrivalDepartureTime(schedules, trip_id, stop.stop_id);
-      const arrival = stop.arrival ? {
-        delay: stop.arrival.delay,
-        time: toTimeStamp(times.arrival)
-      } : null;
-      const departure = stop.departure ? {
-        delay: stop.departure.delay,
-        time: toTimeStamp(times.departure)
-      } : null;
-      return {
-        stop_sequence: stop.stop_sequence,
-        arrival,
-        departure,
-        stop_id: stop.stop_id,
-        schedule_relationship: stop.schedule_relationship
-      }
-    });
-    return {
-      delay: thisTripDelay,
-      id: trip.id,
-      is_deleted: trip.is_deleted,
-      trip_update: {
-        trip: trip.trip_update.trip,
-        stop_time_update: stops,
-        vehicle: trip.trip_update.vehicle,
-        timestamp: trip.trip_update.timestamp
-      },
-      vehicle: trip.vehicle,
-      alert: trip.alert
-    }
-  });
-}
-
 app.get('/api/:type/route/:route/:dir?', (req, res) => {
   const type = req.params.type.toLowerCase();
   if (_.includes(validApiTypes, type)) {
@@ -141,11 +117,6 @@ app.get('/api/:type/route/:route/:dir?', (req, res) => {
           data = filterByDirection(data, type, req.params.dir);
         }
         res.json(data);
-        // db.getTripSchedules(data.entity)
-        //   .then((schedules) => {
-        //     const entity = mergeScheduleData(data.entity, schedules);
-        //     res.json(Object.assign(data, {entity}));
-        //   });
       });
   }
   else {
@@ -156,7 +127,6 @@ app.get('/api/:type/route/:route/:dir?', (req, res) => {
 app.get('/static/:fileName', (req, res) => {
   const fileName = req.params.fileName + '.json';
   const file = path.normalize(__dirname + '/static/' + fileName);
-
   jsonfile.readFile(file, function(err, obj) {
     if(err) {
       res.json({status: 'error', reason: err.toString()});
