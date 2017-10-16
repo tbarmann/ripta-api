@@ -22,5 +22,11 @@
     "pg": "6.4.0",
     "pg-format": "1.0.4",
     "request": "^2.76.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.7.0"
   }
 }
