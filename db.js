@@ -1,16 +1,33 @@
 'use strict';
 
 const pg = require('pg');
+const url = require('url');
 const format = require('pg-format');
 const getTripsByRouteSql = require('./queries').getTripsByRouteSql;
 const getStopsByTripSql = require('./queries').getStopsByTripSql;
 
 const LOCAL_DB = 'localhost';
 
-const dbConfig = {
-  database: 'ripta',
-  host: process.env.DATABASE_URL || LOCAL_DB
-};
+let dbConfig = {};
+
+if (process.env.DATABASE_URL) {
+  const params = url.parse(process.env.DATABASE_URL);
+  const auth = params.auth.split(':');
+
+  dbConfig = {
+    user: auth[0],
+    password: auth[1],
+    host: params.hostname,
+    port: params.port,
+    database: params.pathname.split('/')[1],
+    ssl: true
+  };
+} else {
+  dbConfig = {
+    database: 'ripta',
+    host: LOCAL_DB
+  };
+}
 
 const pool = new pg.Pool(dbConfig);
 

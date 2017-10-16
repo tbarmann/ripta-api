@@ -1,6 +1,6 @@
 #!/bin/sh
 
-URL="https://www.ripta.com/stuff/contentmgr/files/0/3cda81dfa140edbe9aae214b26245b4a/files/google_transit.zip"
+URL=$RIPTA_DATA_URL
 echo 'Downloading...'
 cd ./static/google_transit
 rm *.txt
@@ -10,7 +10,7 @@ rm file.zip
 
 psql \
   -d $DATABASE_URL \
-  -f seed.sql \
+  -f ./seed.sql \
   --echo-all
 
 cd ../..
