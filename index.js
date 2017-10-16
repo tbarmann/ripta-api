@@ -1,21 +1,19 @@
-"use strict";
+'use strict';
 
 const express = require('express');
 const request = require('request');
 const jsonfile = require('jsonfile');
 const cors = require('cors');
-const moment = require('moment-timezone');
 const path = require('path');
 const _ = require('lodash');
 const db = require('./db.js');
-const filterByRoutes = require('./filters').filterByRoutes;
+const filterByRoute = require('./filters').filterByRoute;
 const filterByDirection = require('./filters').filterByDirection;
 const isValidRouteId = require('./filters').isValidRouteId;
 const stopsSortedByDistance = require('./sorted-stops').stopsSortedByDistance;
 const getStopsByRouteId = require('./stop-helpers.js').getStopsByRouteId;
 const port = process.env.PORT || 3000;
 const riptaApiBaseUrl = 'http://realtime.ripta.com:81/api/';
-//const riptaApiBaseUrl = 'http://localhost:3000/static/';
 const staticOptions = { index: 'index.htm' };
 const validApiTypes = ['tripupdates', 'vehiclepositions', 'servicealerts'];
 
@@ -38,13 +36,17 @@ app.use(cors());
 app.use(express.static('public', staticOptions));
 
 app.get('/api/stops?', (req, res) => {
-  if (!!req.query.lat && !isNaN(req.query.lat) && !!req.query.lon && !isNaN(req.query.lon)) {
+  if (!!req.query.lat
+    && !Number.isNaN(req.query.lat)
+    && !!req.query.lon
+    && !Number.isNaN(req.query.lon)
+  ) {
     let stopsWithDistances = stopsSortedByDistance(req.query.lat, req.query.lon);
 
     const limit = req.query.limit;
 
-    if (!!limit && !isNaN(limit)) {
-      stopsWithDistances = stopsWithDistances.slice(0, parseInt(limit));
+    if (!!limit && !Number.isNaN(limit)) {
+      stopsWithDistances = stopsWithDistances.slice(0, parseInt(limit, 10));
     }
 
     res.json(stopsWithDistances);
@@ -83,8 +85,7 @@ app.get('/api/route/:route_id/stops', (req, res) => {
   if (isValidRouteId(routeId)) {
     const stops = getStopsByRouteId(routeId);
     res.json(stops);
-  }
-  else {
+  } else {
     res.sendStatus(422);
   }
 });
@@ -98,11 +99,10 @@ app.get('/api/:type', (req, res) => {
       .then((data) => {
         res.json(data);
       })
-      .catch((res) => {
-        console.log('error:', res);
+      .catch((error) => {
+        console.log('error:', error);
       });
-  }
-  else {
+  } else {
     res.send('Error: Not a valid api call');
   }
 });
@@ -111,25 +111,24 @@ app.get('/api/:type/route/:route/:dir?', (req, res) => {
   const type = req.params.type.toLowerCase();
   if (_.includes(validApiTypes, type)) {
     fetchBaseApi(type)
-      .then ((data) => {
-        data = filterByRoutes(data, type, req.params.route);
+      .then((data) => {
+        let filteredData = filterByRoute(data, type, req.params.route);
         if (req.params.dir) {
-          data = filterByDirection(data, type, req.params.dir);
+          filteredData = filterByDirection(filteredData, type, req.params.dir);
         }
-        res.json(data);
+        res.json(filteredData);
       });
-  }
-  else {
+  } else {
     res.send('Error: Not a valid api call');
   }
 });
 
 app.get('/static/:fileName', (req, res) => {
   const fileName = req.params.fileName + '.json';
-  const file = path.normalize(__dirname + '/static/' + fileName);
-  jsonfile.readFile(file, function(err, obj) {
-    if(err) {
-      res.json({status: 'error', reason: err.toString()});
+  const file = path.normalize(`${__dirname}/static/${fileName}`);
+  jsonfile.readFile(file, (err, obj) => {
+    if (err) {
+      res.json({ status: 'error', reason: err.toString() });
       return;
     }
     res.json(obj);
@@ -140,13 +139,7 @@ const startServer = () => {
   app.listen(port, () => {
     console.log(`App listening on port ${port}`);
   });
-}
+};
 
 startServer();
-
-
-
-
-
-
 

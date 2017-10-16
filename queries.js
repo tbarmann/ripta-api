@@ -5,7 +5,7 @@ const getTripsByRouteSql = (params) => {
   const where = [];
 
   if (!params.routeId) {
-    return 'Invalid query: routeId is required';
+    return null;
   }
   where.push(`route_id = ${params.routeId}`);
 

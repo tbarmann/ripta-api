@@ -4,8 +4,8 @@ const client = new pg.Client(connectionString);
 
 client.connect();
 
-const query = client.query(
-  `CREATE TABLE stop_times(
+const query = client.query(`
+  CREATE TABLE test_table(
     id SERIAL PRIMARY KEY,
     trip_id INTEGER,
     arrival_time VARCHAR(8),
@@ -14,8 +14,8 @@ const query = client.query(
     stop_sequence INTEGER,
     pickup_type SMALLINT,
     drop_off_type SMALLINT
-  )`
-);
+  )
+`);
 
 query.on('end', () => {
   client.end();

@@ -1,13 +1,12 @@
-"use strict";
-const csvParse = require('csv-parse');
+'use strict';
 
+const csvParse = require('csv-parse');
 const fs = require('fs');
 
 const parse = (csvFile) => {
-
   const fileBase = csvFile.split('.')[0];
-  const readPath = __dirname+'/static/google_transit/';
-  const writePath = __dirname+'/static/';
+  const readPath = `${__dirname}/static/google_transit/`;
+  const writePath = `${__dirname}/static/`;
   const options = {
     delimiter: ',',
     columns: true,
@@ -15,19 +14,19 @@ const parse = (csvFile) => {
     trim: true
   };
 
-  const parser = csvParse(options, function(err, data){
-    fs.writeFile(writePath + fileBase + '.json', JSON.stringify(data, null, 2), function (err) {
-      if (err) {
+  const parser = csvParse(options, (err, data) => {
+    fs.writeFile(writePath + fileBase + '.json', JSON.stringify(data, null, 2), (error) => {
+      if (error) {
         return console.log(err);
       }
-      console.log('finished writing: ' + writePath+fileBase);
-
+      console.log('finished writing: ' + writePath + fileBase);
+      return true;
     });
   });
   fs.createReadStream(readPath + csvFile).pipe(parser);
-}
+};
 
 const files = ['routes.txt', 'stops.txt', 'trips.txt'];
 
-files.map((file)=>{ parse(file);});
+files.map((file) => parse(file));
 
