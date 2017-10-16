@@ -170,17 +170,27 @@
         var thisRouteName = thisRoute.route_short_name + ' ' + thisRoute.route_long_name;
         html +='<h4>' + thisRouteName + '</h4>';
         $.each(trips.entity, function(key, trip){
-          var thisTrip = trip.trip_update.trip;
+          var tripUpdate = trip.trip_update;
+          var stopTimeUpdate = tripUpdate.stop_time_update;
+          var thisTrip = tripUpdate.trip;
           var route_id = thisTrip.route_id;
           var title = "Route " + route_id;
           var trip_id = thisTrip.trip_id;
           var startTime = moment(thisTrip.start_time, 'HH-mm-ss').format('h:mma');
           var description = getTripDetail(trip_id).trip_headsign;
           var direction_id = getTripDetail(trip_id).direction_id;
-          var direction = (direction_id === '0') ? '<-' : '->';
-          var delayStr = formatDelay(trip.delay);
 
-          html += ['<div class="trip-heading" id="' + trip_id + '">', startTime, description, direction, ': ', delayStr, '</div>'].join(' ');
+          var delay, delayStr;
+          if (stopTimeUpdate.length === 0) {
+            delayStr = 'no info';
+          } else {
+            delay = (_.first(stopTimeUpdate).arrival !== null)
+              ? _.first(stopTimeUpdate).arrival.delay
+              : _.first(stopTimeUpdate).departure.delay;
+            delayStr = formatDelay(delay);
+          }
+
+          html += ['<div class="trip-heading" id="' + trip_id + '">', startTime, description, '-', delayStr, '</div>'].join(' ');
           html += '<table class="trip-update table table-sm table-striped">';
           html += '<thead>';
           html += '<tr>';
@@ -197,12 +207,10 @@
             if (update.arrival === null) {
               var atime = 'Departs ' + tsToTime(update.departure.time);
               var thisStop = getStopDetail(update.stop_id);
-              var delayStr = formatDelay(trip.delay);
             }
             else {
               var atime = 'Arrives ' + tsToTime(update.arrival.time);
               var thisStop = getStopDetail(update.stop_id);
-              var delayStr = formatDelay(trip.delay);
             }
             html += '<td>' + atime + '</td>';
             html += '<td>' + thisStop+ '</td>';

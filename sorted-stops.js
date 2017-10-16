@@ -11,6 +11,6 @@ const stopsSortedByDistance = (lat, lon) => {
       { lat: parseFloat(stop.stop_lat), lon: parseFloat(stop.stop_lon) }
     )
   })).sort((a, b) => (a.distance - b.distance));
-}
+};
 
 module.exports = { stopsSortedByDistance };
