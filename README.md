@@ -10,6 +10,6 @@
 ### Deploy master to Heroku
 See https://devcenter.heroku.com/articles/git#prerequisites-installing-git-and-the-heroku-cli
 1. Use `heroku create` to create a new empty application on Heroku
-2. Run `git push heroku master` or `git push heroku master:a-different-branch` if deploying another branch
+2. Run `git push heroku master` or `git push heroku a-different-branch:master` if deploying another branch
 
 

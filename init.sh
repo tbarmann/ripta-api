@@ -7,7 +7,11 @@ rm *.txt
 curl -sS "${URL}" > file.zip && \
 unzip file.zip
 rm file.zip
-psql ripta -f seed.sql
+
+psql \
+  -d $DATABASE_URL \
+  -f seed.sql \
+  --echo-all
 
 cd ../..
 node csv-to-json.js
