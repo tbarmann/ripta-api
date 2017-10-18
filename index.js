@@ -35,6 +35,8 @@ const app = express();
 app.use(cors());
 app.use(express.static('public', staticOptions));
 
+const MAX_RESULTS = 10;
+
 app.get('/api/stops?', (req, res) => {
   if (!!req.query.lat
     && !Number.isNaN(req.query.lat)
@@ -43,7 +45,7 @@ app.get('/api/stops?', (req, res) => {
   ) {
     let stopsWithDistances = stopsSortedByDistance(req.query.lat, req.query.lon);
 
-    const limit = req.query.limit;
+    const limit = req.query.limit || MAX_RESULTS;
 
     if (!!limit && !Number.isNaN(limit)) {
       stopsWithDistances = stopsWithDistances.slice(0, parseInt(limit, 10));

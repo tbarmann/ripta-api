@@ -15,12 +15,12 @@ const getTripsByRouteSql = (params) => {
     where.push('stop_times.stop_sequence = 1'); // default to 1, the first stop
   }
   if (params.serviceDay) {
-    where.push(`service_id LIKE '%${params.serviceDay}%'`)
+    where.push(`service_id LIKE '%${params.serviceDay}%'`);
   } else {
     where.push('service_id LIKE \'%Weekday%\''); // default to Weekday
   }
   if (params.directionId) {
-    where.push(`direction_id = ${params.directionId}`)
+    where.push(`direction_id = ${params.directionId}`);
   }
   if (params.startTime) {
     where.push(`departure_time >= '${params.startTime}'`);
@@ -34,7 +34,7 @@ const getTripsByRouteSql = (params) => {
   LEFT JOIN stops on stop_times.stop_id = stops.stop_id
   WHERE ${where.join(' AND ')}
   ORDER BY direction_id, departure_time;`;
-}
+};
 
 // all stops on a particular trip
 const getStopsByTripSql = (tripId) => {
@@ -42,8 +42,18 @@ const getStopsByTripSql = (tripId) => {
     FROM stop_times
     LEFT JOIN stops on stops.stop_id = stop_times.stop_id
     WHERE trip_id = ${tripId}
-    ORDER by stop_sequence;`
-}
+    ORDER by stop_sequence;`;
+};
 
-module.exports = {getTripsByRouteSql, getStopsByTripSql}
+// get all routes associated with a particular stop
+const getRoutesByStopSql = (stopId) => {
+  return `SELECT stop_id, route_id, count(trips.trip_id)
+    FROM stop_times
+    LEFT JOIN trips on stop_times.trip_id = trips.trip_id
+    WHERE stop_id = ${stopId}
+    GROUP BY route_id;`;
+};
+
+
+module.exports = { getTripsByRouteSql, getStopsByTripSql, getRoutesByStopSql };
 
