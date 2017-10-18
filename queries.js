@@ -45,5 +45,15 @@ const getStopsByTripSql = (tripId) => {
     ORDER by stop_sequence;`;
 };
 
-module.exports = {getTripsByRouteSql, getStopsByTripSql}
+// get all routes associated with a particular stop
+const getRoutesByStopSql = (stopId) => {
+  return `SELECT stop_id, route_id, count(trips.trip_id)
+    FROM stop_times
+    LEFT JOIN trips on stop_times.trip_id = trips.trip_id
+    WHERE stop_id = ${stopId}
+    GROUP BY route_id;`;
+};
+
+
+module.exports = { getTripsByRouteSql, getStopsByTripSql, getRoutesByStopSql };
 
