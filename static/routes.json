@@ -48,6 +48,14 @@
     "route_url": "http://www.ripta.com/14"
   },
   {
+    "route_id": 16,
+    "route_short_name": 16,
+    "route_long_name": "Walmart Connector",
+    "route_desc": "",
+    "route_type": 3,
+    "route_url": ""
+  },
+  {
     "route_id": 17,
     "route_short_name": 17,
     "route_long_name": "Dyer/Pocasset/Westminster",
@@ -334,22 +342,6 @@
     "route_desc": "",
     "route_type": 3,
     "route_url": "http://www.ripta.com/67"
-  },
-  {
-    "route_id": 69,
-    "route_short_name": 69,
-    "route_long_name": "URI-Kingston Campus Hillclimber",
-    "route_desc": "",
-    "route_type": 3,
-    "route_url": ""
-  },
-  {
-    "route_id": 70,
-    "route_short_name": 70,
-    "route_long_name": "URI-Kingston College of Engineering",
-    "route_desc": "",
-    "route_type": 3,
-    "route_url": ""
   },
   {
     "route_id": 71,
