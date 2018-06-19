@@ -6,15 +6,15 @@ const jsonfile = require('jsonfile');
 const cors = require('cors');
 const path = require('path');
 const _ = require('lodash');
-const db = require('./db.js');
-const filterByRoute = require('./filters').filterByRoute;
+const db = require('./db');
 const filterByDirection = require('./filters').filterByDirection;
+const filterByRoute = require('./filters').filterByRoute;
+const getStopsByRouteId = require('./utils').getStopsByRouteId;
 const isValidRouteId = require('./filters').isValidRouteId;
-const stopsSortedByDistance = require('./sorted-stops').stopsSortedByDistance;
-const getStopsByRouteId = require('./stop-helpers.js').getStopsByRouteId;
 const port = process.env.PORT || 3000;
 const riptaApiBaseUrl = 'http://realtime.ripta.com:81/api/';
 const staticOptions = { index: 'index.htm' };
+const stopsSortedByDistance = require('./sorted-stops').stopsSortedByDistance;
 const validApiTypes = ['tripupdates', 'vehiclepositions', 'servicealerts'];
 
 const fetchBaseApi = (type) => {
