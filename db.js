@@ -3,8 +3,10 @@
 const pg = require('pg');
 const url = require('url');
 const format = require('pg-format');
+const get = require('lodash/get');
 const getTripsByRouteSql = require('./queries').getTripsByRouteSql;
 const getStopsByTripSql = require('./queries').getStopsByTripSql;
+const getTripScheduleSql = require('./queries').getTripScheduleSql;
 
 const LOCAL_DB = 'localhost';
 
@@ -69,8 +71,28 @@ const getStopsByTrip = (tripId) => {
   });
 };
 
+
+const getTripSchedules = (trips) => {
+  const scheduleQueries = trips.map(trip => {
+    const tripId = get(trip, ['trip_update', 'trip', 'trip_id']);
+    return getTripSchedule(tripId);
+  });
+  return Promise.all(scheduleQueries);
+};
+
+const getTripSchedule = (tripId) => {
+  const sql = getTripScheduleSql(tripId);
+  return query(sql).then((result) => {
+    if (result.length > 0) {
+      return ({trip_id: tripId, schedule: result});
+    }
+    return null;
+  });
+};
+
 module.exports = {
   query,
   getTripsByRoute,
-  getStopsByTrip
+  getStopsByTrip,
+  getTripSchedules
 };
