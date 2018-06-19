@@ -9,16 +9,17 @@ const getStopsByTripSql = require('./queries').getStopsByTripSql;
 const getTripScheduleSql = require('./queries').getTripScheduleSql;
 
 const LOCAL_DB = 'localhost';
+const DATABASE = 'ripta';
 
 let dbConfig = {};
 
-if (process.env.DATABASE_URL) {
+if (process.env.DATABASE_URL && url.parse(process.env.DATABASE_URL).auth) {
   const params = url.parse(process.env.DATABASE_URL);
   const auth = params.auth.split(':');
 
   dbConfig = {
     user: auth[0],
-    password: auth[1],
+    password: auth[1] ? auth[1] : undefined,
     host: params.hostname,
     port: params.port,
     database: params.pathname.split('/')[1],
@@ -26,7 +27,7 @@ if (process.env.DATABASE_URL) {
   };
 } else {
   dbConfig = {
-    database: 'ripta',
+    database: DATABASE,
     host: LOCAL_DB
   };
 }
@@ -66,7 +67,7 @@ const getStopsByTrip = (tripId) => {
     if (result.length > 0) {
       return { tripId, stops: result };
     }
-    console.log('Trip not found: ', tripId);
+    console.warn('Trip not found: ', tripId);
     return [];
   });
 };
