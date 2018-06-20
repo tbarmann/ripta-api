@@ -54,6 +54,16 @@ const getRoutesByStopSql = (stopId) => {
     GROUP BY route_id;`;
 };
 
+const getTripScheduleSql = (tripId) => {
+  return `SELECT stop_id,
+    arrival_time as arrival,
+    departure_time as departure FROM stop_times WHERE trip_id = ${tripId} ORDER BY stop_sequence;`;
+};
 
-module.exports = { getTripsByRouteSql, getStopsByTripSql, getRoutesByStopSql };
+module.exports = {
+  getTripsByRouteSql,
+  getStopsByTripSql,
+  getRoutesByStopSql,
+  getTripScheduleSql
+};
 

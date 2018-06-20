@@ -6,15 +6,16 @@ const jsonfile = require('jsonfile');
 const cors = require('cors');
 const path = require('path');
 const _ = require('lodash');
-const db = require('./db.js');
-const filterByRoute = require('./filters').filterByRoute;
+const db = require('./db');
 const filterByDirection = require('./filters').filterByDirection;
+const filterByRoute = require('./filters').filterByRoute;
+const getStopsByRouteId = require('./utils').getStopsByRouteId;
 const isValidRouteId = require('./filters').isValidRouteId;
-const stopsSortedByDistance = require('./sorted-stops').stopsSortedByDistance;
-const getStopsByRouteId = require('./stop-helpers.js').getStopsByRouteId;
+const mergeScheduleData = require('./utils').mergeScheduleData;
 const port = process.env.PORT || 3000;
 const riptaApiBaseUrl = 'http://realtime.ripta.com:81/api/';
 const staticOptions = { index: 'index.htm' };
+const stopsSortedByDistance = require('./sorted-stops').stopsSortedByDistance;
 const validApiTypes = ['tripupdates', 'vehiclepositions', 'servicealerts'];
 
 const fetchBaseApi = (type) => {
@@ -118,7 +119,11 @@ app.get('/api/:type/route/:route/:dir?', (req, res) => {
         if (req.params.dir) {
           filteredData = filterByDirection(filteredData, type, req.params.dir);
         }
-        res.json(filteredData);
+        db.getTripSchedules(filteredData.entity)
+          .then((schedules) => {
+            const entity = mergeScheduleData(filteredData.entity, schedules);
+            res.json(Object.assign(filteredData, {entity}));
+          });
       });
   } else {
     res.send('Error: Not a valid api call');

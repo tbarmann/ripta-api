@@ -3,20 +3,23 @@
 const pg = require('pg');
 const url = require('url');
 const format = require('pg-format');
+const get = require('lodash/get');
 const getTripsByRouteSql = require('./queries').getTripsByRouteSql;
 const getStopsByTripSql = require('./queries').getStopsByTripSql;
+const getTripScheduleSql = require('./queries').getTripScheduleSql;
 
 const LOCAL_DB = 'localhost';
+const DATABASE = 'ripta';
 
 let dbConfig = {};
 
-if (process.env.DATABASE_URL) {
+if (process.env.DATABASE_URL && url.parse(process.env.DATABASE_URL).auth) {
   const params = url.parse(process.env.DATABASE_URL);
   const auth = params.auth.split(':');
 
   dbConfig = {
     user: auth[0],
-    password: auth[1],
+    password: auth[1] ? auth[1] : undefined,
     host: params.hostname,
     port: params.port,
     database: params.pathname.split('/')[1],
@@ -24,7 +27,7 @@ if (process.env.DATABASE_URL) {
   };
 } else {
   dbConfig = {
-    database: 'ripta',
+    database: DATABASE,
     host: LOCAL_DB
   };
 }
@@ -64,13 +67,33 @@ const getStopsByTrip = (tripId) => {
     if (result.length > 0) {
       return { tripId, stops: result };
     }
-    console.log('Trip not found: ', tripId);
+    console.warn('Trip not found: ', tripId);
     return [];
+  });
+};
+
+
+const getTripSchedules = (trips) => {
+  const scheduleQueries = trips.map(trip => {
+    const tripId = get(trip, ['trip_update', 'trip', 'trip_id']);
+    return getTripSchedule(tripId);
+  });
+  return Promise.all(scheduleQueries);
+};
+
+const getTripSchedule = (tripId) => {
+  const sql = getTripScheduleSql(tripId);
+  return query(sql).then((result) => {
+    if (result.length > 0) {
+      return ({trip_id: tripId, schedule: result});
+    }
+    return null;
   });
 };
 
 module.exports = {
   query,
   getTripsByRoute,
-  getStopsByTrip
+  getStopsByTrip,
+  getTripSchedules
 };
