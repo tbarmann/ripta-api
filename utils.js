@@ -5,9 +5,10 @@ const includes = require('lodash/includes');
 const moment = require('moment');
 const allStops = require('./static/stops.json');
 
-const getArrivalDepartureTime = (schedules, tripId, stopId) => {
-  const trip = find(schedules, {tripId});
-  return find(trip.schedule, {stopId: parseInt(stopId, 10)});
+
+const getArrivalDepartureTime = (schedules, trip_id, stop_id) => {
+  const trip = find(schedules, {trip_id});
+  return find(trip.schedule, {stop_id: parseInt(stop_id, 10)});
 };
 
 const toTimeStamp = (thisTime) => {
@@ -16,9 +17,9 @@ const toTimeStamp = (thisTime) => {
 
 const mergeScheduleData = (trips, schedules) => {
   return trips.map((trip) => {
-    const tripId = get(trip, ['trip_update', 'trip', 'trip_id']);
+    const trip_id = get(trip, ['trip_update', 'trip', 'trip_id']);
     const stops = trip.trip_update.stop_time_update.map((stop) => {
-      const times = getArrivalDepartureTime(schedules, tripId, stop.stop_id);
+      const times = getArrivalDepartureTime(schedules, trip_id, stop.stop_id);
       const arrival = stop.arrival ? {
         delay: stop.arrival.delay,
         time: toTimeStamp(times.arrival)
@@ -29,8 +30,8 @@ const mergeScheduleData = (trips, schedules) => {
       } : null;
       return {...stop, arrival, departure};
     });
-    const tripUpdate = {...trip.trip_update, stop_time_update: stops};
-    return {...trip, tripUpdate};
+    const trip_update = {...trip.trip_update, stop_time_update: stops};
+    return {...trip, trip_update};
   });
 };
 
