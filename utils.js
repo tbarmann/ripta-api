@@ -2,7 +2,7 @@ const get = require('lodash/get');
 const filter = require('lodash/filter');
 const find = require('lodash/find');
 const includes = require('lodash/includes');
-const moment = require('moment');
+const moment = require('moment-timezone');
 const allStops = require('./static/stops.json');
 
 
@@ -12,7 +12,8 @@ const getArrivalDepartureTime = (schedules, trip_id, stop_id) => {
 };
 
 const toTimeStamp = (thisTime) => {
-  return parseInt(moment(thisTime, 'HH:mm:ss').format('X'), 10);
+  const date = moment(thisTime, 'HH:mm:ss');
+  return parseInt(date.tz('America/New_York').format('X'), 10);
 };
 
 const mergeScheduleData = (trips, schedules) => {
