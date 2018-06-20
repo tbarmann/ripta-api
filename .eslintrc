@@ -7,14 +7,14 @@
   "extends": "airbnb-base/legacy",
   "globals": {
     "$": false,
-    "opts": false,
+    "opts": true,
     "Spinner": false,
-    "readCookie": false,
-    "createCookie": false,
+    "readCookie": true,
+    "createCookie": true,
     "moment": false,
     "_": false
   },
-  rules: {
+  "rules": {
     "space-before-function-paren": ["error", {
       "anonymous": "never",
       "named": "never",
@@ -24,5 +24,11 @@
     "no-prototype-builtins": 0,
     "object-curly-spacing": 0,
     "no-use-before-define": 0
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
   }
 }
