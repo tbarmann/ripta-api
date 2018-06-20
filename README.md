@@ -32,7 +32,8 @@ See https://devcenter.heroku.com/articles/git#prerequisites-installing-git-and-t
  1. Use `heroku create` to create a new empty application on Heroku
  2. Run `git push heroku master` or `git push heroku a-different-branch:master` if deploying another branch
  3. Set `RIPTA_DATA_URL` in dashboard. `DATABASE_URL` should have been added automatically when provisioning postgres in Heroku.
- 4. Open a `bash` connection: `$ heroku run bash` and seed the database:
+ 4. Set `TZ` environmental variable in the dashboard to `America/New_York`. This sets the timezone in Node to match the timezone the data is intended for.
+ 5. Open a `bash` connection: `$ heroku run bash` and seed the database:
 ```
 $ ./seed.sh
 ```
