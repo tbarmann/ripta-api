@@ -19,7 +19,7 @@ const parse = (csvFile) => {
       if (error) {
         return console.log(err);
       }
-      console.log('finished writing: ' + writePath + fileBase);
+      console.log('finished writing: ' + writePath + fileBase + '.json');
       return true;
     });
   });

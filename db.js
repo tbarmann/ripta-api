@@ -64,6 +64,7 @@ const getStopsByTrip = (tripId) => {
     if (result.length > 0) {
       return { tripId, stops: result };
     }
+    console.log('Trip not found: ', tripId);
     return [];
   });
 };
