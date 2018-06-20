@@ -37,9 +37,11 @@ CREATE TABLE trips (
     direction_id integer,
     block_id integer,
     shape_id integer,
+    trip_type integer,
+    trip_footnote character varying,
     id SERIAL PRIMARY KEY
 );
-\copy trips(route_id,service_id,trip_id,trip_headsign,direction_id,block_id,shape_id) from 'trips.txt' CSV HEADER;
+\copy trips(route_id,service_id,trip_id,trip_headsign,direction_id,block_id,shape_id,trip_type,trip_footnote) from 'trips.txt' CSV HEADER;
 commit;
 
 begin;
