@@ -7,6 +7,8 @@ rm *.txt
 curl -sS "${URL}" > file.zip && \
 unzip file.zip
 rm file.zip
+sed -i .bak '/^.$/d' *.txt  # removes blank lines
+rm *.bak
 
 psql \
   -d $DATABASE_URL \
