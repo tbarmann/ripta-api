@@ -51,7 +51,6 @@ app.get('/api/stops?', (req, res) => {
     if (!!limit && !Number.isNaN(limit)) {
       stopsWithDistances = stopsWithDistances.slice(0, parseInt(limit, 10));
     }
-
     res.json(stopsWithDistances);
   } else {
     res.sendStatus(422);
@@ -122,7 +121,7 @@ app.get('/api/:type/route/:route/:dir?', (req, res) => {
         db.getTripSchedules(filteredData.entity)
           .then((schedules) => {
             const entity = mergeScheduleData(filteredData.entity, schedules);
-            res.json(Object.assign(filteredData, {entity}));
+            res.json({...filteredData, entity});
           });
       });
   } else {

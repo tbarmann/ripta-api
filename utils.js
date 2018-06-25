@@ -22,11 +22,11 @@ const mergeScheduleData = (trips, schedules) => {
       const times = getArrivalDepartureTime(schedules, trip_id, stop.stop_id);
       const arrival = stop.arrival ? {
         delay: stop.arrival.delay,
-        time: toTimeStamp(times.arrival)
+        time: toTimeStamp(times.arrival) + stop.arrival.delay
       } : null;
       const departure = stop.departure ? {
         delay: stop.departure.delay,
-        time: toTimeStamp(times.departure)
+        time: toTimeStamp(times.departure) + stop.departure.delay
       } : null;
       return {...stop, arrival, departure};
     });
