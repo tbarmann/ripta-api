@@ -18,7 +18,7 @@ To install on a local machine, you need to have Postgres installed and running o
 Set environmental variable: `DATABASE_URL`, which is the connection string to connect to the `ripta` database you created. Replace `DBuser`, `password` and `DBHost` as appropriate to your setup. Also set  `RIPTA_DATA_URL`, the url to the static zip file provided by RIPTA.  The current URL is shown in the example:
 
 ```
-$ export DATABASE_URL=progres://DBuser:password@DBHost/ripta
+$ export DATABASE_URL=postgres://DBuser:password@DBHost/ripta
 $ export RIPTA_DATA_URL=https://www.ripta.com/stuff/contentmgr/files/0/3cda81dfa140edbe9aae214b26245b4a/files/google_transit.zip
 $ npm install (or $ yarn)
 $ ./seed.sh
