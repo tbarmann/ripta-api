@@ -61,7 +61,7 @@ CREATE TABLE stops (
     stop_associated_place character varying,
     id SERIAL PRIMARY KEY
 );
-\copy stops(stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,stop_associated_place) from 'stops.txt' CSV HEADER DELIMITER ',';
+\copy stops(stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,stop_associated_place) from 'stops.txt' CSV HEADER;
 commit;
 
 
