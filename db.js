@@ -23,7 +23,7 @@ if (process.env.DATABASE_URL && url.parse(process.env.DATABASE_URL).auth) {
     host: params.hostname,
     port: params.port,
     database: params.pathname.split('/')[1],
-    ssl: true
+    ssl: false
   };
 } else {
   dbConfig = {

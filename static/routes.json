@@ -192,6 +192,14 @@
     "route_url": "http://www.ripta.com/35"
   },
   {
+    "route_id": 4,
+    "route_short_name": 4,
+    "route_long_name": "Thursday Only WalMart Shopper",
+    "route_desc": "",
+    "route_type": 3,
+    "route_url": ""
+  },
+  {
     "route_id": 40,
     "route_short_name": 40,
     "route_long_name": "Butler/Elmgrove",
@@ -298,7 +306,7 @@
   {
     "route_id": 62,
     "route_short_name": 62,
-    "route_long_name": "URI-Kington/NEC/PITC",
+    "route_long_name": "URI-Kingston/NEC/PITC",
     "route_desc": "",
     "route_type": 3,
     "route_url": ""
