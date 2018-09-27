@@ -1,3 +1,13 @@
+const formatStrAsTime = (str) => {
+  const parts = str.split(':');
+  if (parts.length === 0) {
+    return '00:00';
+  }
+  const hours = `0${parts[0]}`.slice(-2);
+  const minutes = parts[1] ? `0${parts[1]}`.slice(-2) : '00';
+  return `${hours}:${minutes}`;
+}
+
 
 // get all trips by route with optional params
 // params: routeId, serviceDay, directionId, stopId, startTime, endTime
@@ -23,10 +33,10 @@ const getTripsByRouteSql = (params) => {
     where.push(`direction_id = ${params.directionId}`);
   }
   if (params.startTime) {
-    where.push(`departure_time >= '${params.startTime}'`);
+    where.push(`departure_time >= '${formatStrAsTime(params.startTime)}'`);
   }
   if (params.endTime) {
-    where.push(`departure_time <= '${params.endTime}'`);
+    where.push(`departure_time <= '${formatStrAsTime(params.endTime)}'`);
   }
 
   return `SELECT trips.trip_id, trips.trip_headsign, departure_time, stop_name, direction_id from trips
