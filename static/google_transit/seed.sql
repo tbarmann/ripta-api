@@ -64,6 +64,17 @@ CREATE TABLE stops (
 \copy stops(stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,stop_associated_place) from 'stops.txt' CSV HEADER;
 commit;
 
+begin;
+DROP TABLE IF EXISTS calendar_dates;
+CREATE TABLE calendar_dates (
+    service_id character varying,
+    date integer,
+    exception_type integer,
+    id SERIAL PRIMARY KEY
+);
+\copy calendar_dates(service_id, date, exception_type) from 'calendar_dates.txt' CSV HEADER;
+commit;
+
 
 
 
