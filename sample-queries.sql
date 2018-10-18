@@ -26,3 +26,13 @@ from stop_times
 left join stops on stops.stop_id = stop_times.stop_id
  where trip_id = 2580218
 order by stop_sequence
+
+### all trips for a particular stop (Barrington Park and Ride = 8530)
+### going a particular direction ( = inbound)
+select service_id, arrival_time, stop_name, route_id, trips.trip_headsign from stop_times
+left join stops on stop_times.stop_id = stops.stop_id
+left join trips on stop_times.trip_id = trips.trip_id
+where stops.stop_id = 8530
+and direction_id = 0
+and service_id LIKE '%Weekday%'
+order by arrival_time;
