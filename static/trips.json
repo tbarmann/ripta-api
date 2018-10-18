@@ -127,7 +127,7 @@
     "trip_headsign": "KENNEDY PLAZA (PROVIDENCE)",
     "direction_id": 0,
     "block_id": 360988,
-    "shape_id": 600152,
+    "shape_id": 600022,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -468,7 +468,7 @@
     "trip_headsign": "PROVIDENCE",
     "direction_id": 0,
     "block_id": 360534,
-    "shape_id": 610001,
+    "shape_id": 610003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -479,7 +479,7 @@
     "trip_headsign": "PROVIDENCE",
     "direction_id": 0,
     "block_id": 360533,
-    "shape_id": 610001,
+    "shape_id": 610003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -512,7 +512,7 @@
     "trip_headsign": "KINGSTON STATION via URI-KINGSTON",
     "direction_id": 1,
     "block_id": 360566,
-    "shape_id": 640088,
+    "shape_id": 640012,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -534,7 +534,7 @@
     "trip_headsign": "KINGSTON STATION via URI-KINGSTON",
     "direction_id": 1,
     "block_id": 360565,
-    "shape_id": 640092,
+    "shape_id": 640013,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -556,7 +556,7 @@
     "trip_headsign": "KINGSTON STATION via URI-KINGSTON",
     "direction_id": 1,
     "block_id": 360565,
-    "shape_id": 640088,
+    "shape_id": 640012,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -578,7 +578,7 @@
     "trip_headsign": "KINGSTON STATION via URI-KINGSTON",
     "direction_id": 1,
     "block_id": 360566,
-    "shape_id": 640092,
+    "shape_id": 640013,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -611,7 +611,7 @@
     "trip_headsign": "KINGSTON STATION via URI-KINGSTON",
     "direction_id": 1,
     "block_id": 360565,
-    "shape_id": 640088,
+    "shape_id": 640012,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -655,7 +655,7 @@
     "trip_headsign": "KINGSTON STATION via URI-KINGSTON",
     "direction_id": 1,
     "block_id": 360565,
-    "shape_id": 640088,
+    "shape_id": 640012,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -666,7 +666,7 @@
     "trip_headsign": "KINGSTON STATION via URI-KINGSTON",
     "direction_id": 1,
     "block_id": 360566,
-    "shape_id": 640088,
+    "shape_id": 640012,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -688,7 +688,7 @@
     "trip_headsign": "KINGSTON STATION via URI-KINGSTON",
     "direction_id": 1,
     "block_id": 360566,
-    "shape_id": 640088,
+    "shape_id": 640012,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1359,7 +1359,7 @@
     "trip_headsign": "KINGSTON STATION via URI-KINGSTON",
     "direction_id": 1,
     "block_id": 360567,
-    "shape_id": 640088,
+    "shape_id": 640012,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1370,7 +1370,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 361003,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1381,7 +1381,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 361195,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1392,7 +1392,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 361003,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1403,7 +1403,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 361002,
-    "shape_id": 600018,
+    "shape_id": 600024,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1414,7 +1414,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 361195,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1425,7 +1425,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 361004,
-    "shape_id": 600018,
+    "shape_id": 600024,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1436,7 +1436,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 361002,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1447,7 +1447,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 361195,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1458,7 +1458,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 361195,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1480,7 +1480,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 361006,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1491,7 +1491,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 361007,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1502,7 +1502,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 361196,
-    "shape_id": 600150,
+    "shape_id": 600025,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1513,7 +1513,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 361008,
-    "shape_id": 600018,
+    "shape_id": 600024,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1524,7 +1524,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 361009,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1535,7 +1535,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 361010,
-    "shape_id": 600018,
+    "shape_id": 600024,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1546,7 +1546,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 361197,
-    "shape_id": 600017,
+    "shape_id": 600026,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1557,7 +1557,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 361010,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1568,7 +1568,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 361011,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1579,7 +1579,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 361194,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1590,7 +1590,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 360567,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1601,7 +1601,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 361013,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1612,7 +1612,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 360567,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1623,7 +1623,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 361196,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1634,7 +1634,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 361007,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1645,7 +1645,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 361197,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1656,7 +1656,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 361195,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1667,7 +1667,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 361010,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1689,7 +1689,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 361008,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1700,7 +1700,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 361005,
-    "shape_id": 600156,
+    "shape_id": 600027,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1711,7 +1711,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 361004,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1722,7 +1722,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 361003,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1733,7 +1733,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 361005,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1744,7 +1744,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 361010,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1755,7 +1755,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 361197,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1766,7 +1766,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 360567,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1777,7 +1777,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 361196,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1788,7 +1788,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 361196,
-    "shape_id": 600017,
+    "shape_id": 600026,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1799,7 +1799,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 361006,
-    "shape_id": 600018,
+    "shape_id": 600024,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1810,7 +1810,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 361008,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1821,7 +1821,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 361195,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1832,7 +1832,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 361197,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1843,7 +1843,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 360567,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1854,7 +1854,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 361014,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1865,7 +1865,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 361009,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1876,7 +1876,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 361014,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1887,7 +1887,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 361194,
-    "shape_id": 600017,
+    "shape_id": 600026,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1898,7 +1898,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 361014,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1920,7 +1920,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 361002,
-    "shape_id": 600156,
+    "shape_id": 600027,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1931,7 +1931,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 361011,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1942,7 +1942,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 361008,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1953,7 +1953,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 360998,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1964,7 +1964,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 360998,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1975,7 +1975,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 360999,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1986,7 +1986,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 360999,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -1997,7 +1997,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 360999,
-    "shape_id": 600017,
+    "shape_id": 600026,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -2723,7 +2723,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 361020,
-    "shape_id": 660154,
+    "shape_id": 660002,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -2734,7 +2734,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 361020,
-    "shape_id": 660155,
+    "shape_id": 660003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -2756,7 +2756,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 361019,
-    "shape_id": 660154,
+    "shape_id": 660002,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -2767,7 +2767,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 361019,
-    "shape_id": 660155,
+    "shape_id": 660003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -2778,7 +2778,7 @@
     "trip_headsign": "PROVIDENCE STATION via KENNEDY PLAZA",
     "direction_id": 0,
     "block_id": 361020,
-    "shape_id": 620002,
+    "shape_id": 620014,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -2789,7 +2789,7 @@
     "trip_headsign": "PROVIDENCE STATION via KENNEDY PLAZA",
     "direction_id": 0,
     "block_id": 361019,
-    "shape_id": 620002,
+    "shape_id": 620014,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -2800,7 +2800,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 361018,
-    "shape_id": 660155,
+    "shape_id": 660003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -2811,7 +2811,7 @@
     "trip_headsign": "PROVIDENCE STATION via KENNEDY PLAZA",
     "direction_id": 0,
     "block_id": 361018,
-    "shape_id": 620002,
+    "shape_id": 620014,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -2833,7 +2833,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 361018,
-    "shape_id": 660154,
+    "shape_id": 660002,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -2855,7 +2855,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 361017,
-    "shape_id": 660154,
+    "shape_id": 660002,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -2866,7 +2866,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 361017,
-    "shape_id": 660155,
+    "shape_id": 660003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -2877,7 +2877,7 @@
     "trip_headsign": "PROVIDENCE STATION via KENNEDY PLAZA",
     "direction_id": 0,
     "block_id": 361017,
-    "shape_id": 620002,
+    "shape_id": 620014,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -2899,7 +2899,7 @@
     "trip_headsign": "PROVIDENCE STATION via KENNEDY PLAZA",
     "direction_id": 0,
     "block_id": 361022,
-    "shape_id": 620002,
+    "shape_id": 620014,
     "trip_type": 1,
     "trip_footnote": "Trip operates when school is in session. Click on the pdf version for details."
   },
@@ -2921,7 +2921,7 @@
     "trip_headsign": "PROVIDENCE STATION via KENNEDY PLAZA",
     "direction_id": 0,
     "block_id": 361021,
-    "shape_id": 620002,
+    "shape_id": 620014,
     "trip_type": 1,
     "trip_footnote": "Trip operates when school is in session. Click on the pdf version for details."
   },
@@ -2943,7 +2943,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 361092,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -2954,7 +2954,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 361092,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -2965,7 +2965,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 360552,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -2976,7 +2976,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 361193,
-    "shape_id": 600017,
+    "shape_id": 600026,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -2987,7 +2987,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 361193,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -2998,7 +2998,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 361107,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3009,7 +3009,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 361107,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3020,7 +3020,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 361107,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3031,7 +3031,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 360588,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3042,7 +3042,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 360573,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3053,7 +3053,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 360571,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3064,7 +3064,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 360571,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3075,7 +3075,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 360588,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3086,7 +3086,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 360573,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3097,7 +3097,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 360578,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3107,8 +3107,8 @@
     "trip_id": 2758066,
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
-    "block_id": 360573,
-    "shape_id": 600143,
+    "block_id": 362136,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3119,7 +3119,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 360578,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3130,7 +3130,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 360577,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3141,7 +3141,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 360578,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3152,7 +3152,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 360587,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3163,7 +3163,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 360579,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3174,7 +3174,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 360575,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3185,7 +3185,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 360576,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3196,7 +3196,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 360579,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3207,7 +3207,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 360587,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3218,7 +3218,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 360579,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3229,7 +3229,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 360575,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3240,7 +3240,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 360576,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3251,7 +3251,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 360571,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3262,7 +3262,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 360588,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3273,7 +3273,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 360573,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3284,7 +3284,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 360571,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3295,7 +3295,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 360588,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3306,7 +3306,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 360574,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3317,7 +3317,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 360578,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3327,8 +3327,8 @@
     "trip_id": 2758086,
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
-    "block_id": 360573,
-    "shape_id": 600153,
+    "block_id": 362136,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3339,7 +3339,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 360578,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3350,7 +3350,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 360577,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3361,7 +3361,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 360572,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3372,7 +3372,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 360573,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3383,7 +3383,7 @@
     "trip_headsign": "KINGSTON STATION via URI-KINGSTON",
     "direction_id": 1,
     "block_id": 360580,
-    "shape_id": 640093,
+    "shape_id": 640014,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3394,7 +3394,7 @@
     "trip_headsign": "KINGSTON STATION via URI-KINGSTON",
     "direction_id": 1,
     "block_id": 360580,
-    "shape_id": 640093,
+    "shape_id": 640014,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3405,7 +3405,7 @@
     "trip_headsign": "KINGSTON STATION via URI-KINGSTON",
     "direction_id": 1,
     "block_id": 360580,
-    "shape_id": 640093,
+    "shape_id": 640014,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3416,7 +3416,7 @@
     "trip_headsign": "KINGSTON STATION via URI-KINGSTON",
     "direction_id": 1,
     "block_id": 360580,
-    "shape_id": 640093,
+    "shape_id": 640014,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3471,7 +3471,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 360572,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3482,7 +3482,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 360574,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3493,7 +3493,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 360572,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3504,7 +3504,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 360574,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3515,7 +3515,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 360574,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3526,7 +3526,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 360572,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3537,7 +3537,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 360572,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -3548,7 +3548,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 360572,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -8520,7 +8520,7 @@
     "trip_headsign": "KENNEDY PLAZA then OLNEYVILLE SQUARE",
     "direction_id": 0,
     "block_id": 360615,
-    "shape_id": 320030,
+    "shape_id": 320003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -8564,7 +8564,7 @@
     "trip_headsign": "KENNEDY PLAZA then OLNEYVILLE SQUARE",
     "direction_id": 0,
     "block_id": 360615,
-    "shape_id": 320030,
+    "shape_id": 320003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -8608,7 +8608,7 @@
     "trip_headsign": "KENNEDY PLAZA then OLNEYVILLE SQUARE",
     "direction_id": 0,
     "block_id": 360615,
-    "shape_id": 320030,
+    "shape_id": 320003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -8652,7 +8652,7 @@
     "trip_headsign": "KENNEDY PLAZA then OLNEYVILLE SQUARE",
     "direction_id": 0,
     "block_id": 360615,
-    "shape_id": 320031,
+    "shape_id": 320004,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -10643,7 +10643,7 @@
     "trip_headsign": "PROVIDENCE",
     "direction_id": 0,
     "block_id": 361031,
-    "shape_id": 90002,
+    "shape_id": 90005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -11501,7 +11501,7 @@
     "trip_headsign": "KENNEDY PLAZA then OLNEYVILLE SQUARE",
     "direction_id": 0,
     "block_id": 360629,
-    "shape_id": 320030,
+    "shape_id": 320003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -11545,7 +11545,7 @@
     "trip_headsign": "KENNEDY PLAZA then OLNEYVILLE SQUARE",
     "direction_id": 0,
     "block_id": 360629,
-    "shape_id": 320030,
+    "shape_id": 320003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -11589,7 +11589,7 @@
     "trip_headsign": "KENNEDY PLAZA then OLNEYVILLE SQUARE",
     "direction_id": 0,
     "block_id": 360629,
-    "shape_id": 320030,
+    "shape_id": 320003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -11633,7 +11633,7 @@
     "trip_headsign": "KENNEDY PLAZA then OLNEYVILLE SQUARE",
     "direction_id": 0,
     "block_id": 360629,
-    "shape_id": 320031,
+    "shape_id": 320004,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -11677,7 +11677,7 @@
     "trip_headsign": "KENNEDY PLAZA then OLNEYVILLE SQUARE",
     "direction_id": 0,
     "block_id": 360629,
-    "shape_id": 320031,
+    "shape_id": 320004,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -13272,7 +13272,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360636,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -13294,7 +13294,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360636,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -13316,7 +13316,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360636,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -13338,7 +13338,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360636,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -13360,7 +13360,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360636,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -13382,7 +13382,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360636,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -13404,7 +13404,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360636,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -13426,7 +13426,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360636,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -14724,7 +14724,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360645,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -14746,7 +14746,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360645,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -14768,7 +14768,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360645,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -14790,7 +14790,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360645,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -14812,7 +14812,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360645,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -14834,7 +14834,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360645,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -14856,7 +14856,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360645,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -14867,7 +14867,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360643,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -14889,7 +14889,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360643,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -14911,7 +14911,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360643,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -14933,7 +14933,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360643,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -14955,7 +14955,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360643,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -14977,7 +14977,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360643,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -14999,7 +14999,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360643,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -16241,7 +16241,7 @@
     "trip_id": 2759500,
     "trip_headsign": "S. ATTLEBORO MBTA STATION via NEWPORT",
     "direction_id": 1,
-    "block_id": 360650,
+    "block_id": 363110,
     "shape_id": 350025,
     "trip_type": 0,
     "trip_footnote": ""
@@ -16252,7 +16252,7 @@
     "trip_id": 2759501,
     "trip_headsign": "KENNEDY PLAZA (PROVIDENCE)",
     "direction_id": 0,
-    "block_id": 360650,
+    "block_id": 363110,
     "shape_id": 350026,
     "trip_type": 0,
     "trip_footnote": ""
@@ -16263,7 +16263,7 @@
     "trip_id": 2759502,
     "trip_headsign": "S. ATTLEBORO MBTA STATION via NEWPORT",
     "direction_id": 1,
-    "block_id": 360650,
+    "block_id": 363110,
     "shape_id": 350025,
     "trip_type": 0,
     "trip_footnote": ""
@@ -16825,7 +16825,7 @@
     "trip_headsign": "GALILEE via WAKEFIELD (EXPRESS SERVICE)",
     "direction_id": 1,
     "block_id": 360654,
-    "shape_id": 650032,
+    "shape_id": 650001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -17034,7 +17034,7 @@
     "trip_headsign": "PASCOAG",
     "direction_id": 1,
     "block_id": 360655,
-    "shape_id": 90001,
+    "shape_id": 90003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -17045,7 +17045,7 @@
     "trip_headsign": "PROVIDENCE",
     "direction_id": 0,
     "block_id": 360655,
-    "shape_id": 90002,
+    "shape_id": 90004,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -17056,7 +17056,7 @@
     "trip_headsign": "PASCOAG",
     "direction_id": 1,
     "block_id": 360655,
-    "shape_id": 90001,
+    "shape_id": 90003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -17067,7 +17067,7 @@
     "trip_headsign": "PROVIDENCE",
     "direction_id": 0,
     "block_id": 360655,
-    "shape_id": 90002,
+    "shape_id": 90005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -17463,7 +17463,7 @@
     "trip_headsign": "PAWTUCKET",
     "direction_id": 0,
     "block_id": 360664,
-    "shape_id": 750005,
+    "shape_id": 750009,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -17529,7 +17529,7 @@
     "trip_headsign": "KENNEDY PLAZA then OLNEYVILLE SQUARE",
     "direction_id": 0,
     "block_id": 360668,
-    "shape_id": 320030,
+    "shape_id": 320003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -17573,7 +17573,7 @@
     "trip_headsign": "KENNEDY PLAZA then OLNEYVILLE SQUARE",
     "direction_id": 0,
     "block_id": 360668,
-    "shape_id": 320030,
+    "shape_id": 320003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -17617,7 +17617,7 @@
     "trip_headsign": "KENNEDY PLAZA then OLNEYVILLE SQUARE",
     "direction_id": 0,
     "block_id": 360668,
-    "shape_id": 320030,
+    "shape_id": 320003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -17661,7 +17661,7 @@
     "trip_headsign": "KENNEDY PLAZA then OLNEYVILLE SQUARE",
     "direction_id": 0,
     "block_id": 360668,
-    "shape_id": 320031,
+    "shape_id": 320004,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -17705,7 +17705,7 @@
     "trip_headsign": "KENNEDY PLAZA then OLNEYVILLE SQUARE",
     "direction_id": 0,
     "block_id": 360668,
-    "shape_id": 320031,
+    "shape_id": 320004,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -18057,7 +18057,7 @@
     "trip_headsign": "PROVIDENCE",
     "direction_id": 0,
     "block_id": 361034,
-    "shape_id": 610001,
+    "shape_id": 610003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -18090,7 +18090,7 @@
     "trip_headsign": "WARWICK MALL via ARCTIC CENTER",
     "direction_id": 0,
     "block_id": 360669,
-    "shape_id": 130027,
+    "shape_id": 130001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -18112,7 +18112,7 @@
     "trip_headsign": "WARWICK MALL via ARCTIC CENTER",
     "direction_id": 0,
     "block_id": 360669,
-    "shape_id": 130027,
+    "shape_id": 130001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -18134,7 +18134,7 @@
     "trip_headsign": "WARWICK MALL via ARCTIC CENTER",
     "direction_id": 0,
     "block_id": 360669,
-    "shape_id": 130027,
+    "shape_id": 130001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -20136,7 +20136,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360692,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -20158,7 +20158,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360692,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -20180,7 +20180,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360692,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -20202,7 +20202,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360692,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -20224,7 +20224,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360692,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -20246,7 +20246,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360692,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -20642,7 +20642,7 @@
     "trip_headsign": "WARWICK MALL via ARCTIC CENTER",
     "direction_id": 0,
     "block_id": 360690,
-    "shape_id": 130027,
+    "shape_id": 130001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -20664,7 +20664,7 @@
     "trip_headsign": "WARWICK MALL via ARCTIC CENTER",
     "direction_id": 0,
     "block_id": 360690,
-    "shape_id": 130027,
+    "shape_id": 130001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -20686,7 +20686,7 @@
     "trip_headsign": "WARWICK MALL via ARCTIC CENTER",
     "direction_id": 0,
     "block_id": 360690,
-    "shape_id": 130027,
+    "shape_id": 130001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -20741,7 +20741,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360693,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -20763,7 +20763,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360693,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -20785,7 +20785,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360693,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -20807,7 +20807,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360693,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -20829,7 +20829,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360693,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -20851,7 +20851,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360693,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -20873,7 +20873,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360693,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -20895,7 +20895,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360693,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -20917,7 +20917,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360693,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -20950,7 +20950,7 @@
     "trip_headsign": "PASCOAG",
     "direction_id": 1,
     "block_id": 361042,
-    "shape_id": 90001,
+    "shape_id": 90003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -21170,7 +21170,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360697,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -21192,7 +21192,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360697,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -21214,7 +21214,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360697,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -21236,7 +21236,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360697,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -21258,7 +21258,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360697,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -21280,7 +21280,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360697,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -21302,7 +21302,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360697,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -21324,7 +21324,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360697,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -21555,7 +21555,7 @@
     "trip_headsign": "PASCOAG",
     "direction_id": 1,
     "block_id": 360700,
-    "shape_id": 90001,
+    "shape_id": 90003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -21566,7 +21566,7 @@
     "trip_headsign": "PROVIDENCE",
     "direction_id": 0,
     "block_id": 360700,
-    "shape_id": 90002,
+    "shape_id": 90005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -21731,7 +21731,7 @@
     "trip_headsign": "PASCOAG",
     "direction_id": 1,
     "block_id": 360704,
-    "shape_id": 90001,
+    "shape_id": 90003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -21742,7 +21742,7 @@
     "trip_headsign": "PROVIDENCE",
     "direction_id": 0,
     "block_id": 360704,
-    "shape_id": 90002,
+    "shape_id": 90005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -22391,7 +22391,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 361037,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -24844,7 +24844,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360722,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -24866,7 +24866,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360722,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -24888,7 +24888,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360722,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -24910,7 +24910,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360722,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -24932,7 +24932,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360722,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -24954,7 +24954,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360722,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -24976,7 +24976,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360722,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -24998,7 +24998,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360722,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -25020,7 +25020,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360722,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -26307,7 +26307,7 @@
     "trip_headsign": "PASCOAG",
     "direction_id": 1,
     "block_id": 360734,
-    "shape_id": 90001,
+    "shape_id": 90003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -26560,7 +26560,7 @@
     "trip_headsign": "PAWTUCKET",
     "direction_id": 0,
     "block_id": 360735,
-    "shape_id": 750005,
+    "shape_id": 750009,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -27495,7 +27495,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360743,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -27517,7 +27517,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360743,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -27539,7 +27539,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360743,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -27561,7 +27561,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360743,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -27583,7 +27583,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360743,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -27605,7 +27605,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360743,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -27627,7 +27627,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360743,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -27649,7 +27649,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360743,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -27671,7 +27671,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360743,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -27693,7 +27693,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360743,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -29607,7 +29607,7 @@
     "trip_headsign": "WARWICK MALL via ARCTIC CENTER",
     "direction_id": 0,
     "block_id": 360752,
-    "shape_id": 130027,
+    "shape_id": 130001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -29629,7 +29629,7 @@
     "trip_headsign": "WARWICK MALL via ARCTIC CENTER",
     "direction_id": 0,
     "block_id": 360752,
-    "shape_id": 130027,
+    "shape_id": 130001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -29651,7 +29651,7 @@
     "trip_headsign": "WARWICK MALL via ARCTIC CENTER",
     "direction_id": 0,
     "block_id": 360752,
-    "shape_id": 130027,
+    "shape_id": 130001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -29673,7 +29673,7 @@
     "trip_headsign": "WARWICK MALL via ARCTIC CENTER",
     "direction_id": 0,
     "block_id": 360752,
-    "shape_id": 130027,
+    "shape_id": 130001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -29695,7 +29695,7 @@
     "trip_headsign": "WARWICK MALL via ARCTIC CENTER",
     "direction_id": 0,
     "block_id": 360753,
-    "shape_id": 130027,
+    "shape_id": 130001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -29717,7 +29717,7 @@
     "trip_headsign": "WARWICK MALL via ARCTIC CENTER",
     "direction_id": 0,
     "block_id": 360753,
-    "shape_id": 130027,
+    "shape_id": 130001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -29739,7 +29739,7 @@
     "trip_headsign": "WARWICK MALL via ARCTIC CENTER",
     "direction_id": 0,
     "block_id": 360753,
-    "shape_id": 130027,
+    "shape_id": 130001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -29761,7 +29761,7 @@
     "trip_headsign": "WARWICK MALL via ARCTIC CENTER",
     "direction_id": 0,
     "block_id": 360753,
-    "shape_id": 130027,
+    "shape_id": 130001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -29783,7 +29783,7 @@
     "trip_headsign": "WARWICK MALL via ARCTIC CENTER",
     "direction_id": 0,
     "block_id": 360753,
-    "shape_id": 130027,
+    "shape_id": 130001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -29805,7 +29805,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360755,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -29827,7 +29827,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360755,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -29849,7 +29849,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360755,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -29871,7 +29871,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360755,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -29893,7 +29893,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360755,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -29915,7 +29915,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360755,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -29937,7 +29937,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360756,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -29959,7 +29959,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360756,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -29981,7 +29981,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360756,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30003,7 +30003,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360756,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30025,7 +30025,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360756,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30047,7 +30047,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360756,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30069,7 +30069,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360756,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30080,7 +30080,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360757,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30102,7 +30102,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360757,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30124,7 +30124,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360757,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30146,7 +30146,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360757,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30168,7 +30168,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360757,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30190,7 +30190,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360757,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30212,7 +30212,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360757,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30289,7 +30289,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360785,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30311,7 +30311,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360785,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30333,7 +30333,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360785,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30355,7 +30355,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360785,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30377,7 +30377,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360763,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30410,7 +30410,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360763,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30432,7 +30432,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360763,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30443,7 +30443,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360763,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30465,7 +30465,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360763,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30476,7 +30476,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360785,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30542,7 +30542,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360762,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30564,7 +30564,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360762,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30586,7 +30586,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360762,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30619,7 +30619,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360762,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30641,7 +30641,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360762,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30729,7 +30729,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360761,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30740,7 +30740,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360761,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30751,7 +30751,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360761,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30762,7 +30762,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360761,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30773,7 +30773,7 @@
     "trip_headsign": "DOWNTOWN",
     "direction_id": 1,
     "block_id": 360761,
-    "shape_id": 870003,
+    "shape_id": 870006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30784,7 +30784,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360761,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30795,7 +30795,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360784,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30806,7 +30806,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360784,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30839,7 +30839,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360784,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30872,7 +30872,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360784,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30883,7 +30883,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360784,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -30894,7 +30894,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360784,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31257,7 +31257,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 361093,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31268,7 +31268,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 361094,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31279,7 +31279,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 361093,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31290,7 +31290,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 361094,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31301,7 +31301,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 361093,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31312,7 +31312,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 361094,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31323,7 +31323,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 361093,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31334,7 +31334,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 361094,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31345,7 +31345,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 361093,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31356,7 +31356,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 361094,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31367,7 +31367,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 361091,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31378,7 +31378,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 361091,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31389,7 +31389,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 361091,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31400,7 +31400,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 361091,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31411,7 +31411,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 361091,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31422,7 +31422,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 361082,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31433,7 +31433,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 361082,
-    "shape_id": 600150,
+    "shape_id": 600025,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31444,7 +31444,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 361082,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31455,7 +31455,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 361082,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31466,7 +31466,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 361082,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31477,7 +31477,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 361082,
-    "shape_id": 600017,
+    "shape_id": 600026,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31488,7 +31488,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 361082,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31499,7 +31499,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 360992,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31510,7 +31510,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 361082,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31521,7 +31521,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 360990,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31532,7 +31532,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 360990,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31543,7 +31543,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 360992,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31554,7 +31554,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 361110,
-    "shape_id": 660155,
+    "shape_id": 660003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31565,7 +31565,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 361110,
-    "shape_id": 660154,
+    "shape_id": 660002,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31576,7 +31576,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 361110,
-    "shape_id": 660155,
+    "shape_id": 660003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31587,7 +31587,7 @@
     "trip_headsign": "PROVIDENCE STATION via KENNEDY PLAZA",
     "direction_id": 0,
     "block_id": 361110,
-    "shape_id": 620002,
+    "shape_id": 620014,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31609,7 +31609,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 361028,
-    "shape_id": 660154,
+    "shape_id": 660002,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31620,7 +31620,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 361027,
-    "shape_id": 660154,
+    "shape_id": 660002,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31631,7 +31631,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 361027,
-    "shape_id": 660155,
+    "shape_id": 660003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31642,7 +31642,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 361027,
-    "shape_id": 660154,
+    "shape_id": 660002,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31653,7 +31653,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 361027,
-    "shape_id": 660155,
+    "shape_id": 660003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31664,7 +31664,7 @@
     "trip_headsign": "PROVIDENCE STATION via KENNEDY PLAZA",
     "direction_id": 0,
     "block_id": 361027,
-    "shape_id": 620002,
+    "shape_id": 620014,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31686,7 +31686,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 361027,
-    "shape_id": 660154,
+    "shape_id": 660002,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31697,7 +31697,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 361027,
-    "shape_id": 660155,
+    "shape_id": 660003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31719,7 +31719,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 361026,
-    "shape_id": 660154,
+    "shape_id": 660002,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31730,7 +31730,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 361112,
-    "shape_id": 660154,
+    "shape_id": 660002,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31752,7 +31752,7 @@
     "trip_headsign": "PROVIDENCE STATION via KENNEDY PLAZA",
     "direction_id": 0,
     "block_id": 361111,
-    "shape_id": 620002,
+    "shape_id": 620014,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31763,7 +31763,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 361111,
-    "shape_id": 660154,
+    "shape_id": 660002,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31774,7 +31774,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 361111,
-    "shape_id": 660155,
+    "shape_id": 660003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31785,7 +31785,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 361111,
-    "shape_id": 660155,
+    "shape_id": 660003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31796,7 +31796,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 361112,
-    "shape_id": 660155,
+    "shape_id": 660003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31807,7 +31807,7 @@
     "trip_headsign": "PROVIDENCE STATION via KENNEDY PLAZA",
     "direction_id": 0,
     "block_id": 361025,
-    "shape_id": 620002,
+    "shape_id": 620014,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31829,7 +31829,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 361025,
-    "shape_id": 660154,
+    "shape_id": 660002,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31840,7 +31840,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 360990,
-    "shape_id": 660154,
+    "shape_id": 660002,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31851,7 +31851,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 360990,
-    "shape_id": 660155,
+    "shape_id": 660003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31862,7 +31862,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 360990,
-    "shape_id": 660154,
+    "shape_id": 660002,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31884,7 +31884,7 @@
     "trip_headsign": "PROVIDENCE STATION via KENNEDY PLAZA",
     "direction_id": 0,
     "block_id": 360990,
-    "shape_id": 620002,
+    "shape_id": 620014,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31895,7 +31895,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 360990,
-    "shape_id": 660155,
+    "shape_id": 660003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31906,7 +31906,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 360990,
-    "shape_id": 660155,
+    "shape_id": 660003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31917,7 +31917,7 @@
     "trip_headsign": "PROVIDENCE STATION via KENNEDY PLAZA",
     "direction_id": 0,
     "block_id": 361024,
-    "shape_id": 620002,
+    "shape_id": 620014,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31939,7 +31939,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 361026,
-    "shape_id": 660155,
+    "shape_id": 660003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31950,7 +31950,7 @@
     "trip_headsign": "PROVIDENCE STATION via KENNEDY PLAZA",
     "direction_id": 0,
     "block_id": 361027,
-    "shape_id": 620002,
+    "shape_id": 620014,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31961,7 +31961,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 361024,
-    "shape_id": 660154,
+    "shape_id": 660002,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31972,7 +31972,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 361029,
-    "shape_id": 660154,
+    "shape_id": 660002,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -31994,7 +31994,7 @@
     "trip_headsign": "PROVIDENCE STATION via KENNEDY PLAZA",
     "direction_id": 0,
     "block_id": 361029,
-    "shape_id": 620002,
+    "shape_id": 620014,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -32005,7 +32005,7 @@
     "trip_headsign": "PROVIDENCE STATION via KENNEDY PLAZA",
     "direction_id": 0,
     "block_id": 361029,
-    "shape_id": 620002,
+    "shape_id": 620014,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -32027,7 +32027,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 360654,
-    "shape_id": 660154,
+    "shape_id": 660002,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -32038,7 +32038,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 361029,
-    "shape_id": 660155,
+    "shape_id": 660003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -32049,7 +32049,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 361029,
-    "shape_id": 660155,
+    "shape_id": 660003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -32126,7 +32126,7 @@
     "trip_headsign": "KENNEDY PLAZA then HOPE H.S.",
     "direction_id": 0,
     "block_id": 361049,
-    "shape_id": 110041,
+    "shape_id": 110003,
     "trip_type": 1,
     "trip_footnote": "Trip operates when school is in session. Click on the pdf version for details."
   },
@@ -33039,7 +33039,7 @@
     "trip_headsign": "PROVIDENCE STATION via KENNEDY PLAZA",
     "direction_id": 0,
     "block_id": 361082,
-    "shape_id": 620002,
+    "shape_id": 620014,
     "trip_type": 1,
     "trip_footnote": "Trip operates when school is in session. Click on the pdf version for details."
   },
@@ -33050,7 +33050,7 @@
     "trip_headsign": "PROVIDENCE STATION via KENNEDY PLAZA",
     "direction_id": 0,
     "block_id": 361080,
-    "shape_id": 620002,
+    "shape_id": 620014,
     "trip_type": 1,
     "trip_footnote": "Trip operates when school is in session. Click on the pdf version for details."
   },
@@ -33061,7 +33061,7 @@
     "trip_headsign": "PROVIDENCE STATION via KENNEDY PLAZA",
     "direction_id": 0,
     "block_id": 361072,
-    "shape_id": 620002,
+    "shape_id": 620014,
     "trip_type": 1,
     "trip_footnote": "Trip operates when school is in session. Click on the pdf version for details."
   },
@@ -33072,7 +33072,7 @@
     "trip_headsign": "PROVIDENCE STATION via KENNEDY PLAZA",
     "direction_id": 0,
     "block_id": 361076,
-    "shape_id": 620002,
+    "shape_id": 620014,
     "trip_type": 1,
     "trip_footnote": "Trip operates when school is in session. Click on the pdf version for details."
   },
@@ -33083,7 +33083,7 @@
     "trip_headsign": "PROVIDENCE STATION via KENNEDY PLAZA",
     "direction_id": 0,
     "block_id": 361078,
-    "shape_id": 620002,
+    "shape_id": 620014,
     "trip_type": 1,
     "trip_footnote": "Trip operates when school is in session. Click on the pdf version for details."
   },
@@ -33105,7 +33105,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 360647,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -33116,7 +33116,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 360647,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -33127,7 +33127,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 361106,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -33138,7 +33138,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 360647,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -33149,7 +33149,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 361106,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -33160,7 +33160,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 361106,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -33314,7 +33314,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 360811,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -33325,7 +33325,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 360853,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -33336,7 +33336,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 360811,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -33347,7 +33347,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 360853,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -33358,7 +33358,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 360811,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -33369,7 +33369,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 360853,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -33380,7 +33380,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 360811,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -33391,7 +33391,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 360853,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -33402,7 +33402,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 360811,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -33413,7 +33413,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 360853,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -33424,7 +33424,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 360830,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -33435,7 +33435,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 360830,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -33446,7 +33446,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 360830,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -33743,7 +33743,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360812,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -33754,7 +33754,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360812,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -33765,7 +33765,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360812,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -33776,7 +33776,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360812,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -33787,7 +33787,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360812,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -33798,7 +33798,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360813,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -33809,7 +33809,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360813,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -33820,7 +33820,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360813,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -33831,7 +33831,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360813,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -33864,7 +33864,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 360830,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -34106,7 +34106,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360813,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -37538,7 +37538,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360824,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -37604,7 +37604,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360825,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -37626,7 +37626,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360824,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -37670,7 +37670,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360825,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -37714,7 +37714,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360824,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -37758,7 +37758,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360825,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -37791,7 +37791,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360824,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -37835,7 +37835,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360825,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -37890,7 +37890,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360824,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -37934,7 +37934,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360825,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -37978,7 +37978,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360824,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -38022,7 +38022,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360825,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -38066,7 +38066,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360824,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -38110,7 +38110,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360825,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -38154,7 +38154,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360824,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -38198,7 +38198,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360825,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -38242,7 +38242,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360824,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -38286,7 +38286,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360825,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -38330,7 +38330,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360824,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -38451,7 +38451,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360846,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -38462,7 +38462,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360846,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -38473,7 +38473,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360846,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -38484,7 +38484,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360846,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -38495,7 +38495,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360846,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -38506,7 +38506,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360846,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -38517,7 +38517,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360846,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -38528,7 +38528,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360846,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -38539,7 +38539,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360846,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -39001,7 +39001,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 360854,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -39012,7 +39012,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 360854,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -39023,7 +39023,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 360829,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -39034,7 +39034,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 360829,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -39045,7 +39045,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 360829,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -39056,7 +39056,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 360829,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -41608,7 +41608,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360843,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -41619,7 +41619,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360842,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -41630,7 +41630,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360843,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -41641,7 +41641,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360842,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -41652,7 +41652,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360843,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -41663,7 +41663,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360842,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -41674,7 +41674,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360843,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -41685,7 +41685,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360842,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -41696,7 +41696,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360843,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -41707,7 +41707,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360842,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -41718,7 +41718,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360843,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -42092,7 +42092,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 360845,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -42103,7 +42103,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360847,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -42114,7 +42114,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360847,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -42213,7 +42213,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360847,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -42224,7 +42224,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360847,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -42235,7 +42235,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360847,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -42246,7 +42246,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360847,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -42257,7 +42257,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360847,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -42268,7 +42268,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360847,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -48637,7 +48637,7 @@
     "trip_headsign": "WARWICK MALL via ARCTIC CENTER",
     "direction_id": 0,
     "block_id": 360852,
-    "shape_id": 130027,
+    "shape_id": 130001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -48648,7 +48648,7 @@
     "trip_headsign": "WARWICK MALL via ARCTIC CENTER",
     "direction_id": 0,
     "block_id": 360852,
-    "shape_id": 130027,
+    "shape_id": 130001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -48670,7 +48670,7 @@
     "trip_headsign": "WARWICK MALL via ARCTIC CENTER",
     "direction_id": 0,
     "block_id": 360851,
-    "shape_id": 130027,
+    "shape_id": 130001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -48692,7 +48692,7 @@
     "trip_headsign": "WARWICK MALL via ARCTIC CENTER",
     "direction_id": 0,
     "block_id": 360851,
-    "shape_id": 130027,
+    "shape_id": 130001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -48714,7 +48714,7 @@
     "trip_headsign": "WARWICK MALL via ARCTIC CENTER",
     "direction_id": 0,
     "block_id": 360851,
-    "shape_id": 130027,
+    "shape_id": 130001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -48736,7 +48736,7 @@
     "trip_headsign": "WARWICK MALL via ARCTIC CENTER",
     "direction_id": 0,
     "block_id": 360851,
-    "shape_id": 130027,
+    "shape_id": 130001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -48758,7 +48758,7 @@
     "trip_headsign": "WARWICK MALL via ARCTIC CENTER",
     "direction_id": 0,
     "block_id": 360851,
-    "shape_id": 130027,
+    "shape_id": 130001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -48780,7 +48780,7 @@
     "trip_headsign": "WARWICK MALL via ARCTIC CENTER",
     "direction_id": 0,
     "block_id": 360852,
-    "shape_id": 130027,
+    "shape_id": 130001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -48802,7 +48802,7 @@
     "trip_headsign": "WARWICK MALL via ARCTIC CENTER",
     "direction_id": 0,
     "block_id": 360852,
-    "shape_id": 130027,
+    "shape_id": 130001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -48824,7 +48824,7 @@
     "trip_headsign": "WARWICK MALL via ARCTIC CENTER",
     "direction_id": 0,
     "block_id": 360852,
-    "shape_id": 130027,
+    "shape_id": 130001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49187,7 +49187,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 360866,
-    "shape_id": 660154,
+    "shape_id": 660002,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49198,7 +49198,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 360868,
-    "shape_id": 660154,
+    "shape_id": 660002,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49209,7 +49209,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 360869,
-    "shape_id": 660154,
+    "shape_id": 660002,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49220,7 +49220,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 360870,
-    "shape_id": 660154,
+    "shape_id": 660002,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49231,7 +49231,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 360867,
-    "shape_id": 660154,
+    "shape_id": 660002,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49242,7 +49242,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 360866,
-    "shape_id": 660154,
+    "shape_id": 660002,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49253,7 +49253,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 360868,
-    "shape_id": 660154,
+    "shape_id": 660002,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49264,7 +49264,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 360869,
-    "shape_id": 660154,
+    "shape_id": 660002,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49275,7 +49275,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 360870,
-    "shape_id": 660154,
+    "shape_id": 660002,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49286,7 +49286,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 360867,
-    "shape_id": 660154,
+    "shape_id": 660002,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49297,7 +49297,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 360866,
-    "shape_id": 660154,
+    "shape_id": 660002,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49308,7 +49308,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 360868,
-    "shape_id": 660154,
+    "shape_id": 660002,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49319,7 +49319,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 360869,
-    "shape_id": 660154,
+    "shape_id": 660002,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49330,7 +49330,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 360870,
-    "shape_id": 660154,
+    "shape_id": 660002,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49341,7 +49341,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 360835,
-    "shape_id": 660154,
+    "shape_id": 660002,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49352,7 +49352,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 360867,
-    "shape_id": 660155,
+    "shape_id": 660003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49363,7 +49363,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 360866,
-    "shape_id": 660155,
+    "shape_id": 660003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49374,7 +49374,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 360868,
-    "shape_id": 660155,
+    "shape_id": 660003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49385,7 +49385,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 360869,
-    "shape_id": 660155,
+    "shape_id": 660003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49396,7 +49396,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 360870,
-    "shape_id": 660155,
+    "shape_id": 660003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49407,7 +49407,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 360867,
-    "shape_id": 660155,
+    "shape_id": 660003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49418,7 +49418,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 360866,
-    "shape_id": 660155,
+    "shape_id": 660003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49429,7 +49429,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 360868,
-    "shape_id": 660155,
+    "shape_id": 660003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49440,7 +49440,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 360869,
-    "shape_id": 660155,
+    "shape_id": 660003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49451,7 +49451,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 360870,
-    "shape_id": 660155,
+    "shape_id": 660003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49462,7 +49462,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 360835,
-    "shape_id": 660155,
+    "shape_id": 660003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49473,7 +49473,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 360866,
-    "shape_id": 660155,
+    "shape_id": 660003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49484,7 +49484,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 360868,
-    "shape_id": 660155,
+    "shape_id": 660003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49495,7 +49495,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 360869,
-    "shape_id": 660155,
+    "shape_id": 660003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49506,7 +49506,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 360870,
-    "shape_id": 660155,
+    "shape_id": 660003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49693,7 +49693,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360892,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49704,7 +49704,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360892,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49715,7 +49715,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360892,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49726,7 +49726,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360892,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49737,7 +49737,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360892,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49748,7 +49748,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360891,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49759,7 +49759,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360891,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49770,7 +49770,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360891,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49781,7 +49781,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360891,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -49990,7 +49990,7 @@
     "trip_headsign": "FAIRMOUNT via DOWNTOWN",
     "direction_id": 1,
     "block_id": 360891,
-    "shape_id": 870002,
+    "shape_id": 870005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -52410,7 +52410,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360946,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -52465,7 +52465,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360901,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -52509,7 +52509,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360946,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -52553,7 +52553,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360901,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -52597,7 +52597,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360946,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -52641,7 +52641,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360901,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -52685,7 +52685,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360946,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -52718,7 +52718,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360901,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -52773,7 +52773,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360946,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -52817,7 +52817,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360901,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -52861,7 +52861,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360946,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -52894,7 +52894,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360901,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -52949,7 +52949,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360946,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -52982,7 +52982,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360901,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -53037,7 +53037,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360946,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -53070,7 +53070,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360901,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -53103,7 +53103,7 @@
     "trip_headsign": "WARWICK MALL via PONTIAC AV",
     "direction_id": 1,
     "block_id": 360946,
-    "shape_id": 220083,
+    "shape_id": 220001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -53917,7 +53917,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360927,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -53928,7 +53928,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360927,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -53939,7 +53939,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360927,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -53950,7 +53950,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360927,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -53961,7 +53961,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360927,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -53972,7 +53972,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360945,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -53983,7 +53983,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360945,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -53994,7 +53994,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360945,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -54401,7 +54401,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 360908,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -54412,7 +54412,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 360908,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -54423,7 +54423,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 360908,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -54434,7 +54434,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 360881,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -54445,7 +54445,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 360918,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -54456,7 +54456,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 360881,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -54467,7 +54467,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 360909,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -54478,7 +54478,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 360909,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -54489,7 +54489,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 360909,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -54500,7 +54500,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 360930,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -54511,7 +54511,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 360917,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -54522,7 +54522,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 360909,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -54533,7 +54533,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 360909,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -54544,7 +54544,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 360909,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -54555,7 +54555,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 360917,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -54566,7 +54566,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 360930,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -54577,7 +54577,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 360908,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -54588,7 +54588,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 360908,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -54599,7 +54599,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 360908,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -54610,7 +54610,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 360908,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -54621,7 +54621,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 360881,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -54632,7 +54632,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 360918,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -56051,7 +56051,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 360947,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -56062,7 +56062,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 360947,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -56073,7 +56073,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 360947,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -56084,7 +56084,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 360919,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -56095,7 +56095,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 360919,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -56106,7 +56106,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 360930,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -56117,7 +56117,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 360919,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -56128,7 +56128,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 360947,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -56139,7 +56139,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 360919,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -56150,7 +56150,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 360947,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -56161,7 +56161,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 360919,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -56172,7 +56172,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 360947,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -56876,7 +56876,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360924,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -56887,7 +56887,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360923,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -56898,7 +56898,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360924,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -56909,7 +56909,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360923,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -56920,7 +56920,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360924,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -56931,7 +56931,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360923,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -56942,7 +56942,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360924,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -56953,7 +56953,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360923,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -56964,7 +56964,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360924,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -56975,7 +56975,7 @@
     "trip_headsign": "TF GREEN AIRPORT via EDDY",
     "direction_id": 1,
     "block_id": 360923,
-    "shape_id": 10099,
+    "shape_id": 10006,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -57338,7 +57338,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360928,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -57349,7 +57349,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360928,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -57437,7 +57437,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360928,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -57448,7 +57448,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360928,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -57459,7 +57459,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360928,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -57470,7 +57470,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360928,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -57481,7 +57481,7 @@
     "trip_headsign": "PROVIDENCE via CENTRAL FALLS",
     "direction_id": 0,
     "block_id": 360928,
-    "shape_id": 720034,
+    "shape_id": 720003,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -59835,7 +59835,7 @@
     "trip_headsign": "WARWICK MALL via ARCTIC CENTER",
     "direction_id": 0,
     "block_id": 360942,
-    "shape_id": 130027,
+    "shape_id": 130001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -59846,7 +59846,7 @@
     "trip_headsign": "WARWICK MALL via ARCTIC CENTER",
     "direction_id": 0,
     "block_id": 360941,
-    "shape_id": 130027,
+    "shape_id": 130001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -59868,7 +59868,7 @@
     "trip_headsign": "WARWICK MALL via ARCTIC CENTER",
     "direction_id": 0,
     "block_id": 360941,
-    "shape_id": 130027,
+    "shape_id": 130001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -59890,7 +59890,7 @@
     "trip_headsign": "WARWICK MALL via ARCTIC CENTER",
     "direction_id": 0,
     "block_id": 360941,
-    "shape_id": 130027,
+    "shape_id": 130001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -59912,7 +59912,7 @@
     "trip_headsign": "WARWICK MALL via ARCTIC CENTER",
     "direction_id": 0,
     "block_id": 360942,
-    "shape_id": 130027,
+    "shape_id": 130001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -59934,7 +59934,7 @@
     "trip_headsign": "WARWICK MALL via ARCTIC CENTER",
     "direction_id": 0,
     "block_id": 360942,
-    "shape_id": 130027,
+    "shape_id": 130001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -59956,7 +59956,7 @@
     "trip_headsign": "WARWICK MALL via ARCTIC CENTER",
     "direction_id": 0,
     "block_id": 360942,
-    "shape_id": 130027,
+    "shape_id": 130001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -59978,7 +59978,7 @@
     "trip_headsign": "WARWICK MALL via ARCTIC CENTER",
     "direction_id": 0,
     "block_id": 360942,
-    "shape_id": 130027,
+    "shape_id": 130001,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -59989,7 +59989,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 360905,
-    "shape_id": 660156,
+    "shape_id": 660004,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60000,7 +60000,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 360939,
-    "shape_id": 660153,
+    "shape_id": 660005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60011,7 +60011,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 360940,
-    "shape_id": 660153,
+    "shape_id": 660005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60022,7 +60022,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 360938,
-    "shape_id": 660153,
+    "shape_id": 660005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60033,7 +60033,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 360937,
-    "shape_id": 660153,
+    "shape_id": 660005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60044,7 +60044,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 360939,
-    "shape_id": 660153,
+    "shape_id": 660005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60055,7 +60055,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 360940,
-    "shape_id": 660153,
+    "shape_id": 660005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60066,7 +60066,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 360938,
-    "shape_id": 660153,
+    "shape_id": 660005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60077,7 +60077,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 360937,
-    "shape_id": 660153,
+    "shape_id": 660005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60088,7 +60088,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 360939,
-    "shape_id": 660153,
+    "shape_id": 660005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60099,7 +60099,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 360940,
-    "shape_id": 660153,
+    "shape_id": 660005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60110,7 +60110,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 360938,
-    "shape_id": 660153,
+    "shape_id": 660005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60121,7 +60121,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 360937,
-    "shape_id": 660153,
+    "shape_id": 660005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60132,7 +60132,7 @@
     "trip_headsign": "PROVIDENCE STATION via TF GREEN AIRPORT",
     "direction_id": 0,
     "block_id": 360939,
-    "shape_id": 660153,
+    "shape_id": 660005,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60143,7 +60143,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 360938,
-    "shape_id": 660156,
+    "shape_id": 660004,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60154,7 +60154,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 360937,
-    "shape_id": 660156,
+    "shape_id": 660004,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60165,7 +60165,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 360939,
-    "shape_id": 660156,
+    "shape_id": 660004,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60176,7 +60176,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 360940,
-    "shape_id": 660156,
+    "shape_id": 660004,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60187,7 +60187,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 360938,
-    "shape_id": 660156,
+    "shape_id": 660004,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60198,7 +60198,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 360937,
-    "shape_id": 660156,
+    "shape_id": 660004,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60209,7 +60209,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 360939,
-    "shape_id": 660156,
+    "shape_id": 660004,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60220,7 +60220,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 360940,
-    "shape_id": 660156,
+    "shape_id": 660004,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60231,7 +60231,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 360938,
-    "shape_id": 660156,
+    "shape_id": 660004,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60242,7 +60242,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 360937,
-    "shape_id": 660156,
+    "shape_id": 660004,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60253,7 +60253,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 360939,
-    "shape_id": 660156,
+    "shape_id": 660004,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60264,7 +60264,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 360901,
-    "shape_id": 660156,
+    "shape_id": 660004,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60275,7 +60275,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 360945,
-    "shape_id": 660156,
+    "shape_id": 660004,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60286,7 +60286,7 @@
     "trip_headsign": "GALILEE via TF GREEN AIRPORT",
     "direction_id": 1,
     "block_id": 360900,
-    "shape_id": 660156,
+    "shape_id": 660004,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60726,7 +60726,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 360918,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60737,7 +60737,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 360917,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60748,7 +60748,7 @@
     "trip_headsign": "PROVIDENCE via EAST MAIN",
     "direction_id": 0,
     "block_id": 360881,
-    "shape_id": 600016,
+    "shape_id": 600020,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60759,7 +60759,7 @@
     "trip_headsign": "PROVIDENCE via WEST MAIN",
     "direction_id": 0,
     "block_id": 360918,
-    "shape_id": 600143,
+    "shape_id": 600023,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60770,7 +60770,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 360917,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60781,7 +60781,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 360881,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60792,7 +60792,7 @@
     "trip_headsign": "NEWPORT via WEST MAIN",
     "direction_id": 1,
     "block_id": 360918,
-    "shape_id": 600153,
+    "shape_id": 600021,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60803,7 +60803,7 @@
     "trip_headsign": "NEWPORT via EAST MAIN",
     "direction_id": 1,
     "block_id": 360917,
-    "shape_id": 600015,
+    "shape_id": 600019,
     "trip_type": 0,
     "trip_footnote": ""
   },
@@ -60814,7 +60814,7 @@
     "trip_headsign": "KENNEDY PLAZA (PROVIDENCE)",
     "direction_id": 0,
     "block_id": 360505,
-    "shape_id": 600152,
+    "shape_id": 600022,
     "trip_type": 0,
     "trip_footnote": ""
   },
