@@ -7,6 +7,8 @@ const get = require('lodash/get');
 const getTripsByRouteSql = require('./queries').getTripsByRouteSql;
 const getStopsByTripSql = require('./queries').getStopsByTripSql;
 const getTripScheduleSql = require('./queries').getTripScheduleSql;
+const getTripsByStopIdSql = require('./queries').getTripsByStopIdSql;
+
 
 const LOCAL_DB = 'localhost';
 const DATABASE = 'ripta';
@@ -72,6 +74,16 @@ const getStopsByTrip = (tripId) => {
   });
 };
 
+const getTripsByStopId = (params) => {
+  const sql = getTripsByStopIdSql(params);
+  return query(sql).then((result) => {
+    if (result.length > 0) {
+      return { stopId: params.stopId, trips: result };
+    }
+    console.warn('No trips found for stop: ', params.stopId);
+    return [];
+  });
+};
 
 const getTripSchedules = (trips) => {
   const scheduleQueries = trips.map(trip => {
@@ -95,5 +107,6 @@ module.exports = {
   query,
   getTripsByRoute,
   getStopsByTrip,
-  getTripSchedules
+  getTripSchedules,
+  getTripsByStopId
 };
