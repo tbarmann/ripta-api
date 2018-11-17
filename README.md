@@ -137,6 +137,53 @@ Response:
 ]
 ```
 ----------
+
+```
+GET /api/trips/stop/:stopId
+```
+Returns all bus trips for a particular stop. Can be filtered by direction (inbound or outbound), time of day, and route.
+
+Params
+
+* stopID (required)
+* routeId
+* serviceDay: Weekday | Saturday | Sunday - default is 'Weekday'
+* directionId: 0 | 1 - default is both - 0 is inbound, 1 is outbound
+* startTime: HH:MM - default is all day
+* endTime: HH:MM - default is all day
+
+Example:
+```
+api/trips/stop/8530?serviceDay=Weekday&startTime=17:00&endTime=18:00?directionId=0
+```
+
+Response:
+```
+{
+  "stopId": "8530",
+  "trips": [
+    {
+      "trip_id": 2764503,
+      "service_id": "hsem1801-Weekday-1-SE2018-1111100",
+      "arrival_time": "17:04:00",
+      "departure_time": "17:04:00",
+      "stop_name": "BARRINGTON PARK&RIDE (WHITE CHURCH)",
+      "route_id": 60,
+      "trip_headsign": "PROVIDENCE via EAST MAIN"
+    },
+    {
+      "trip_id": 2764465,
+      "service_id": "hsem1801-Weekday-1-SE2018-1111100",
+      "arrival_time": "17:19:00",
+      "departure_time": "17:19:00",
+      "stop_name": "BARRINGTON PARK&RIDE (WHITE CHURCH)",
+      "route_id": 60,
+      "trip_headsign": "PROVIDENCE via WEST MAIN"
+    },
+    ...
+}
+```
+----------
 ```
 GET /api/trip/:tripId
 ```
