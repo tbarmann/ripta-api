@@ -64,7 +64,7 @@ app.get('/api/trip/:tripId', (req, res) => {
     .catch((error) => console.log(error));
 });
 
-app.get('/api/trips/:routeId', (req, res) => {
+app.get('/api/trips/route/:routeId', (req, res) => {
   const params = {
     routeId: req.params.routeId,
     stopId: req.query.stopId,

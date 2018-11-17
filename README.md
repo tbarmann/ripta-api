@@ -98,7 +98,7 @@ Response:
 ----------
 
 ```
-GET /api/trips/:routeId
+GET /api/trips/route/:routeId
 ```
 Returns all bus trips on a particular route. Can be filtered by direction (inbound or outbound), time of day, and stop.
 
@@ -113,7 +113,7 @@ Params
 
 Example:
 ```
-api/trips/60/?serviceDay=Weekday&startTime=17:00&endTime=18:00?directionId=0
+api/trips/route/60/?serviceDay=Weekday&startTime=17:00&endTime=18:00?directionId=0
 ```
 
 Response:
