@@ -138,6 +138,44 @@ Response:
 ```
 ----------
 
+
+```
+GET /api/stops/:routeId
+```
+Returns all stops on a particular route. Can be filtered by direction (inbound or outbound), and serviceDay.
+
+Params
+
+* routeID (required)
+* serviceDay: Weekday | Saturday | Sunday - default is all
+* directionId: 0 | 1 - default is both - 0 is inbound, 1 is outbound
+
+Note that if a directionId is not specified, the response will appear to have duplicate stops. In fact, the stops with the same names are different stops: one is for one direction and the other is for the opposite direction. Often they are across the street from each other but share the same name.
+
+Example:
+```
+api/stops/60?directionId=0&serviceDay=Weekday
+```
+
+Response:
+```
+{
+  routeId: "60",
+  stops: [
+    {
+      stop_id: 8530,
+      stop_name: "BARRINGTON PARK&RIDE (WHITE CHURCH)"
+    },
+    {
+    stop_id: 2760,
+    stop_name: "BAYVIEW APARTMENTS"
+    },
+    ...
+  ]
+}
+```
+----------
+
 ```
 GET /api/trips/stop/:stopId
 ```
