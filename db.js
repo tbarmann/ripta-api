@@ -70,7 +70,7 @@ const getStopsByTrip = (tripId) => {
       return { tripId, stops: result };
     }
     console.warn('Trip not found: ', tripId);
-    return [];
+    return { tripId, stops: [] };
   });
 };
 
@@ -81,7 +81,7 @@ const getTripsByStopId = (params) => {
       return { stopId: params.stopId, trips: result };
     }
     console.warn('No trips found for stop: ', params.stopId);
-    return [];
+    return { stopId: params.stopId, trips: [] };
   });
 };
 
