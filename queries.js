@@ -82,6 +82,30 @@ const getTripsByStopIdSql = (params) => {
     ORDER BY departure_time;`;
 };
 
+// get all stops for a particular route with optional params
+// params: routeId, serviceDay, directionId
+const getStopsByRouteIdSql = (params) => {
+  const where = [];
+
+  if (!params.routeId) {
+    return null;
+  }
+  where.push(`trips.route_id = ${params.routeId}`);
+
+  if (params.serviceDay) {
+    where.push(`trips.service_id LIKE '%${params.serviceDay}%'`);
+  }
+  if (params.directionId) {
+    where.push(`trips.direction_id = ${params.directionId}`);
+  }
+
+  return `select distinct stop_times.stop_id, stop_name from stop_times
+    left join stops on stops.stop_id = stop_times.stop_id
+    where stop_times.trip_id in
+      (select trips.trip_id from trips WHERE ${where.join(' AND ')})
+    order by stop_name;`;
+};
+
 // all stops on a particular trip
 const getStopsByTripSql = (tripId) => {
   return `SELECT stops.stop_id, stop_name, departure_time, arrival_time, stop_sequence
@@ -111,6 +135,7 @@ module.exports = {
   getStopsByTripSql,
   getRoutesByStopSql,
   getTripScheduleSql,
-  getTripsByStopIdSql
+  getTripsByStopIdSql,
+  getStopsByRouteIdSql
 };
 
