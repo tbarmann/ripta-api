@@ -152,6 +152,8 @@ Params
 
 Note that if a directionId is not specified, the response will appear to have duplicate stops. In fact, the stops with the same names are different stops: one is for one direction and the other is for the opposite direction. Often they are across the street from each other but share the same name.
 
+Also note that not all trips contain every stop in this response. This returns all stops on all trips.
+
 Example:
 ```
 api/stops/60?directionId=0&serviceDay=Weekday
