@@ -1,5 +1,7 @@
 node_modules
 static/google_transit/*.txt
 static/*.json
+.DS_Store
+
 
 
