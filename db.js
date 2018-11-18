@@ -8,7 +8,7 @@ const getTripsByRouteSql = require('./queries').getTripsByRouteSql;
 const getStopsByTripSql = require('./queries').getStopsByTripSql;
 const getTripScheduleSql = require('./queries').getTripScheduleSql;
 const getTripsByStopIdSql = require('./queries').getTripsByStopIdSql;
-
+const getStopsByRouteIdSql = require('./queries').getStopsByRouteIdSql;
 
 const LOCAL_DB = 'localhost';
 const DATABASE = 'ripta';
@@ -70,7 +70,7 @@ const getStopsByTrip = (tripId) => {
       return { tripId, stops: result };
     }
     console.warn('Trip not found: ', tripId);
-    return [];
+    return { tripId, stops: [] };
   });
 };
 
@@ -81,7 +81,18 @@ const getTripsByStopId = (params) => {
       return { stopId: params.stopId, trips: result };
     }
     console.warn('No trips found for stop: ', params.stopId);
-    return [];
+    return { stopId: params.stopId, trips: [] };
+  });
+};
+
+const getStopsByRouteId = (params) => {
+  const sql = getStopsByRouteIdSql(params);
+  return query(sql).then((result) => {
+    if (result.length > 0) {
+      return { routeId: params.routeId, stops: result };
+    }
+    console.warn('No stops found for route: ', params.routeId);
+    return { routeId: params.routeId, stops: [] };
   });
 };
 
@@ -108,5 +119,6 @@ module.exports = {
   getTripsByRoute,
   getStopsByTrip,
   getTripSchedules,
-  getTripsByStopId
+  getTripsByStopId,
+  getStopsByRouteId
 };

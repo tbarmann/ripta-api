@@ -64,6 +64,21 @@ app.get('/api/trip/:tripId', (req, res) => {
     .catch((error) => console.log(error));
 });
 
+app.get('/api/stops/:routeId', (req, res) => {
+  const params = {
+    routeId: req.params.routeId,
+    serviceDay: req.query.serviceDay,
+    directionId: req.query.directionId,
+  };
+  if (true) {
+    db.getStopsByRouteId(params)
+      .then((stops) => res.json(stops))
+      .catch((error) => console.log(error));
+  } else {
+    res.sendStatus(422);
+  }
+});
+
 app.get('/api/trips/stop/:stopId', (req, res) => {
   const params = {
     stopId: req.params.stopId,
@@ -72,7 +87,6 @@ app.get('/api/trips/stop/:stopId', (req, res) => {
     startTime: req.query.startTime,
     endTime: req.query.endTime
   };
-  console.log(params);
   if (true) {
     db.getTripsByStopId(params)
       .then((trips) => res.json(trips))

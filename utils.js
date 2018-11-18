@@ -5,7 +5,6 @@ const includes = require('lodash/includes');
 const moment = require('moment');
 const allStops = require('./static/stops.json');
 
-
 const getArrivalDepartureTime = (schedules, trip_id, stop_id) => {
   const trip = find(schedules, {trip_id});
   return find(trip.schedule, {stop_id: parseInt(stop_id, 10)});
