@@ -87,7 +87,6 @@ app.get('/api/trips/stop/:stopId', (req, res) => {
     startTime: req.query.startTime,
     endTime: req.query.endTime
   };
-  console.log(params);
   if (true) {
     db.getTripsByStopId(params)
       .then((trips) => res.json(trips))
