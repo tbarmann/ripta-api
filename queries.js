@@ -1,3 +1,6 @@
+const moment = require('moment');
+require('moment-timezone');
+
 const formatStrAsTime = (str) => {
   const parts = str.split(':');
   if (parts.length === 0) {
@@ -13,7 +16,7 @@ const formatStrAsTime = (str) => {
 // the last 7 digits of the service_id with this pattern
 // Uses the & bitwise operator to perform an "AND"
 // and returns the WHERE clause
-// dow param is a dow number as a string where monday === 0, tuesday === 1, etc.
+// dow param is a day of week number as a string where monday === 0, tuesday === 1, etc.
 const createServiceIdWhere = (dow) => {
   const patterns = ['1000000', '0100000', '0010000', '0001000', '0000100', '0000010', '0000001'];
   const dowInt = parseInt(dow, 10);
@@ -23,6 +26,15 @@ const createServiceIdWhere = (dow) => {
   }
   const pattern = patterns[dowInt];
   return `CAST(RIGHT(trips.service_id, 7) as bit(7)) & b'${pattern}' = b'${pattern}'`;
+}
+
+const getTodaysDayOfWeek = () => {
+  const today = moment(new Date());
+  const eastCoastDate = new Date(today.tz('America/New_York'));
+  const dow = eastCoastDate.getDay();
+  const dowConverted = dow === 0 ? 6 : dow - 1; //convert to monday = 0, tuesday = 1, etc.
+  console.log('day of week:', dowConverted);
+  return dowConverted;
 }
 
 // get all trips by route with optional params
@@ -43,7 +55,7 @@ const getTripsByRouteSql = (params) => {
   if (params.serviceDay) {
     where.push(createServiceIdWhere(params.serviceDay));
   } else {
-    where.push('service_id LIKE \'%Weekday%\''); // default to Weekday
+    where.push(createServiceIdWhere(getTodaysDayOfWeek())); // default to today
   }
   if (params.directionId) {
     where.push(`direction_id = ${params.directionId}`);
@@ -78,7 +90,7 @@ const getTripsByStopIdSql = (params) => {
   if (params.serviceDay) {
     where.push(createServiceIdWhere(params.serviceDay));
   } else {
-    where.push('service_id LIKE \'%Weekday%\''); // default to Weekday
+    where.push(createServiceIdWhere(getTodaysDayOfWeek())); // default to today
   }
   if (params.directionId) {
     where.push(`direction_id = ${params.directionId}`);
@@ -110,6 +122,8 @@ const getStopsByRouteIdSql = (params) => {
 
   if (params.serviceDay) {
     where.push(createServiceIdWhere(params.serviceDay));
+  } else {
+    where.push(createServiceIdWhere(getTodaysDayOfWeek())); // default to today
   }
   if (params.directionId) {
     where.push(`trips.direction_id = ${params.directionId}`);
