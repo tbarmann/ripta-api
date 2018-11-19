@@ -22,7 +22,7 @@ const createServiceIdWhere = (dow) => {
     return 'true'; // true is returned so it does not break the where statement
   }
   const pattern = patterns[dowInt];
-  return `CAST(RIGHT(service_id, 7) as bit(7)) & b'${pattern}' = b'${pattern}'`;
+  return `CAST(RIGHT(trips.service_id, 7) as bit(7)) & b'${pattern}' = b'${pattern}'`;
 }
 
 // get all trips by route with optional params
