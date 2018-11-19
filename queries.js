@@ -115,7 +115,7 @@ const getStopsByRouteIdSql = (params) => {
     where.push(`trips.direction_id = ${params.directionId}`);
   }
 
-  return `select distinct stop_times.stop_id, stop_name from stop_times
+  return `select distinct stop_times.stop_id, stop_name, stop_lat, stop_lon from stop_times
     left join stops on stops.stop_id = stop_times.stop_id
     where stop_times.trip_id in
       (select trips.trip_id from trips WHERE ${where.join(' AND ')})
@@ -124,7 +124,7 @@ const getStopsByRouteIdSql = (params) => {
 
 // all stops on a particular trip
 const getStopsByTripSql = (tripId) => {
-  return `SELECT stops.stop_id, stop_name, departure_time, arrival_time, stop_sequence
+  return `SELECT stops.stop_id, stop_name, departure_time, arrival_time, stop_sequence, stop_lat, stop_lon
     FROM stop_times
     LEFT JOIN stops on stops.stop_id = stop_times.stop_id
     WHERE trip_id = ${tripId}
