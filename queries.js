@@ -6,8 +6,24 @@ const formatStrAsTime = (str) => {
   const hours = `0${parts[0]}`.slice(-2);
   const minutes = parts[1] ? `0${parts[1]}`.slice(-2) : '00';
   return `${hours}:${minutes}`;
-}
+};
 
+// Converts a day of the week into a binary 7 digit pattern
+// which is used to create a WHERE clause for a query to compare
+// the last 7 digits of the service_id with this pattern
+// Uses the & bitwise operator to perform an "AND"
+// and returns the WHERE clause
+// dow param is a dow number as a string where monday === 0, tuesday === 1, etc.
+const createServiceIdWhere = (dow) => {
+  const patterns = ['1000000', '0100000', '0010000', '0001000', '0000100', '0000010', '0000001'];
+  const dowInt = parseInt(dow, 10);
+  if (dow === undefined ||  dowInt < 0 || dowInt > 6) {
+    console.log('Warning: Invalid day of week');
+    return 'true'; // true is returned so it does not break the where statement
+  }
+  const pattern = patterns[dowInt];
+  return `CAST(RIGHT(service_id, 7) as bit(7)) & b'${pattern}' = b'${pattern}'`;
+}
 
 // get all trips by route with optional params
 // params: routeId, serviceDay, directionId, stopId, startTime, endTime
@@ -25,7 +41,7 @@ const getTripsByRouteSql = (params) => {
     where.push('stop_times.stop_sequence = 1'); // default to 1, the first stop
   }
   if (params.serviceDay) {
-    where.push(`service_id LIKE '%${params.serviceDay}%'`);
+    where.push(createServiceIdWhere(params.serviceDay));
   } else {
     where.push('service_id LIKE \'%Weekday%\''); // default to Weekday
   }
@@ -60,7 +76,7 @@ const getTripsByStopIdSql = (params) => {
     where.push(`stops.route_id = ${params.routeId}`);
   }
   if (params.serviceDay) {
-    where.push(`service_id LIKE '%${params.serviceDay}%'`);
+    where.push(createServiceIdWhere(params.serviceDay));
   } else {
     where.push('service_id LIKE \'%Weekday%\''); // default to Weekday
   }
@@ -93,7 +109,7 @@ const getStopsByRouteIdSql = (params) => {
   where.push(`trips.route_id = ${params.routeId}`);
 
   if (params.serviceDay) {
-    where.push(`trips.service_id LIKE '%${params.serviceDay}%'`);
+    where.push(createServiceIdWhere(params.serviceDay));
   }
   if (params.directionId) {
     where.push(`trips.direction_id = ${params.directionId}`);
