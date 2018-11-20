@@ -1,14 +1,28 @@
 # RIPTA API
-Provides a proxy to the official Rhode Island Public Transit Authority (RIPTA) API (`http://realtime.ripta.com:81/api/`) that supplies near real-time information about bus locations and expected arrival times. This API adds the ability to filter the results by route and direction. In addition, this API adds endpoints not available in the official RIPTA API:
 
-* Get stops closest to a particular point
-* Get schedule of a particular route
-* Get all stops associated with a particular route
-* Get all stops associated with a particular trip
+Provides static and near real-time bus information for the Rhode Island Public Transit Authority (RIPTA).
+
+It has two main purposes: 
+
+1. To provide a proxy to the official Rhode Island Public Transit Authority (RIPTA) API (`http://realtime.ripta.com:81/api/`), which supplies near real-time information about bus locations and expected arrival times. Beyond the official API, this API adds the ability to filter the results by route and direction. 
 
 See the RIPTA API documentation for more information on the RIPTA provided endpoints: [http://realtime.ripta.com:81/](http://realtime.ripta.com:81/)
 
-The schedule and trip data come from static files provided by RIPTA at [https://www.ripta.com/stuff/contentmgr/files/0/3cda81dfa140edbe9aae214b26245b4a/files/google_transit.zip](https://www.ripta.com/stuff/contentmgr/files/0/3cda81dfa140edbe9aae214b26245b4a/files/google_transit.zip). Note: this URL has changed in the past and may change again. The most current file may be linked from [https://www.ripta.com/mobile-applications](https://www.ripta.com/mobile-applications). These files are updated each time RIPTA changes its schedules, which recently has been once or twice year.
+2. To provide static information about bus routes, stops and schedules not available in the official RIPTA API. This data comes from static files provided by RIPTA that are imported into a database and are accessed by endpoints.
+
+You can use this API to:
+
+* Get delay information of any bus currently running
+* Get bus location of any bus currently running
+* Get stops closest to a particular lat/lon point
+* Get all trips associated with a particular route
+* Get all stops associated with a particular route
+* Get all stops associated with a particular trip
+* Get all trips associated with a particular stop
+
+Most of these API requests can be filtered by trip direction, service day, start time and end time.
+
+The schedule and trip data come from static files provided by RIPTA at [https://www.ripta.com/stuff/contentmgr/files/0/3cda81dfa140edbe9aae214b26245b4a/files/google_transit.zip](https://www.ripta.com/stuff/contentmgr/files/0/3cda81dfa140edbe9aae214b26245b4a/files/google_transit.zip). Note: this URL has changed in the past and may change again. The most current file may be linked from [https://www.ripta.com/mobile-applications](https://www.ripta.com/mobile-applications). These files are updated each time RIPTA changes its schedules, which recently has been every four months.
 
 This app includes a `bash` script to automatically download the static files and import them into a Postgres database.
 
@@ -324,4 +338,4 @@ entity: [
 
 
 ----------
-Copyright &copy; 2016-2017 by Timothy C. Barmann
+Copyright &copy; 2016-2018 by Timothy C. Barmann
