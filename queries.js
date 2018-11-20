@@ -100,12 +100,8 @@ const getStopsByRouteIdSql = (params) => {
     return null;
   }
   where.push(`trips.route_id = ${params.routeId}`);
+  where.push(`service_id IN (${getServiceIdsByDateSql(params.serviceDay)})`);
 
-  if (params.serviceDay) {
-    where.push(createServiceIdWhere(params.serviceDay));
-  } else {
-    where.push(createServiceIdWhere(getTodaysDayOfWeek())); // default to today
-  }
   if (params.directionId) {
     where.push(`trips.direction_id = ${params.directionId}`);
   }
