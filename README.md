@@ -4,9 +4,7 @@ Provides static and near real-time bus information for the Rhode Island Public T
 
 It has two main purposes: 
 
-1. To provide a proxy to the official Rhode Island Public Transit Authority (RIPTA) API (`http://realtime.ripta.com:81/api/`), which supplies near real-time information about bus locations and expected arrival times. Beyond the official API, this API adds the ability to filter the results by route and direction. 
-
-See the RIPTA API documentation for more information on the RIPTA provided endpoints: [http://realtime.ripta.com:81/](http://realtime.ripta.com:81/)
+1. To provide a proxy to the official Rhode Island Public Transit Authority (RIPTA) API (`http://realtime.ripta.com:81/api/`), which supplies near real-time information about bus locations and expected arrival times. Beyond the official API, this API adds the ability to filter the results by route and direction.  See the RIPTA API documentation for more information on the RIPTA provided endpoints: [http://realtime.ripta.com:81/](http://realtime.ripta.com:81/)
 
 2. To provide static information about bus routes, stops and schedules not available in the official RIPTA API. This data comes from static files provided by RIPTA that are imported into a database and are accessed by endpoints.
 
