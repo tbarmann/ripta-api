@@ -106,14 +106,14 @@ Params
 
 * routeID (required)
 * stopId - defaults to first stop
-* serviceDay: 0 = Monday, 1 = Tuesday, etc. - default is all
+* serviceDay: Date in the form of YYYYMMDD - default is today
 * directionId: 0 | 1 - default is both - 0 is inbound, 1 is outbound
 * startTime: HH:MM - default is all day
 * endTime: HH:MM - default is all day
 
 Example:
 ```
-api/trips/route/60/?serviceDay=0&startTime=17:00&endTime=18:00?directionId=0
+api/trips/route/60/?serviceDay=20181121&startTime=17:00&endTime=18:00?directionId=0
 ```
 
 Response:
@@ -147,7 +147,7 @@ Returns all stops on a particular route. Can be filtered by direction (inbound o
 Params
 
 * routeID (required)
-* serviceDay: 0 = Monday, 1 = Tuesday, etc. - default is all
+* serviceDay: Date in the form of YYYYMMDD - default is today
 * directionId: 0 | 1 - default is both - 0 is inbound, 1 is outbound
 
 Note that if a directionId is not specified, the response will appear to have duplicate stops. In fact, the stops with the same names are different stops: one is for one direction and the other is for the opposite direction. Often they are across the street from each other but share the same name.
@@ -156,7 +156,7 @@ Also note that not all trips contain every stop in this response. This returns a
 
 Example:
 ```
-api/stops/60?directionId=0&serviceDay=0
+api/stops/60?directionId=0&serviceDay=20181121
 ```
 
 Response:
@@ -187,14 +187,14 @@ Params
 
 * stopID (required)
 * routeId
-* serviceDay: 0 = Monday, 1 = Tuesday, etc. - default is all
+* serviceDay: Date in the form of YYYYMMDD - default is today
 * directionId: 0 | 1 - default is both - 0 is inbound, 1 is outbound
 * startTime: HH:MM - default is all day
 * endTime: HH:MM - default is all day
 
 Example:
 ```
-api/trips/stop/8530?serviceDay=0&startTime=17:00&endTime=18:00?directionId=0
+api/trips/stop/8530?&startTime=17:00&endTime=18:00?directionId=0
 ```
 
 Response:
