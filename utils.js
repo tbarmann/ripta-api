@@ -19,13 +19,16 @@ const mergeScheduleData = (trips, schedules) => {
     const trip_id = get(trip, ['trip_update', 'trip', 'trip_id']);
     const stops = trip.trip_update.stop_time_update.map((stop) => {
       const times = getArrivalDepartureTime(schedules, trip_id, stop.stop_id);
+      if (times === undefined) {
+        console.log(`No schedule information for trip id: ${trip_id}`);
+      }
       const arrival = stop.arrival ? {
         delay: stop.arrival.delay,
-        time: toTimeStamp(times.arrival) + stop.arrival.delay
+        time: times ? toTimeStamp(times.arrival) + stop.arrival.delay : 0
       } : null;
       const departure = stop.departure ? {
         delay: stop.departure.delay,
-        time: toTimeStamp(times.departure) + stop.departure.delay
+        time: times ? toTimeStamp(times.departure) + stop.departure.delay : 0
       } : null;
       return {...stop, arrival, departure};
     });
