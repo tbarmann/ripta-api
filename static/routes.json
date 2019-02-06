@@ -352,6 +352,14 @@
     "route_url": "http://www.ripta.com/67"
   },
   {
+    "route_id": 7,
+    "route_short_name": "QX",
+    "route_long_name": "Quonset Express",
+    "route_desc": "",
+    "route_type": 3,
+    "route_url": "http://www.ripta.com/qx"
+  },
+  {
     "route_id": 71,
     "route_short_name": 71,
     "route_long_name": "Pawtucket Avenue/Broad Street (Pawtucket)",
