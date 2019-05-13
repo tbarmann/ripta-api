@@ -89,6 +89,13 @@ $(document).ready(function() {
     $('.loading').show();
   }
 
+  function setDirection() {
+    // set inbound if am, outbound if pm
+  var hours = new Date().getHours();
+  var direction = hours >= 12 ? 'outbound' : 'inbound';
+    $("#" + direction).prop("checked", true);
+  }
+
   function displayTrips(trips, routeId) {
     var html = '';
     var thisRoute;
@@ -184,6 +191,8 @@ $(document).ready(function() {
     var optionList = [];
     var optionsHtml;
     var savedRoute;
+    setDirection();
+
     $.each(routesIndexed, function(key, value) {
       var label = value.route_short_name + ' ' + value.route_long_name;
       optionList.push({value: value.route_id, label: label});
