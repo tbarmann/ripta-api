@@ -80,14 +80,6 @@
     "route_url": "http://www.ripta.com/19"
   },
   {
-    "route_id": 2,
-    "route_short_name": 2,
-    "route_long_name": "stand-by",
-    "route_desc": "",
-    "route_type": 3,
-    "route_url": ""
-  },
-  {
     "route_id": 20,
     "route_short_name": 20,
     "route_long_name": "Elmwood/Airport",
