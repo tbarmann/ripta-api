@@ -57,7 +57,7 @@ const getTripsByRoute = (params) => {
   }
   return query(sql).then((result) => {
     if (result.length > 0) {
-      return result;
+      return { trips: result };
     }
     return { params, sql, trips: result };
   });
