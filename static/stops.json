@@ -1326,12 +1326,38 @@
     "stop_associated_place": ""
   },
   {
+    "stop_id": 955,
+    "stop_code": "",
+    "stop_name": "OCHRE POINT NS NARRAGANSETT",
+    "stop_desc": "",
+    "stop_lat": 41.475545,
+    "stop_lon": -71.300055,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
     "stop_id": 965,
     "stop_code": "",
     "stop_name": "NARRAGANSETT OPP NEWPORT HALL",
     "stop_desc": "",
     "stop_lat": 41.475517,
     "stop_lon": -71.302747,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 970,
+    "stop_code": "",
+    "stop_name": "NARRAGANSETT AT CHEPSTOW HOUSE",
+    "stop_desc": "",
+    "stop_lat": 41.475495,
+    "stop_lon": -71.304955,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -1358,6 +1384,19 @@
     "stop_desc": "",
     "stop_lat": 41.475667,
     "stop_lon": -71.435073,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 985,
+    "stop_code": "",
+    "stop_name": "NARRAGANSETT AT NARRAGANSETT HALL",
+    "stop_desc": "",
+    "stop_lat": 41.475598,
+    "stop_lon": -71.302763,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -1729,19 +1768,6 @@
     "stop_associated_place": ""
   },
   {
-    "stop_id": 1275,
-    "stop_code": "",
-    "stop_name": "BELLEVUE NS OLD BEACH",
-    "stop_desc": "",
-    "stop_lat": 41.485734,
-    "stop_lon": -71.308748,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
     "stop_id": 1295,
     "stop_code": "",
     "stop_name": "BOSTON NECK OPP 1141 BOSTON NECK",
@@ -1844,19 +1870,6 @@
     "location_type": 0,
     "parent_station": "",
     "stop_associated_place": ""
-  },
-  {
-    "stop_id": 1370,
-    "stop_code": "",
-    "stop_name": "MARLBOROUGH FS BROADWAY",
-    "stop_desc": "",
-    "stop_lat": 41.491412,
-    "stop_lon": -71.31281,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": "ciha"
   },
   {
     "stop_id": 1375,
@@ -9854,19 +9867,6 @@
     "stop_associated_place": ""
   },
   {
-    "stop_id": 6220,
-    "stop_code": "",
-    "stop_name": "JEFFERSON OPP GILLMORE",
-    "stop_desc": "",
-    "stop_lat": 41.7121,
-    "stop_lon": -71.44871,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": "jema"
-  },
-  {
     "stop_id": 6225,
     "stop_code": "",
     "stop_name": "WARWICK NS SANDY",
@@ -12421,6 +12421,19 @@
     "stop_desc": "",
     "stop_lat": 41.734488,
     "stop_lon": -71.470174,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 7841,
+    "stop_code": "",
+    "stop_name": "EAST OPP BLAIS",
+    "stop_desc": "",
+    "stop_lat": 41.735206,
+    "stop_lon": -71.468006,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -18122,6 +18135,19 @@
     "stop_associated_place": ""
   },
   {
+    "stop_id": 12245,
+    "stop_code": "",
+    "stop_name": "ALVAREZ SCHOOL",
+    "stop_desc": "",
+    "stop_lat": 41.795245,
+    "stop_lon": -71.42933,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": "adsc"
+  },
+  {
     "stop_id": 12265,
     "stop_code": "",
     "stop_name": "ELMWOOD NS ATLANTIC",
@@ -18458,19 +18484,6 @@
     "location_type": 0,
     "parent_station": "",
     "stop_associated_place": "brpa"
-  },
-  {
-    "stop_id": 12585,
-    "stop_code": "",
-    "stop_name": "PRAIRIE OPP RW MIDDLE  SCHOOL",
-    "stop_desc": "",
-    "stop_lat": 41.798374,
-    "stop_lon": -71.411779,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
   },
   {
     "stop_id": 12590,
@@ -18908,19 +18921,6 @@
     "stop_desc": "",
     "stop_lat": 41.802396,
     "stop_lon": -71.406597,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
-    "stop_id": 12935,
-    "stop_code": "",
-    "stop_name": "EDDY OPP ASHMONT",
-    "stop_desc": "",
-    "stop_lat": 41.802353,
-    "stop_lon": -71.40639,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -19610,6 +19610,19 @@
     "stop_desc": "",
     "stop_lat": 41.807606,
     "stop_lon": -71.407268,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 13500,
+    "stop_code": "",
+    "stop_name": "PUBLIC NS EDDY",
+    "stop_desc": "",
+    "stop_lat": 41.80748,
+    "stop_lon": -71.406924,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -20865,19 +20878,6 @@
     "stop_associated_place": ""
   },
   {
-    "stop_id": 14610,
-    "stop_code": "",
-    "stop_name": "PLAINFIELD OPP DIKE",
-    "stop_desc": "",
-    "stop_lat": 41.816474,
-    "stop_lon": -71.44433,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": "olsq"
-  },
-  {
     "stop_id": 14615,
     "stop_code": "",
     "stop_name": "WESTMINSTER BEFORE PARADE",
@@ -21084,6 +21084,19 @@
     "location_type": 0,
     "parent_station": "",
     "stop_associated_place": ""
+  },
+  {
+    "stop_id": 14760,
+    "stop_code": "",
+    "stop_name": "CAHIR FS BROAD",
+    "stop_desc": "",
+    "stop_lat": 41.817504,
+    "stop_lon": -71.4182,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": "cabr"
   },
   {
     "stop_id": 14765,
@@ -24093,8 +24106,8 @@
     "stop_code": "",
     "stop_name": "GASPEE AT TRAIN STATION",
     "stop_desc": "",
-    "stop_lat": 41.829338,
-    "stop_lon": -71.41384,
+    "stop_lat": 41.829289,
+    "stop_lon": -71.413767,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -24112,7 +24125,7 @@
     "stop_url": "",
     "location_type": 0,
     "parent_station": "",
-    "stop_associated_place": "smga"
+    "stop_associated_place": "gasm"
   },
   {
     "stop_id": 17270,
@@ -24966,6 +24979,19 @@
     "stop_desc": "",
     "stop_lat": 41.832855,
     "stop_lon": -71.419433,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 17830,
+    "stop_code": "",
+    "stop_name": "GREENVILLE OPP 30 GREENVILLE",
+    "stop_desc": "",
+    "stop_lat": 41.833024,
+    "stop_lon": -71.472251,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -26065,6 +26091,19 @@
     "stop_associated_place": "hool"
   },
   {
+    "stop_id": 18526,
+    "stop_code": "",
+    "stop_name": "OLNEY AT HOPE HIGH SCHOOL",
+    "stop_desc": "",
+    "stop_lat": 41.835664,
+    "stop_lon": -71.402779,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": "hool"
+  },
+  {
     "stop_id": 18530,
     "stop_code": "",
     "stop_name": "ELMGROVE NS FREEMAN PKWAY",
@@ -26312,6 +26351,19 @@
     "stop_associated_place": ""
   },
   {
+    "stop_id": 18720,
+    "stop_code": "",
+    "stop_name": "MT PLEASANT HIGH SCHOOL",
+    "stop_desc": "",
+    "stop_lat": 41.839935,
+    "stop_lon": -71.452546,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": "mphl"
+  },
+  {
     "stop_id": 18721,
     "stop_code": "",
     "stop_name": "MT PLEASANT AT MT PLEASANT HIGH SCHOOL",
@@ -26370,19 +26422,6 @@
     "stop_desc": "",
     "stop_lat": 41.839416,
     "stop_lon": -71.416041,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
-    "stop_id": 18780,
-    "stop_code": "",
-    "stop_name": "ASHBURTON ACROSS FROM SNOOKERS",
-    "stop_desc": "",
-    "stop_lat": 41.837351,
-    "stop_lon": -71.414983,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -26897,6 +26936,19 @@
     "stop_associated_place": ""
   },
   {
+    "stop_id": 19205,
+    "stop_code": "",
+    "stop_name": "SMITH OPP MODENA",
+    "stop_desc": "",
+    "stop_lat": 41.84381,
+    "stop_lon": -71.448061,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
     "stop_id": 19210,
     "stop_code": "",
     "stop_name": "DOUGLAS NS MOWRY",
@@ -26994,6 +27046,19 @@
     "stop_desc": "",
     "stop_lat": 41.844285,
     "stop_lon": -71.423846,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 19260,
+    "stop_code": "",
+    "stop_name": "MT PLEASANT AT ST AUGUSTINES SCHOOL",
+    "stop_desc": "",
+    "stop_lat": 41.845538,
+    "stop_lon": -71.453609,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -27605,6 +27670,19 @@
     "stop_desc": "",
     "stop_lat": 41.847151,
     "stop_lon": -71.454208,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 19685,
+    "stop_code": "",
+    "stop_name": "SMITH OPP MT PLEASANT",
+    "stop_desc": "",
+    "stop_lat": 41.847653,
+    "stop_lon": -71.455068,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -28604,8 +28682,8 @@
     "stop_code": "",
     "stop_name": "BRANCH FS VEAZIE",
     "stop_desc": "",
-    "stop_lat": 41.854626,
-    "stop_lon": -71.434352,
+    "stop_lat": 41.854664,
+    "stop_lon": -71.434356,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -28753,7 +28831,7 @@
     "stop_url": "",
     "location_type": 0,
     "parent_station": "",
-    "stop_associated_place": ""
+    "stop_associated_place": "hsfi"
   },
   {
     "stop_id": 20515,
@@ -29237,19 +29315,6 @@
     "stop_associated_place": ""
   },
   {
-    "stop_id": 20880,
-    "stop_code": "",
-    "stop_name": "MINERAL SPRING FS JOSLIN",
-    "stop_desc": "",
-    "stop_lat": 41.85874,
-    "stop_lon": -71.480512,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
     "stop_id": 20885,
     "stop_code": "",
     "stop_name": "CHARLES FS LEO",
@@ -29332,8 +29397,8 @@
     "stop_code": "",
     "stop_name": "MINERAL SPRING NS BROOKSIDE",
     "stop_desc": "",
-    "stop_lat": 41.859367,
-    "stop_lon": -71.475921,
+    "stop_lat": 41.859377,
+    "stop_lon": -71.475913,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -29776,19 +29841,6 @@
     "stop_desc": "",
     "stop_lat": 41.862649,
     "stop_lon": -71.39916,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
-    "stop_id": 21295,
-    "stop_code": "",
-    "stop_name": "MINERAL SPRING AT 1704 MINERAL SPRING",
-    "stop_desc": "",
-    "stop_lat": 41.863029,
-    "stop_lon": -71.453914,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -33462,6 +33514,32 @@
     "stop_associated_place": ""
   },
   {
+    "stop_id": 24215,
+    "stop_code": "",
+    "stop_name": "JENCKES HILL OPP DAVIES VOCATIONAL",
+    "stop_desc": "",
+    "stop_lat": 41.902857,
+    "stop_lon": -71.455802,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": "davo"
+  },
+  {
+    "stop_id": 24216,
+    "stop_code": "",
+    "stop_name": "JENCKES HILL AT DAVIES VOCATIONAL",
+    "stop_desc": "",
+    "stop_lat": 41.902817,
+    "stop_lon": -71.455809,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": "davo"
+  },
+  {
     "stop_id": 24220,
     "stop_code": "",
     "stop_name": "BROAD NS CHAPEL",
@@ -34307,19 +34385,6 @@
     "stop_associated_place": ""
   },
   {
-    "stop_id": 25085,
-    "stop_code": "",
-    "stop_name": "CHAPEL FS MAIN",
-    "stop_desc": "",
-    "stop_lat": 41.96673,
-    "stop_lon": -71.678861,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
     "stop_id": 25100,
     "stop_code": "",
     "stop_name": "CHAPEL OPP CHUM",
@@ -34350,26 +34415,26 @@
     "stop_code": "",
     "stop_name": "CHAPEL NS MAIN",
     "stop_desc": "",
-    "stop_lat": 41.966341,
-    "stop_lon": -71.678843,
+    "stop_lat": 41.96644,
+    "stop_lon": -71.678824,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
     "parent_station": "",
-    "stop_associated_place": "harr"
+    "stop_associated_place": ""
   },
   {
     "stop_id": 25125,
     "stop_code": "",
     "stop_name": "CHAPEL NS FOSTER",
     "stop_desc": "",
-    "stop_lat": 41.967569,
-    "stop_lon": -71.682526,
+    "stop_lat": 41.967508,
+    "stop_lon": -71.682559,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
     "parent_station": "",
-    "stop_associated_place": ""
+    "stop_associated_place": "harr"
   },
   {
     "stop_id": 25275,
@@ -35061,19 +35126,6 @@
     "stop_associated_place": ""
   },
   {
-    "stop_id": 29110,
-    "stop_code": "",
-    "stop_name": "CRANSTON CITY HALL",
-    "stop_desc": "",
-    "stop_lat": 41.779332,
-    "stop_lon": -71.436797,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": "ccha"
-  },
-  {
     "stop_id": 29120,
     "stop_code": "",
     "stop_name": "GREAT ISLAND AT FERRY TERMINAL",
@@ -35085,19 +35137,6 @@
     "location_type": 0,
     "parent_station": "",
     "stop_associated_place": "gabe"
-  },
-  {
-    "stop_id": 29125,
-    "stop_code": "",
-    "stop_name": "NORTH PROVIDENCE",
-    "stop_desc": "",
-    "stop_lat": 41.857895,
-    "stop_lon": -71.48497,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": "nopr"
   },
   {
     "stop_id": 29140,
@@ -35228,45 +35267,6 @@
     "location_type": 0,
     "parent_station": "",
     "stop_associated_place": "weho"
-  },
-  {
-    "stop_id": 29510,
-    "stop_code": "",
-    "stop_name": "KAY FS BELLEVUE",
-    "stop_desc": "",
-    "stop_lat": 41.489464,
-    "stop_lon": -71.308481,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
-    "stop_id": 29515,
-    "stop_code": "",
-    "stop_name": "KAY NS BRINLEY",
-    "stop_desc": "",
-    "stop_lat": 41.490324,
-    "stop_lon": -71.307902,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
-    "stop_id": 29520,
-    "stop_code": "",
-    "stop_name": "KAY NS PELL",
-    "stop_desc": "",
-    "stop_lat": 41.490793,
-    "stop_lon": -71.307617,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": "kama"
   },
   {
     "stop_id": 29570,
@@ -35449,6 +35449,19 @@
     "location_type": 0,
     "parent_station": "",
     "stop_associated_place": ""
+  },
+  {
+    "stop_id": 30126,
+    "stop_code": "",
+    "stop_name": "CAHIR AFTER WESTMINSTER",
+    "stop_desc": "",
+    "stop_lat": 41.817947,
+    "stop_lon": -71.419563,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": "cawe"
   },
   {
     "stop_id": 30175,
@@ -37307,7 +37320,7 @@
     "stop_url": "",
     "location_type": 0,
     "parent_station": "",
-    "stop_associated_place": ""
+    "stop_associated_place": "olsq"
   },
   {
     "stop_id": 55240,
@@ -40289,7 +40302,7 @@
   {
     "stop_id": 57760,
     "stop_code": "",
-    "stop_name": "ADMIRAL KALBFUS AT ROLLING GREEN APARTMENTS",
+    "stop_name": "ADMIRAL KALBFUS BEFORE 3RD",
     "stop_desc": "",
     "stop_lat": 41.506826,
     "stop_lon": -71.319378,
@@ -40319,6 +40332,45 @@
     "stop_desc": "",
     "stop_lat": 41.51835,
     "stop_lon": -71.313613,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 57905,
+    "stop_code": "",
+    "stop_name": "TOURO OPP DIVISION",
+    "stop_desc": "",
+    "stop_lat": 41.489445,
+    "stop_lon": -71.312216,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 57915,
+    "stop_code": "",
+    "stop_name": "THAMES FS WASHINGTON",
+    "stop_desc": "",
+    "stop_lat": 41.489473,
+    "stop_lon": -71.315268,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 57920,
+    "stop_code": "",
+    "stop_name": "THAMES OPP MARY",
+    "stop_desc": "",
+    "stop_lat": 41.48838,
+    "stop_lon": -71.315153,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -40900,10 +40952,10 @@
   {
     "stop_id": 58460,
     "stop_code": "",
-    "stop_name": "WASHINGTON OPP PULASKI",
+    "stop_name": "WASHINGTON AFTER MAC ARTHUR",
     "stop_desc": "",
-    "stop_lat": 41.695476,
-    "stop_lon": -71.537398,
+    "stop_lat": 41.69544,
+    "stop_lon": -71.538999,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -41574,6 +41626,19 @@
     "stop_associated_place": ""
   },
   {
+    "stop_id": 59015,
+    "stop_code": "",
+    "stop_name": "PILGRIM AT THE MET SCHOOL",
+    "stop_desc": "",
+    "stop_lat": 41.806343,
+    "stop_lon": -71.411652,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": "mets"
+  },
+  {
     "stop_id": 59025,
     "stop_code": "",
     "stop_name": "E FRANKLIN NS BASSETT",
@@ -41658,6 +41723,19 @@
     "stop_desc": "",
     "stop_lat": 41.851008,
     "stop_lon": -71.40171,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 59105,
+    "stop_code": "",
+    "stop_name": "WESTMINSTER NS DAVE GAVITT",
+    "stop_desc": "",
+    "stop_lat": 41.819155,
+    "stop_lon": -71.417933,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -45270,8 +45348,8 @@
     "stop_code": "",
     "stop_name": "LIFESPAN/BROWN MEDICINE",
     "stop_desc": "",
-    "stop_lat": 41.794751,
-    "stop_lon": -71.349626,
+    "stop_lat": 41.794736,
+    "stop_lon": -71.34959,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -45374,13 +45452,13 @@
     "stop_code": "",
     "stop_name": "POINT FS EDDY",
     "stop_desc": "",
-    "stop_lat": 41.817112,
-    "stop_lon": -71.405611,
+    "stop_lat": 41.817117,
+    "stop_lon": -71.405538,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
     "parent_station": "",
-    "stop_associated_place": ""
+    "stop_associated_place": "edpo"
   },
   {
     "stop_id": 72590,
@@ -45419,7 +45497,7 @@
     "stop_url": "",
     "location_type": 0,
     "parent_station": "",
-    "stop_associated_place": ""
+    "stop_associated_place": "edpo"
   },
   {
     "stop_id": 72650,
@@ -46189,19 +46267,6 @@
     "stop_associated_place": ""
   },
   {
-    "stop_id": 72965,
-    "stop_code": "",
-    "stop_name": "PRAIRIE AT RW MIDDLE SCHOOL",
-    "stop_desc": "",
-    "stop_lat": 41.798393,
-    "stop_lon": -71.411657,
-    "zone_id": "",
-    "stop_url": "",
-    "location_type": 0,
-    "parent_station": "",
-    "stop_associated_place": ""
-  },
-  {
     "stop_id": 72970,
     "stop_code": "",
     "stop_name": "E.MAIN AT ST BARNABAS",
@@ -46310,8 +46375,8 @@
     "stop_code": "",
     "stop_name": "THOMPSON BEFORE DAVISVILLE RD",
     "stop_desc": "",
-    "stop_lat": 41.614974,
-    "stop_lon": -71.421276,
+    "stop_lat": 41.614878,
+    "stop_lon": -71.421286,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
@@ -46332,16 +46397,172 @@
     "stop_associated_place": "nora"
   },
   {
-    "stop_id": 9,
+    "stop_id": 73020,
     "stop_code": "",
-    "stop_name": "JOB LOT",
+    "stop_name": "METACOM AFTER PATTERSON",
     "stop_desc": "",
-    "stop_lat": 41.604035,
-    "stop_lon": -71.438982,
+    "stop_lat": 41.72078,
+    "stop_lon": -71.269119,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 73025,
+    "stop_code": "",
+    "stop_name": "METACOM @ WATERROWER",
+    "stop_desc": "",
+    "stop_lat": 41.722808,
+    "stop_lon": -71.26953,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 73030,
+    "stop_code": "",
+    "stop_name": "METACOM @ OCEAN STATE JOB LOT",
+    "stop_desc": "",
+    "stop_lat": 41.719522,
+    "stop_lon": -71.268972,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 73035,
+    "stop_code": "",
+    "stop_name": "COMMERCE PARK RD ACROSS FROM JOB LOT",
+    "stop_desc": "",
+    "stop_lat": 41.603835,
+    "stop_lon": -71.43931,
     "zone_id": "",
     "stop_url": "",
     "location_type": 0,
     "parent_station": "",
     "stop_associated_place": "jlqt"
+  },
+  {
+    "stop_id": 73040,
+    "stop_code": "",
+    "stop_name": "JOHN THOMAS BEFORE MCNAUGHT",
+    "stop_desc": "",
+    "stop_lat": 41.588973,
+    "stop_lon": -71.421749,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 73045,
+    "stop_code": "",
+    "stop_name": "CHAPEL NS FOSTER",
+    "stop_desc": "",
+    "stop_lat": 41.967565,
+    "stop_lon": -71.682454,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": ""
+  },
+  {
+    "stop_id": 16,
+    "stop_code": "",
+    "stop_name": " west river at corlis",
+    "stop_desc": "",
+    "stop_lat": 41.844121,
+    "stop_lon": -71.413136,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": "wrco"
+  },
+  {
+    "stop_id": 17,
+    "stop_code": "",
+    "stop_name": "Branch at Charles",
+    "stop_desc": "",
+    "stop_lat": 41.850275,
+    "stop_lon": -71.419834,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": "chbr"
+  },
+  {
+    "stop_id": 6,
+    "stop_code": "",
+    "stop_name": "WEST RIVER AT CORLISS",
+    "stop_desc": "",
+    "stop_lat": 41.844063,
+    "stop_lon": -71.413137,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": "wrco"
+  },
+  {
+    "stop_id": 60001,
+    "stop_code": "",
+    "stop_name": "SOMERSET (PARK&RIDE)",
+    "stop_desc": "",
+    "stop_lat": 41.727407,
+    "stop_lon": -71.187816,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": "sopr"
+  },
+  {
+    "stop_id": 60002,
+    "stop_code": "",
+    "stop_name": "PETTINE TRANSIT CENTER (FALL RIVER)",
+    "stop_desc": "",
+    "stop_lat": 41.69842,
+    "stop_lon": -71.154274,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": "frpe"
+  },
+  {
+    "stop_id": 7,
+    "stop_code": "",
+    "stop_name": "GASPEE AFTER SMITH",
+    "stop_desc": "",
+    "stop_lat": 41.831408,
+    "stop_lon": -71.412926,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": "gasm"
+  },
+  {
+    "stop_id": 9,
+    "stop_code": "",
+    "stop_name": "BRANCH AT CHARLES",
+    "stop_desc": "",
+    "stop_lat": 41.850206,
+    "stop_lon": -71.419849,
+    "zone_id": "",
+    "stop_url": "",
+    "location_type": 0,
+    "parent_station": "",
+    "stop_associated_place": "chbr"
   }
 ]

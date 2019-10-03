@@ -104,6 +104,14 @@
     "route_url": "http://www.ripta.com/22"
   },
   {
+    "route_id": 24,
+    "route_short_name": "24X",
+    "route_long_name": "Newport/Fall River/Providence Express",
+    "route_desc": "",
+    "route_type": 3,
+    "route_url": "http://www.ripta.com/24"
+  },
+  {
     "route_id": 27,
     "route_short_name": 27,
     "route_long_name": "Broadway/Manton",
@@ -130,7 +138,7 @@
   {
     "route_id": 3,
     "route_short_name": 3,
-    "route_long_name": "Warwick Avenue",
+    "route_long_name": "Oakland Beach",
     "route_desc": "",
     "route_type": 3,
     "route_url": "http://www.ripta.com/3"
@@ -186,7 +194,7 @@
   {
     "route_id": 4,
     "route_short_name": 4,
-    "route_long_name": "Thursday Only WalMart Shopper",
+    "route_long_name": "Warwick Avenue",
     "route_desc": "",
     "route_type": 3,
     "route_url": ""
@@ -422,6 +430,14 @@
     "route_desc": "",
     "route_type": 3,
     "route_url": "http://www.ripta.com/87"
+  },
+  {
+    "route_id": 89,
+    "route_short_name": "WM",
+    "route_long_name": "Thursday Only Walmart Shopper",
+    "route_desc": "",
+    "route_type": 3,
+    "route_url": ""
   },
   {
     "route_id": 9,
