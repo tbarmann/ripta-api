@@ -336,4 +336,4 @@ entity: [
 
 
 ----------
-Copyright &copy; 2016-2018 by Timothy C. Barmann
+Copyright &copy; 2016-2019 by Timothy C. Barmann
