@@ -20,7 +20,7 @@ You can use this API to:
 
 Most of these API requests can be filtered by trip direction, service day, start time and end time.
 
-The schedule and trip data come from static files provided by RIPTA at [https://www.ripta.com/stuff/contentmgr/files/0/3cda81dfa140edbe9aae214b26245b4a/files/google_transit.zip](https://www.ripta.com/stuff/contentmgr/files/0/3cda81dfa140edbe9aae214b26245b4a/files/google_transit.zip). Note: this URL has changed in the past and may change again. The most current file may be linked from [https://www.ripta.com/mobile-applications](https://www.ripta.com/mobile-applications). These files are updated each time RIPTA changes its schedules, which recently has been every four months.
+The schedule and trip data come from static files provided by RIPTA at [https://www.ripta.com/stuff/contentmgr/files/0/3cda81dfa140edbe9aae214b26245b4a/files/google_transit.zip](https://www.ripta.com/stuff/contentmgr/files/0/3cda81dfa140edbe9aae214b26245b4a/files/google_transit_1_.zip). Note: this URL has changed in the past and may change again. The most current file may be linked from [https://www.ripta.com/mobile-applications](https://www.ripta.com/mobile-applications). These files are updated each time RIPTA changes its schedules, which recently has been every four months.
 
 This app includes a `bash` script to automatically download the static files and import them into a Postgres database.
 
