@@ -17,7 +17,7 @@
     "jsonfile": "^2.4.0",
     "lodash": "^4.16.4",
     "moment": "^2.18.1",
-    "moment-timezone": "^0.5.7",
+    "moment-timezone": "^0.5.35",
     "nodemon": "^1.11.0",
     "path": "^0.12.7",
     "pg": "6.4.2",
